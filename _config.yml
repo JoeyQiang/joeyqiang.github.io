@@ -1,0 +1,46 @@
+# Don't use tabs in configuration files
+
+# Default YAML frontmatter settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      comments: true
+      
+# Setup
+title:               Joey
+tagline:             "an uxer's blog"
+description:         'Chinese is only my second language, you are my first one.'
+url:                 http://joeyqiang.me
+baseurl:             ''
+paginate:            5
+exclude:             ['README.md','LICENSE']
+
+# Markdown
+markdown:            redcarpet
+redcarpet:
+  extensions:        ["fenced_code_blocks","tables", "autolink", "strikethrough", "with_toc_data"]
+
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+  
+# About/contact
+author:
+  name:              Joey
+  url:               http://www.jianshu.com/users/eefbf767d583/latest_articles
+  email:             joeyqiang@gmail.com
+
+# Custom vars
+version:             1.0.0
