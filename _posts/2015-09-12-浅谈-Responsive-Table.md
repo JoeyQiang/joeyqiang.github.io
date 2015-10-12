@@ -3,7 +3,7 @@ layout: post
 title: 浅谈 Responsive-Table
 category: UX
 ---
-![Table](http://upload-images.jianshu.io/upload_images/119048-04db6ec45f372268.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Table]({{site.baseurl}}/public/images/Table.png)
 
 为了自己生活费，在学校 **Assessment & Achievement Institute** 兼职前端开发的工作。由于工作岗位仅面向学生，任务不重，且工作时间灵活，工资也很优厚，还是很感谢学校的。
 
@@ -106,9 +106,9 @@ slideToggle.initial();
 PS: 
 > 1. `HTML`, `CSS`, `Javascript` 强烈建议分离，方便以后修改。
 2. `CSS` 尽量调用 `class` 而不用 `id`，`CodePen` 提醒我的。
-3. `CSS` 可以使用 `Sass` 更精简，`Javacript` 尽量多思考，多优化。
+3. `CSS` 可以使用 `Sass` 更精简，`Javacript` 尽量多思考，多优化。<br/>
 —— 野子Joey
 
 
 IN THE END, 附网站最终实例动图:
-![实例动图](http://upload-images.jianshu.io/upload_images/119048-ef55c36a226de57c.gif?imageMogr2/auto-orient/strip)
+![实例动图]({{site.baseurl}}/public/images/实例动图.gif)
