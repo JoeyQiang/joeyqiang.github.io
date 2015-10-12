@@ -19,12 +19,14 @@ defaults:
       
 # Setup
 title:               Joey
-tagline:             "an uxer's blog"
-description:         'Chinese is only my second language, you are my first one.'
+tagline:             "an uxer blog"
+description:         "Chinese is only my second language, first is you."
 url:                 http://joeyqiang.me
-baseurl:             ''
-paginate:            5
-exclude:             ['README.md','LICENSE']
+baseurl:             ""
+paginate:            3
+exclude:             ["README.md","LICENSE"]
+permalink:           pretty
+relative_permalinks: true
 
 # Markdown
 markdown:            redcarpet
@@ -34,7 +36,7 @@ redcarpet:
 # We specify the directory for Jekyll so we can use @imports.
 sass:
   sass_dir:          _sass
-  style:            :compressed
+  style:             compressed
   
 # About/contact
 author:
