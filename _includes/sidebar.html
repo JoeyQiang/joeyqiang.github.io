@@ -7,10 +7,10 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/category">Category</a>
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/ux">UX Column</a>
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/about">About</a>
+    <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ site.baseurl }}/"><i class="fa fa-home fa-fw"></i>&nbsp;&nbsp;&nbsp;Home</a>
+    <a class="sidebar-nav-item{% if page.title == 'Category' %} active{% endif %}" href="{{ site.baseurl }}/category.html"><i class="fa fa-tag fa-fw"></i>&nbsp;&nbsp;&nbsp;Category</a>
+    <a class="sidebar-nav-item{% if page.title == 'UX Column' %} active{% endif %}" href="{{ site.baseurl }}/uxcolumn.html"><i class="fa fa-book fa-fw"></i>&nbsp;&nbsp;&nbsp;UX Column</a>
+    <a class="sidebar-nav-item{% if page.title == 'About' %} active{% endif %}" href="{{ site.baseurl }}/about.html"><i class="fa fa-info fa-fw"></i>&nbsp;&nbsp;&nbsp;About</a>
   </nav>
 
   <div class="sidebar-item">
