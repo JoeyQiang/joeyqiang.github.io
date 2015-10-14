@@ -23,7 +23,9 @@ tagline:             "an uxer blog"
 description:         "Chinese is only my second language, first is you."
 url:                 http://joeyqiang.me
 baseurl:             ""
+excerpt_separator:   "<!--more-->"
 paginate:            3
+paginate_path:       "/blog/page:num/"
 exclude:             ["README.md","LICENSE"]
 permalink:           pretty
 relative_permalinks: true
@@ -32,7 +34,7 @@ relative_permalinks: true
 markdown:            redcarpet
 redcarpet:
   extensions:        ["fenced_code_blocks","tables", "autolink", "strikethrough", "with_toc_data"]
-
+  
 # We specify the directory for Jekyll so we can use @imports.
 sass:
   sass_dir:          _sass
