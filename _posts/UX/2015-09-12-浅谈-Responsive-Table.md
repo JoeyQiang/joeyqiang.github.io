@@ -2,6 +2,7 @@
 layout: post
 title: 浅谈 Responsive-Table
 category: ux
+tags: [front-end, responsive design]
 ---
 ![Table]({{site.baseurl}}/public/images/Table.png)
 
