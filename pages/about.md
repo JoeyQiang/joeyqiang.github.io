@@ -2,6 +2,7 @@
 layout: page
 title: About
 ---
+
 ##About me
 Hey my friends! I am Joey, who is a graduate student in the university of Kansas studying Interaction Design. 
 

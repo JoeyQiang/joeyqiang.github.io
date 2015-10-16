@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 浅谈 Responsive-Table
-category: UX
+category: ux
+tags: [front-end, responsive design]
 ---
 ![Table]({{site.baseurl}}/public/images/Table.png)
 
@@ -9,6 +10,7 @@ category: UX
 
 第一个任务就是将一个网页的表格改成自适应布局，给移动端用户一个良好的视觉呈现。由于学校的网站都是由 [Drupal](https://www.drupal.org/) 搭建的，前端界面通常都是通过 `Drupal` 提供的默认组件和富文本编辑组合而成。虽然 `Drupal` 提供了自适应的 theme, 但是网页主体内容的自适应还需要前端人员单独完成。
 
+<!--more-->
 最初的表格是内容编辑人员通过富文本编辑器插入表格编辑而成。`Drupal` 自动生成 `width:100%` 的表格。虽然非固定表格可以做到自适应，但由于表格长度超出手机屏幕，文字被压缩成长条形，阅读体验十分糟糕。温柔美丽的 PM Mellissa 只甩给我一句话，improve it on mobile。拿工资就要干实事，开始修改吧。
 
 首先改的就是其布局。考虑到手机和电脑不同的屏幕尺寸，我确定了手机端采取纵向排列(默认显示第一项，折叠其余)，电脑端横向显示（全显示，不提供折叠）的设计方案。将 `table` 结构的 `HTML` 代码为 `ul & li` 结构。方便利用 `CSS @media` 属性改变其布局。
