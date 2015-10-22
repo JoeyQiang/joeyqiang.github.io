@@ -1,34 +1,18 @@
-<head>
-  <!-- Meta-->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  <meta name="author" content="Joey"/>
-  <meta name="keywords" content="interaction design, github pages, blog"/>
-  {% if page.summary %}
-  <meta name="description" content="{{ page.summary | escape }}">
-  {% endif %}
-  {%if page.tags %}
-  <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
-  {%endif %}
-  	
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }}
-    {% else %}
-      {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
-  </title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/compound.css">
-  	
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png">
-  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
-
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.baseurl }}/atom.xml">
-</head>
+<header class="header {{include.type}}">
+	<div class="container">
+    <div class="header-logo">
+      <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/public/images/portrait.jpg" alt="Home Page" /></a>      
+    </div>
+    <p class="header-title">
+	    	一个学交互的<br />
+	    Chinese is my second language, first is you.
+    </p>
+    <ul class="header-nav clearfix">
+    		<li><a href="{{site.baseurl}}/pages/ux" class="{% if page.title == "design" %}active{% endif %}">设计</a></li>
+    		<li><a href="{{site.baseurl}}/pages/design" class="{% if page.title == "ux" %}active{% endif %}">交互</a></li>
+    		<li><a href="{{site.baseurl}}/pages/product" class="{% if page.title == "product" %}active{% endif %}">产品</a></li>
+    		<li><a href="{{site.baseurl}}/pages/casual" class="{% if page.title == "casual" %}active{% endif %}">随笔</a></li>
+    </ul>
+    <div class="hr-sep"></div>
+  </div>
+</header>
