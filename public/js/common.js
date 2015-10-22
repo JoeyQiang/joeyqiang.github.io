@@ -14,20 +14,37 @@
 ga('create', 'UA-67827907-1', 'auto');
 ga('send', 'pageview');
 
-//	Sidebar controller
+(function($) {
+	//	Back to top
+	var offset = 500;
+	var duration = 500;
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > offset) {
+			$('.back-to-top').css({display:'inline-block'});
+		} else {
+			jQuery('.back-to-top').hide();
+		}
+	});
+	
+	$('.back-to-top').click(function(event) {
+		event.preventDefault();
+		$('html, body').animate({
+			scrollTop: 0
+		}, duration);
+		return false;
+	});
+	
+	//	Show wechat qr_code
+	var $qr_code = $('.wechat-hover');
+	$('.wechat-follow-button').click(function() {
+		event.preventDefault();
+		if ($qr_code.is(':hidden')) {
+			$qr_code.show();
+		} else {
+			$qr_code.hide();
+		}
+		return false;
+	});
+})(jQuery);
 
-(function(document) {
-	var toggle = document.querySelector('.sidebar-toggle');
-	var sidebar = document.querySelector('#sidebar');
-	var checkbox = document.querySelector('#sidebar-checkbox');
 
-	document.addEventListener('click', function(e) {
-		var target = e.target;
-
-		if (!checkbox.checked ||
-			sidebar.contains(target) ||
-			(target === checkbox || target === toggle)) return;
-
-		checkbox.checked = false;
-	}, false);
-})(document);

@@ -1,0 +1,236 @@
+/**
+ *page.html 
+ */
+.container {
+    margin: 0 auto;
+    max-width: 540px;
+    padding: 0 40px;
+    position: relative;
+}
+
+/**
+ *header
+ */
+.header {
+    padding: 40px 0 10px;
+}
+
+.header-logo {
+    text-align: center;
+    
+    img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        vertical-align: middle;
+    }
+}
+
+.header-title {
+    line-height: 26px;
+    color: #aeaeae;
+    text-align: center;
+}
+
+.header-nav {
+    margin-top: 35px;
+    text-align: center;
+    list-style: none;
+    font-weight: bold;
+    li{
+        margin: 0 15px;
+        display: inline-block;
+    }
+}
+
+/**
+ *content 
+ */
+.content {
+    margin-top: 2em;
+    margin-bottom: 6em;
+}
+
+.list {
+    list-style: none;
+    .list-item {
+        font-size: 1.1em;
+        line-height: 1.2;
+        margin: 0 4em .75em;
+        padding: .75em 0 0;
+        
+        .list-text {
+            max-width: 100%;
+            overflow: hidden!important;
+            text-overflow: ellipsis!important;
+            white-space: nowrap!important;
+            word-wrap: normal!important;
+            
+            a {
+                color: $black;
+                
+                &:hover {
+                    color: $black-hover;
+                }
+            }
+        }
+        
+        .list-time {
+            margin: 0 0 0 20px;
+           
+            .time {
+                color: $grey;
+                display: inline-block;
+                font-size: .75em;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+/**
+ *footer 
+ */
+.footer {
+    padding-bottom: 1em;
+    text-align: center;     
+}
+
+.fixed-btn {
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    border: 1px solid #eee;
+    width: 40px; 
+    background: #fff;
+    
+    a {
+        display: inline-block;
+        text-align: center;
+        width: 40px;
+        height: 40px;
+        color: $black;
+        font-size: 24px;
+        
+        &:hover {
+            color: $black-hover;
+        }
+    }
+    
+    .back-to-top {
+        display: none;
+        border-bottom: 1px solid #eee;
+    }
+}
+
+.wechat-hover {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    text-align: center;
+    bottom: 0px;
+    right: 55px;
+    padding: 10px 15px;
+    border: 1px solid #fafafa;
+    border-radius: 3%;
+    box-shadow: rgba(0,0,0,0.2) 0px 0px 4px 2px;
+    
+    &::before, &::after {
+        height: 0;
+        width: 0;
+        content: "";
+        position: absolute;
+    }
+    
+    &::before {
+        bottom: 3px;
+        right: -8px;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent; 
+        border-left: 7px solid #d7d7d7; 
+     }
+     
+     &::after {
+        bottom: 4px;
+        right: -7px;
+        border-top: 7px solid transparent;
+        border-bottom: 7px solid transparent; 
+        border-left: 6px solid #fff; 
+     }
+}
+
+.footer-links {
+    margin: 1.5em 0 .5em;
+    
+    a {
+        padding: .05em .25em;
+        margin: 0 .3em;
+        font-size: .875em;
+    }
+}
+
+/**
+ *post.html 
+ */
+.pagination {
+    overflow: hidden;
+    margin: 2em 0;
+    
+    a{
+        .prev {
+            text-align: left;
+        }
+        .next {
+            text-align: right;
+        }
+    }
+}
+
+.post-header {
+    
+    .header-logo {
+    
+        img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+
+    .header-title {
+        display: none;
+    }
+    
+    .header-nav {
+        display: none;
+    }
+    
+    .hr-sep {
+        display: none;
+    }
+}
+
+.post {
+     font-size: 16px;
+     line-height: 2;
+     
+     img {
+        display: block;
+        max-width: 500px;
+        height: auto;
+        max-height: 500px;
+        margin: 0 auto;    
+     }
+     
+     .post-date {
+        font-size: .75em;
+        text-align: center;
+        color: $grey-hover;
+     }
+     
+     .post-title {
+        text-align: center;
+     }
+}
+
+
