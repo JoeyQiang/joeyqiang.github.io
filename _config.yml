@@ -21,7 +21,7 @@ defaults:
 # Setup
 title:               Joey
 tagline:             "an uxer blog"
-description:         "Chinese is only my second language, first is you."
+description:         "Chinese is my second language, first is you."
 url:                 http://joeyqiang.me
 baseurl:             ""
 excerpt_separator:   "<!--more-->"
@@ -33,8 +33,9 @@ relative_permalinks: true
 
 # Markdown
 markdown:            redcarpet
+highlighter:         pygments
 redcarpet:
-  extensions:        ["fenced_code_blocks","tables", "autolink", "strikethrough", "with_toc_data"]
+  extensions:        ["footnotes","quote","highlight","superscript","space_after_headers","lax_spacing","fenced_code_blocks","no_intra_emphasis","tables", "autolink", "strikethrough", "with_toc_data"]
   
 # We specify the directory for Jekyll so we can use @imports.
 sass:
@@ -48,4 +49,4 @@ author:
   email:             joeyqiang@gmail.com
 
 # Custom vars
-version:             1.0.0
+version:             1.1.0

@@ -1,13 +1,17 @@
 ---
 layout: post
 title: Malcolm Gladwell 的那些书
-category: normal
+category: casual
+tags: [reading]
 ---
-![The complete works of Malcolm Gladwell](http://upload-images.jianshu.io/upload_images/119048-ab3430030596d500.PNG?imageMogr2/auto-orient/strip|imageView2/2/w/1240)
+
+![The complete works of Malcolm Gladwell]({{site.baseurl}}/public/images/2015-08-23-1.png)
+
 **课堂未至，课本先行。**
 
-买书，作为「颓废」的90一代，个人强烈推荐——电子书籍&手机阅读。
+买书，作为「颓废」的90一代，个人强烈推荐 —— 电子书籍&手机阅读。
 阅读软件推荐两款，中文书使用`iReader`, 英文书使用`Kindle`。
+
 * 纸质书既不便捷，又不环保，还不实惠。
 * 不推荐使用电脑，一干扰大，二软件阅读体验差。
 * 两款软件书类齐全，价格公道，亲测好评，就酱。
@@ -25,6 +29,7 @@ Kindle 有一个很棒的功能——样章阅读，可以在付费前免费阅�
 为了纪念我读的第一本英文书，遂决定先把大神的五本书样章全都读一遍，亚马逊电子书也不便宜，穷屌丝还是应该勤俭持家，筛选后再挑选喜欢的书进行购买。
 
 五本书的出版顺序如下：
+
 * **The tipping point, 2000**
 * **Blink, 2005** 
 * **Outliers, 2008**
@@ -32,6 +37,7 @@ Kindle 有一个很棒的功能——样章阅读，可以在付费前免费阅�
 * **David and Goliath, 2013**
 
 花了两天时间读完了五本书的样章，个人的喜好排序如下：
+
 1. **Blink, 2005**
 2. **David and Goliath, 2013**
 3. **The tipping point, 2000**
@@ -39,10 +45,13 @@ Kindle 有一个很棒的功能——样章阅读，可以在付费前免费阅�
 5. **What the dog saw, 2009**
 
 下面是对五本书的感受[仅限样章]：
-###Blink###
+
+### Blink
+
 为什么最喜欢这本书呢，因为这本书的开头非常的抓人，讲述了一个瞬间直觉和长期准备的矛盾故事。情节扣人心弦，一秒钟入戏，让人欲罢不能，连一个英语非母语的人都感受到了其文字的惊险与刺激。加之观点独特，不免让人陷入思考，Does haste really make waste ?
 
 最喜欢下面这段话：
+
 > I think we are innately suspicious of this kind of rapid cognition. We live in a world that assumes that the quality of a decision is directly related to the time and effort that went into making it. When doctors are faced with a difficult diagnosis, they order more tests, and when we are uncertain about what we hear, we ask for a second opinion. And what do we tell our children? Haste makes waste. Look before you leap. Stop and think. Don't judge a book by its cover. We believe that we are always better possible and spending as much time as possible in deliberation. We really only trust conscious decision making. But there are moments, particularly in times of stress, when haste does not make waster, when our snap judgements and first impressions can offer a much better means of making sense of the world.
 
 有时候，光凭感觉做出的决定其实和深思熟虑后做出的决定拥有相等的力量啊，**多么痛的领悟**！！！尤其在中国这样一个谨小慎微的国度，有多少无谓的精力浪费在了所谓的「深思熟虑」上。
@@ -54,6 +63,7 @@ Kindle 有一个很棒的功能——样章阅读，可以在付费前免费阅�
 * 等有孩子了，「深思熟虑」，孩子的小学，初中，高中，大学，女朋友，gay友，工作，房子，孩子的孩子... 无限循环开挂中...
 
 引用奇葩说范湉湉的一句霸气侧漏的话：
+
 > **何必要压抑自己的天性，Just do it！！！！！！**
 
 诚然，这句话更多的综艺范的幽默调侃。人总不可能一直任由天性支配，无脑的想做什么就做什么。但是，当「深思熟虑」并不起本质作用时，我们是否可以简化一下流程，相信自己的天性，或者说直觉，唯心主义一下，冥冥之中，一切自有天意。
@@ -65,8 +75,10 @@ Kindle 有一个很棒的功能——样章阅读，可以在付费前免费阅�
 同理，当我们意识到「深思熟虑」这件事在很多情形下不起作用的时候，生活中的很多难题都能够迎刃而解了。因为压根不需要我们解决了，放着不管就行了，不要信程序分析结果，不要信权威人士言论，更别信所谓政府内部消息，凭直觉就好啦，主会保佑你的啦，阿门。
 
 那么，现在问题来了，学挖掘机技术到底哪家强？
+
 ***
-###David and Goliath###
+
+### David and Goliath
 
 这本最新出版的书继承了 Malcolm 一贯的历险风格，开篇跌宕起伏，描述了一个小个子如何战胜大块头的故事。大块头手持长矛，身披铠甲，气势如虹，锐不可当，看似坚不可摧。小个子不畏强暴，手持布带，肩背布袋，慷慨赴义...
 
@@ -79,21 +91,25 @@ Kindle 有一个很棒的功能——样章阅读，可以在付费前免费阅�
 这本书个人觉得在观点上和 **Outliers** 恰恰相反，一本是心灵鸡汤，告诉人们强敌虽强，总有软肋，另辟蹊径，可胜之。另一本则是黑鸡汤，很多事情，从出生的那一刻早已注定。你看到的所谓成功奋斗史，只是冰山一角，轻信无妨，模仿则伤。
 
 记得在知乎上看到过这样一句话：
-> **寒门子弟的成功家庭背景占到 0% - 0.1%，不能更多了。贵族子弟的成功家庭背景占到 99.9% - 100%，不能更少了。既然如此，那么寒门子弟为什么还要奋斗呢？因为，除了奋斗，我`一无所有`**。
-——知乎网友
+
+> **寒门子弟的成功家庭背景占到 0% - 0.1%，不能更多了。贵族子弟的成功家庭背景占到 99.9% - 100%，不能更少了。既然如此，那么寒门子弟为什么还要奋斗呢？因为，除了奋斗，我`一无所有`**。<br />
+  ——知乎网友
 
 多么现实的一段话，残忍的让人战栗，然而确实无比明智的。与其像犬儒主义一样，自以为清高，看穿世事，凡事如灯笼般高高挂起，事不关己，任由他去。不如像个傻子般去努力一把，努力成为一个 **Outlier**，梦想总是要有的，万一哪天走狗屎运实现了呢。
 
 再强大的敌人，也有着不为人知的软肋，找准目标，发动攻击，巨人也会轰然倒下。正如当年的的微软，看似 Windows 操作系统傲视群雄，却忽略了少即是简的原则，在用户体验上留下了一个巨大的漏洞。当苹果复兴后，用户体验更好的 Mac OS 操作系统逐步挑战老大哥的霸主地位，如今已获得半壁江山。
 
-> **Some pretend to be rich, yet have nothing; others pretend to be poor, yet have great wealth.**
-——Bible
+> **Some pretend to be rich, yet have nothing; others pretend to be poor, yet have great wealth.**<br/>
+  —— Bible
 
 很多事情不以人的意志为转移，你认为必然发生的事，可能结果恰恰背道而驰。反之，无心插下的柳枝，可能在某个春天茂密成了一片树荫。
 
 保持聪敏，反抗命运但又相信命运，是我从这本书获得的最大的精神食粮。
+
 ***
-###The tipping point###
+
+### The tipping point
+
 作为 Malcolm 的成名书，**The tipping point** 引用众多实例阐述了事物的爆发往往不是循序渐进的，相反，而是在各种因素的组合下，在某一个时间点上瞬间爆发。
 
 > These three characteristics - one, contagiousness; two, the fact that little changes can have big effects; and three, that change happens not gradually but at one dramatic moment - are the same three principles that define how measles moves through a grade-school classroom or the flue attacks every winter. Of the three, the third trait - the idea that epidemics can rise or fall in one dramatic moment - is the most important, because it is the principle that makes sense of the first two and that permits the greatest insight into why modern change happens the way it does. The name given to that one dramatic moment in an epidemic when everything can change all at once is the Tipping Point.
@@ -107,6 +123,7 @@ Kindle 有一个很棒的功能——样章阅读，可以在付费前免费阅�
 作为个人，我赞成好朋友不可约的观点。实际上我本人根本就不赞成约炮这一行为。因为我信奉基督教，所以认为**性**这一神圣的行为只能发生自己和伴侣间。这样感情生活才能长足美好。同时，耶稣教导人类要**爱**人，每个人生下来注定会去到他们该去的地方，做该做的事。如果有人做了错事，那么你有责任和义务去**爱**他们并帮助他们。如果你认为一个人是**恶**的，行为是错的，你不应该厌恶他或者憎恨他，而是用**爱**去感化他。至于别人最后如何做，那只能随缘了。不要以最坏的恶意去揣测别人，更不要以自己达不到的道德标准去约束别人。
 
 回到 The tipping point 这一话题上来，如果我们想要引爆一个事物，该抓住哪些方面呢？作者给出了三个方面：
+
 1. the people who transmit infectious agents
 2. the infectious agent itself
 3. the environment in which the infectious agent is operating
@@ -120,9 +137,11 @@ Kindle 有一个很棒的功能——样章阅读，可以在付费前免费阅�
 最后，**The tipping point** 让我们从小事，从细节开始改变。不要小看任何一件小事，在指数增长模型下，一张纸对折51次都可以连接地球和太阳了(仅从数学角度考虑，不考虑纸张的对折损失)。
 
 自己告诫自己，每天比昨天进步一点点就好，从最小的事做起，看10页书，浏览1个专业相关网页，或是认识一个新的朋友。Lord I'm doing all I can, to be a better man.
+
 ***
 
-###Outliers###
+### Outliers
+
 每个人从出生的那刻起，就注定打上家庭，民族，国家等这一辈子都甩不掉的印记。你从它们当中汲取各种养分，用来成长。你欠所有养育你当然，你也有理由埋怨所有不利于你成长的外在条件。因为正是这些外在条件的差异，在大部分情况下决定了你和别人的差距[天才除外]。
 
 我们作为普罗大众的一员，一没有人人羡艳的出生，因而不能视钱财如粪土，抛弃所谓「世俗」的生活去追求精神层次上理想主义的生活；二没有跌宕起伏的人生经历，无法做到横眉冷对千夫指，俯首甘为孺子牛的豁达，从而拒绝一切「世俗」诱惑，从而一生追求真理。
@@ -136,11 +155,13 @@ Kindle 有一个很棒的功能——样章阅读，可以在付费前免费阅�
 最近 BBC 对国名老公王思聪进行一次三分钟简短的采访。采访中，老公简述了一下中国的游戏产业蓬勃的原因，顺带吐槽了一下中国政治制度底线的虚无化。老公说了，如果你想在中国游行，你是会被逮捕的哦~~~（感觉记者心机婊，等的就是这句话）。明知是政治敏感话题，老公无惧危险，迎难而上，却又欲说还休。sicong 看似无厘头，时而任性，时而无理，实则在家庭浓厚商业背景的熏陶下，彻彻底底的是一个心机狗、腹黑男。[此处应给老公点个赞]。
 
 最后，还是要回到本书的告诫:
-> 如果你的老爸不是王健林，请千万别装王思聪一样的逼。
-——野子Joey
+
+> 如果你的老爸不是王健林，请千万别装王思聪一样的逼。<br/>
+  —— 野子Joey
 
 ***
-###What the dog saw###
+
+### What the dog saw
 
 这本书说的是...
 
@@ -149,6 +170,3 @@ Kindle 有一个很棒的功能——样章阅读，可以在付费前免费阅�
 这本书说的其实是这样的...
 
 好吧，我没看懂这本书，哈哈哈
-
-***
-08/23/2015, 华丽丽的分割线，未完，待续...

@@ -1,6 +1,6 @@
 /* Setting the common style of the page */
 
-$font-stack: 14px/1.7 "Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
+$font-stack: 14px/1.7 "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 
 $blue: #4094c7;
 $blue-hover: #075b8d;
@@ -41,6 +41,42 @@ a {
 
 a.active {
     color: $blue-hover;
+}
+
+// Markdown Style
+code:not([class ^= "language"]) {
+    border-radius: 4px;
+    padding: 2px 4px;
+    background-color: #fdf6e3;
+    border: none;
+    color: #657b83;
+    font-size: inherit;
+    white-space: pre-wrap;
+    font-size: 13px;
+}
+
+
+blockquote {
+    padding: 1px 10px 1px 15px;
+    margin:20px 0;
+    background-color: whitesmoke;
+    border-left: 4px solid #999999;
+    word-break: break-word;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+.highlight {
+    border-radius: 4px;
+    color: #657b83;
+    word-wrap: normal;
+    word-break: break-all;
+    white-space: pre;
+    overflow: auto;
+    border: 1px solid rgba(0,0,0,0.15);
+    padding: 0 0 0 8px;
+    font-size: 13px;
 }
 
 .hr-line {
