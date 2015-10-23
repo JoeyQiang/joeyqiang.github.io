@@ -1,5 +1,5 @@
-//Google Analytics
 
+//Google Analytics
 (function(i, s, o, g, r, a, m) {
 	i['GoogleAnalyticsObject'] = r;
 	i[r] = i[r] || function() {
@@ -15,6 +15,7 @@ ga('create', 'UA-67827907-1', 'auto');
 ga('send', 'pageview');
 
 (function($) {
+	
 	//	Back to top
 	var offset = 500;
 	var duration = 500;
@@ -34,7 +35,7 @@ ga('send', 'pageview');
 		return false;
 	});
 	
-	//	Show wechat qr_code
+	//	Show wechat qr_code	
 	var $qr_code = $('.wechat-hover');
 	$('.wechat-follow-button').click(function() {
 		event.preventDefault();

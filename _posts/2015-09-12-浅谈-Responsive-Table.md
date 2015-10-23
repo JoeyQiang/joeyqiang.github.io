@@ -1,11 +1,11 @@
 ---
 layout: post
 title: 浅谈 Responsive-Table
-category: ux
+category: design
 tags: [front-end, responsive design]
 ---
 
-<img src="{{site.baseurl}}/public/images/2015-09-12-1.jpg" alt="Responsive Table" />
+![Responsive Table]({{site.baseurl}}/public/images/2015-09-12-1.jpg)
 
 为了自己生活费，在学校 **Assessment & Achievement Institute** 兼职前端开发的工作。由于工作岗位仅面向学生，任务不重，且工作时间灵活，工资也很优厚，还是很感谢学校的。
 
@@ -115,4 +115,4 @@ PS:
 
 
 IN THE END, 附网站最终实例动图:
-<img src="{{site.baseurl}}/public/images/2015-09-12-2.gif" alt="实例动图" />
+![实例动图]({{site.baseurl}}/public/images/2015-09-12-2.gif)
