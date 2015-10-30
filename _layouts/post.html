@@ -20,13 +20,13 @@ comments: ture
 				
 				{% if page.previous.url %}
 					{% if page.previous_in_category != nil %}
-						<a class="prev" href="{{page.previous_in_category.url}}"><i class="fa fa-angle-double-left fa-fw"></i>&nbsp;{{page.next.title}}</a>
+						<a class="prev" href="{{page.previous_in_category.url}}"><i class="fa fa-angle-double-left fa-fw"></i>&nbsp;{{page.previous_in_category.title}}</a>
 					{% endif %}
 				{% endif %} 
 				
 				{% if page.next.url %}
 					{% if page.next_in_category != nil %}
-						<a class="next" href="{{page.next_in_category.url}}">{{page.previous.title}}&nbsp;<i class="fa fa-angle-double-right fa-fw"></i></a> 
+						<a class="next" href="{{page.next_in_category.url}}">{{page.next_in_category.title}}&nbsp;<i class="fa fa-angle-double-right fa-fw"></i></a> 
 					{% endif %} 
 				{% endif %} 	
 				
