@@ -5,7 +5,7 @@ category: design
 tags: [front-end, responsive design]
 ---
 
-![Responsive Table]({{site.baseurl}}/public/images/2015-09-12-1.jpg)
+![Table](http://upload-images.jianshu.io/upload_images/119048-174c8229e74dd0c7.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 为了自己生活费，在学校 **Assessment & Achievement Institute** 兼职前端开发的工作。由于工作岗位仅面向学生，任务不重，且工作时间灵活，工资也很优厚，还是很感谢学校的。
 
@@ -61,8 +61,7 @@ tags: [front-end, responsive design]
 最后是简单的 `Javascript` 完善，我希望在移动端可以额外提供点击标题展开详情的功能，默认只显示第一项的详情。这样更利于用户在屏幕体积较小的情况下更快的搜寻到自己的目标。利用 `Jquery` 的 `click & slide` 事件实现即可。
 
 在此分享一下我写 `Javascript` 的思路过程:
-
-**1.先写成一步一步执行的顺序式代码**
+1. 先写成一步一步执行的顺序式代码
 
 ```javascript
 var $obj1 = $(""),
@@ -72,7 +71,7 @@ $obj.bind("click",function(){ slideToggle(); });
 ...
 ```
 
-**2.提取公共项，转成对象自变量的函数式代码**
+2. 提取公共项，转成对象自变量的函数式代码
 
 ```javascript
 var slideToggle = {
@@ -85,7 +84,7 @@ var slideToggle = {
 slideToggle.initial();
 ```
 
-**3.根据实际运用情况，转成可扩展的面向对象代码**
+3. 根据实际运用情况，转成可扩展的面向对象代码
 
 ```javascript
 function SlideToggle(target, content){
@@ -101,18 +100,18 @@ var slideToggle = new SlideToggle("", "");
 slideToggle.initial();
 ```
 
+经验: 
+> 1. `HTML`, `CSS`, `Javascript` 强烈建议分离，方便以后修改。
+2. `CSS` 尽量调用 `class` 而不用 `id`，`CodePen` 提醒我的。
+3. `CSS` 可以使用 `Sass` 更精简，`Javacript` 尽量多思考，多优化。
+
 思考完了后，自己先在 [CodePen](http://codepen.io/) 上做成 Demo 测试, 避免直接修改造成网站出错同时易于合作分享。
 
 下面是 Demo 链接，需要看源代码的童鞋可以点击查看，欢迎提供修改意见：
-[Responsive-Table Demo](http://codepen.io/JoeyQiang/pen/vNOypQ)。
-
-PS: 
-
-> 1. `HTML`, `CSS`, `Javascript` 强烈建议分离，方便以后修改。
-2. `CSS` 尽量调用 `class` 而不用 `id`，`CodePen` 提醒我的。
-3. `CSS` 可以使用 `Sass` 更精简，`Javacript` 尽量多思考，多优化。<br/>
-—— 野子Joey
+[ Responsive-Table Demo](http://codepen.io/JoeyQiang/pen/vNOypQ)。
 
 
 IN THE END, 附网站最终实例动图:
-![实例动图]({{site.baseurl}}/public/images/2015-09-12-2.gif)
+![实例动图](http://7xoj81.com1.z0.glb.clouddn.com/2015-09-12-2.gif)
+
+> 路漫漫其修远兮，吾将上下而求索。-- 屈原
