@@ -14,7 +14,7 @@ I spend a lot of my time working on product desgin and website design & developm
 
 If you would like to hire me, please contact me by  <a href="mailto:joeyqiang@mail.com" target="_blank">joeyqiang@gmail.com</a>.
 
-Moreover, please do not hesitate to contact me if you are also interested in interaction designs. Maybe we could become good companies, who knows!
+Moreover, please do not hesitate to contact me if you are also interested in interaction design. Maybe we could become good companies, who knows!
 
 About this website, please <a href="{{site.baseurl}}/product/2015/10/09/我的%20Github%20个人博客是怎样炼成的/" target="_blank">click here</a>.
 
