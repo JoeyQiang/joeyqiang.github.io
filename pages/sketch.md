@@ -1,11 +1,11 @@
 ---
 layout: home
-title: casual
+title: sketch
 ---
 
 <ul class="list">
 	{% for post in site.posts %}
-	{% if post.category == "casual" %}
+	{% if post.category == "sketch" %}
 	<li class="list-item clearfix">
 		<div class="list-text left">
 			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>

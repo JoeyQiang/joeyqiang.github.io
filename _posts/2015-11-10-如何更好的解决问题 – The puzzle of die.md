@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 如何更好的解决问题 -- The puzzle of die
+title: 如何更好的解决问题 – The puzzle of die
 category: design
 tags: [innovation]
 ---
