@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Malcolm Gladwell 的那些书
-category: sketch
+category: essay
 tags: [reading]
 ---
 
