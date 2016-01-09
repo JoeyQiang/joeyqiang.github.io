@@ -114,7 +114,7 @@
         text-align: center;
         
         .list-text {
-            max-width: 100%;
+            max-width: 19em;
             overflow: hidden!important;
             text-overflow: ellipsis!important;
             white-space: nowrap!important;
@@ -130,6 +130,7 @@
             
              @media (max-width: 450px) {
                 float: inherit;
+                max-width: 100%;
             } 
         }
         
