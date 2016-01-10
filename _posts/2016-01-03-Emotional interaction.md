@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 5. Emotional Interaction
+title: Emotional Interaction
 category: ux
 tags: [ux]
 ---

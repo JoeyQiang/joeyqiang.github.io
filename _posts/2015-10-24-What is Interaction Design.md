@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 1. What is Interaction Design?
+title: What is Interaction Design?
 category: ux
 tags: [ux]
 ---

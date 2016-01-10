@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 7. The process of interaction design
+title: The process of interaction design
 category: ux
 tags: [ux]
 ---

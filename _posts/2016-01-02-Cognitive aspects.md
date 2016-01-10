@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 4. Cognitive aspects
+title: Cognitive aspects
 category: ux
 tags: [ux]
 ---
