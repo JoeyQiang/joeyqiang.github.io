@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 3. Understanding and conceptualizing interaction
+title: Understanding and conceptualizing interaction
 category: ux
 tags: [ux]
 ---

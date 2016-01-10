@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2. Interaction Design Mindmap
+title: Interaction Design Mindmap
 category: ux
 tags: [ux]
 ---

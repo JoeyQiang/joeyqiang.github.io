@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 6. Data gathering and analysis
+title: Data gathering and analysis
 category: ux
 tags: [ux]
 ---
