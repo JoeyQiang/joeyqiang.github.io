@@ -59,18 +59,7 @@ hr.star-primary:after {
     background: #fff;
 }
 
-.btn-social {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border: 2px solid #fff;
-    border-radius: 100%;
-    text-align: center;
-    font-size: 20px;
-    line-height: 45px;
-}
-
-.portfolio-modal .modal-content {
+ .modal-content {
     padding: 100px 0;
     min-height: 100%;
     border: 0;
@@ -81,15 +70,18 @@ hr.star-primary:after {
     box-shadow: none;
 }
 
-.portfolio-modal .modal-content h2 {
-    margin: 0;
-    font-size: 3em;
+.portfolio-modal .modal-content img {
+	width: 400px;
+	height: 300px;
+	margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content img {
-    margin-bottom: 30px;
-    border-radius: 50%;
-}
+.portfolio-modal .modal-content img.first-pic{
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+} 
 
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
@@ -133,6 +125,53 @@ hr.star-primary:after {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+.portfolio-modal h3{
+	font-size: 2.5em;
+}
+
+.portfolio-modal span{
+	color: #888;
+	font-style: italic;
+}
+
+.portfolio-modal b{
+	color: rgb(71,83,88);
+}
+
+.portfolio-modal p{
+	font-style: normal;
+	font-size: 1em;
+	text-align: left;
+}
+
+.portfolio-modal ul{
+	list-style: disc;
+	text-align: left;
+}
+
+.portfolio-modal ul li{
+	margin-left: 2em;
+}
+
+.portfolio-modal a{
+	color: #fff;
+	border-bottom: none;
+}
+
+.portfolio-modal a:hover{
+	text-decoration: none;
+	border-bottom: none;
+	color: #fff;
+}
+
+.portfolio-modal .btn{
+	margin-top: 4em;	
+}
+
+.portfolio-modal .btn-site{
+	margin-right: 2em;
 }
 
 @media (max-width: 640px ) {
