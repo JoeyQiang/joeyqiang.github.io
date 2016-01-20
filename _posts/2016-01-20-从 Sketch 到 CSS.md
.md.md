@@ -5,173 +5,178 @@ category: design
 tags: [ux]
 ---
 
-![Silicon Valley](http://7xoj81.com1.z0.glb.clouddn.com/2016-01-15-01.jpeg)
+以前先接触的 CSS，后来又接触了 Sketch, 如今再反过来使用 CSS 的时候，发现设计的思想基本都是共通的。于是，笔者希望通过此文总结下最近所学，希望能对大家有所帮助。
 
-此前一直向往这个神秘且充满挑战的地方，如今有幸亲自深度游历一番，加深了我对它的理解。如果你爱他，让他来硅谷工作吧。如果你恨他，也让他来硅谷工作吧。
+## Article Structure
 
-10月份的看到学校的 Tech Trek 选拔，即硅谷的校友组织在校的学生去参观硅谷各大公司，参加校友讲座，旨在帮助美国中部的学生更好的了解西部更加竞争的环境，扩大人际圈，进而最后找到理想的工作。当时也没想有机会被选上，毕竟作为一个留学生，但抱着凡事但求一试的心态，便硬着头皮上了。很感谢 [Marcus](https://www.linkedin.com/in/marcus-tetwiler-20313b94) 最后选上了我，他是因为这个机会后来获得了在 Twitter 的工作机会，希望以后可以再次当面感谢他吧。
+- UI Design 的基本思想
+- 如何将 Design Ideas 运用到 Sketch 中
+- 如何将 Design Ideas 运用到 CSS 中
 
-行程共分三天：
+### UI Design 的基本思想
 
-- 第一天：参加 panel discussion & alumni dinner 
-- 第二天：参观 startups & alumni party
-- 第三天：参观 tech giants
+**Limitations**:
 
-### 第一天
+- Layout： 确定自己页面的尺寸和布局，是 Mobile 还是 Desktop. 不同的设计尺寸有对应的排版选择。同时考虑如果是响应式设计，如果让排版在不同尺寸间无缝转化。
+- Branding：一个产品需要有自己的品牌意识，因此设计风格要统一和谐。可以从 Logo 配色开始下手，提取 Color Palette，从而统一设计稿的颜色。此外，可以设计一个比较新颖的元素 [动效或设计] 合理运用到不同尺寸的设计中，给用户深刻印象，强化品牌意识。
+- Flat Design：已经 2016 年了，扁平化设计仍然是世界的潮流。高光阴影交错，纹理齐飞的拟物化设计已经一去不复返。简单的设计如今更受到用户的喜欢。
 
-第一天晚上基本没睡，3.30am 驱车前往机场，6.50am 飞机启程，12.00am 抵达 San Francisco，下榻宾馆。
+**Opportunities**:
 
-![Hotel whitecomb](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-02.jpeg)
+- focus
+- native functionality
+- known pattern
 
-安置行李后，前往校友也是这次活动的赞助者之一  [Brad](https://www.linkedin.com/in/bradgarlinghouse) 的公司 [Ripple](https://ripple.com/).
+![Focus example](http://7xoj81.com1.z0.glb.clouddn.com/2016-01-20-01.png)
 
-![Ripple](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-03.jpeg)
+产品的核心功能是什么？这是 UI 设计时可以说最重要的事了。看看 Facebook 和 Dropbox 的设计可知，前者希望我们注意朋友间的状态，后者希望我们注意自己的文件。视觉中心是图片和黑色加粗文字，主色调灰色，辅助一个强调的蓝色，简单的 Icon，一致的网格布局就是一个 Well-designed 的设计。
 
-硅谷创业公司的内饰一般都比较 Technical, 毛胚房加以改造，通风管电线随处可见，所谓的创业感吧。在 Meeting Room 简单吃了中饭，活动正式开始了.
+![Native functionality examples](http://7xoj81.com1.z0.glb.clouddn.com/2016-01-20-02.png)
 
-![Itinerary](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-04.jpeg)
+在技术发展日新月异的时代，合理运用设备的功能可以设计出许多酷炫的功能。比如 Uber 运用手机 GPS 实时定位出租车，Instagram 运用摄像头进行照相。当某一硬件功能出现升级换代时，Design something new 的机会便出现了！
 
-首先是 Panel Discussions, 共分为三场，第一场是刚毕业的校友分享为什么来硅谷工作，他们是如何找到第一份实习和工作的；第二场是创业公司 CEO 分享他们的创业经历；第三场是风投公司的高管分享投资经验，什么样的公司值得投资。每一轮分享结束后有对应的 Q&A 环节，供学生提问。
+![Known pattern examples](http://7xoj81.com1.z0.glb.clouddn.com/2016-01-20-03.png)
 
-![Panel Discussion](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-05.jpeg)
+看看 10 年的设计吧，有没有丑的感觉呢 [背景按钮，多种字体，重纹理阴影，可见网格分隔]。如今在 Material Design 和 IOS Interface Design 的指导下，网站和应用的设计已经越来越统一，用户体验也越来越好。
 
-我提问了关于对于微信应用号的看法, 原生 App 最终是否会被取代。前辈的看法是国情不同，美国没有像微信这样的统治级应用，但是在中国，说不好，谁知道呢~
+**Grids and Layout**:
 
-讨论结束后，我们参加校友晚宴，一方面聆听校友人生经历，另一方面也是推销自己，希望校友可以提供实习的工作机会。
+- anatomy: columns, gutters, margins
+- baseline grids
+- mobile grids
 
-![Restaurant](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-06.jpeg)
+> 布局布的好，基本丑不了 – 野子Joey
 
-我们是分组坐的，由于我是 Design 学生，接待我们的是前 Google Earth 的产品经理 [Beth](https://www.linkedin.com/in/bethellyn). 他的老公是我们的校友也是另一位活动赞助者 [Brian McClendon](https://www.linkedin.com/in/brianmcclendon), Google Earth 的发明人，他负责 Engineering 的学生。
+确定页面的宽度，根据需求确定列数，每列的宽度，列与列之间的间隔，以及内容两侧的间隔，使用软件制作处自己的网格布局 [Sketch 可以很容易的做到这点], 也可以在适当处添加水平辅助线帮助设计, 这样你所有元素的大小，元素间的 margin 和 padding 也都统一了，和谐自然产生美啊。
 
-![Beth](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-07.png)
+![Columns, gutters, margins, baseline](http://7xoj81.com1.z0.glb.clouddn.com/2016-01-20-04.png)
 
-跟这些大牛面对面的聊天，真的开阔了眼界，对于树立自信有着很大的作用。最重要的是能看到他们的乐观，有抱负的人生态度，心态决定身态，最后决定你的职业高度。Beth 真的是一个非常 Nice 的女士，还很漂亮，如果把我当时的表情拍下来，应该就像粉丝一样，花痴的不要不要的。
+如果是 Mobile Design, 为了精确布局，也可以创建全网格布局。
 
-Beth 说硅谷的工作很辛苦，也很快乐。最终取决于你是否感受到快乐，如果你快乐，那就来这里吧。如果你对这种工作压力感到不适应，那么尽早离开。她毕业后连续工作了 16 年，没有时间生孩子，频繁的转换工作角色，最大程度的开发自己的潜力，牺牲了很多很多。但她觉的她很快乐，她热爱她的工作。此外，她说，一旦真的投入到一份工作中后，工作和生活就分不开了，你必须有所取舍，取决于你想做什么样的人，曾经在马云的演讲中好像也听过类似的话语。最后针对我们个人的情况，Beth 给我们分别提了一些职业发展上的建议, appreciate it a lot.
+![Mobile Grids](http://7xoj81.com1.z0.glb.clouddn.com/2016-01-20-05.png)
 
-总的来说，第一天是最有价值的，感受到了硅谷工作的艰辛 [超高的工作强度和生活成本] 和改变世界的工作热情。同时也感受到了国外更加平等的氛围，不论你来自哪个国家，大家基本一视同仁，至于你的表现最终怎么样，只能靠自己努力了，人生路长，且行且珍惜。
+**Typography**:
 
-### 第二天
+- typeface choice
+- font size and styles
+- white space, contrast, legibility, readability
+- forming a style guide
 
-睡了6个小时，紧锣密鼓的开启了第二天的 Startups 之旅。这些公司都在市区，相聚不远，可步行抵达，建筑风格类似于北京的写字楼。
+字体的选择，对于 IOS，默认为 Helvetica Neue。 对于 Android, 默认 Roboto, 这两种看起来蛮像的，区别不大。对于 App 设计，一种字体已经足够，当然你可以再选择一种 Serif 字体强化标题或作为品牌特征。
 
-**1. UBER**
+![Roboto vs Helvetica Neue](http://7xoj81.com1.z0.glb.clouddn.com/2016-01-20-06.png)
 
-![UBER](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-08.jpg)
+注意 Facebook 的字体设计，人名，时间地址，和正文分别用的不同的字体大小，粗细和颜色用于区分，在该对比的地方一定要强化对比的程度，否则干脆一致。
 
-其实 Uber 已经不能算初创公司了，但它才成立不到6年啊。在 Uber 的会议室，运营总监分享了公司的愿景 - 希望交通能够变得像水流一样，引领人们去往世界的任何一个角落，最后彻底颠覆当前的交通体系。同时，分享了 Uber 的培训，运营，以及不同地区的发展情况。提问环节，我问了关于 Uber 在 China 的本地化运营情况，他说政府还是不好打交道哈~
+该留白的地方要留白，人都喜欢宽敞的地方，页面也需要留白喘气，不信你看:
 
-![Uber](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-09.jpeg)
+![whitespace vs no whitespace](http://7xoj81.com1.z0.glb.clouddn.com/2016-01-20-07.png)
 
-**评分**：4.5
-公司极有凝聚力和工作能力发展潜力大, 美中不足是发展前景未来可能会和社会稳定发生冲突，同时辉煌发展期已过，留给毕业生的机会不是很多了。
+同时注意文字长度要适中，英文每行 `7 - 9` 个单词，中文每行 `15 - 22` 的字，行高 `1.3 - 1.7` 便于阅读。字体颜色和背景颜色要有足够的对比度反差，便于阅读[不要将浅色字体放在亮背景上，或者深色字体放在暗背景上，如果图片作为背景，一般在图片上加一层透明遮罩]。最后是内容上的优化，文字的含义要通俗易懂 [考虑可能有非母语用户使用你的产品哦]。
 
-**2. Pinterest**
+**Color**:
 
-![Pinterest](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-10.jpg)
+- background
+- text: main, muted, highlighted
+- assist: shadow, divider
 
-跟 Uber 比，Pinterest 就小多了，毕竟业务比较单一。但作为全球最火的图片网站，还是很有发展潜力的。同时，作为毕业生，在这里你能更多体现自己的价值，发光发热，有更强烈的归属感。Pinterest 刚刚搬到 Bay Area, 只有很少的一部分员工在这上班，但是公司内部的氛围很活泼，餐厅和工作区连为一体，还有专门的游戏区。 
+一个简单且实用的思路去选取颜色是，背景色采用白色或者浅色，从 Logo 中选取一种颜色作为主颜色，然后再选取主颜色的对比色作为强调色，透明黑色作为阴影，不同灰度灰色作为边框，分割线，柔和字体颜色。
 
-![Pinterest](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-11.jpeg)
+![Color Palette](http://7xoj81.com1.z0.glb.clouddn.com/2016-01-20-08.png)
 
-**评分**：4.3
-公司具有很大的发展潜力，氛围活泼，非常适合毕业生前往。
+**Other color considerations**:
 
-**3. Airbnb**
+- give each color a meaning
+- contrast
+- limit the use of colors
+- consider real content
 
-![Airbnb](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-12.jpg)
+颜色有其一定的意义，使用每一种颜色前先想想为什么我要用这个颜色 [比如你不会想把团购网站设计成黑色幽默风格]。主色调和强调色之间一定要有对比。主要颜色尽量不要超过三种，避免给用户造成过高的视觉负担。考虑到 App 的实际应用场景，不同的用户会上传不同的照片，因此背景，字体颜色尽量选取 [Web Safe Colors](http://websafecolors.info/)，在实际场景不断改进完善。
 
-I like it so much. 一进公司大门就爱上了这个公司，有趣，有趣，有趣！
+更多颜色内容可参考：[Material Colors](https://www.google.com/design/spec/style/color.html#).
 
-![Airbnb](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-13.jpeg)
+### 如何将 Design Ideas 运用到 Sketch 中
 
-从员工的精神状态，公司的装饰都给人一种朝气勃勃的感觉，正能量有没有！公司会根据每个人的不能 Skills 尽可能安排最适合你的工作，同时非常强调企业文化, 你能深刻感受到作为公司一员的自豪感。公司具有各种有意思的房间，每个国家独具特色的工作室，程序员发泄室，熬夜工作室等。
+软件框架层大家可以参考我之前写的这篇文章：[如何用 Sketch 进行网页设计](http://joeyqiang.me/design/2016/01/06/%E5%A6%82%E4%BD%95%E7%94%A8%20Sketch%20%E8%BF%9B%E8%A1%8C%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1/)。
 
-![Airbnb](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-14.jpeg)
+这里我主要以一个 [App 页面](https://www.behance.net/joey-qiang)设计作为范例，补充一些设计细节上的内容 [也算是我踩坑的一些经验吧]。
 
-**评分**：4.6
-公司初具规模，培训体系完善，工作氛围活跃。作为一个未来极具发展潜力的公司[可能五星级酒店都会从此覆灭]，Airbnb 你值得拥有。
+![App Demo](http://7xoj81.com1.z0.glb.clouddn.com/2016-01-20-09.png)
 
-**4. Twitter**
+1. 设计的时候打开 Material Design 或者 IOS Guidelines, 边查看边设计，大大提升操作效率，看多了很多数值自然而然就记住了 [最主要是字体大小]。
+2. 如果尺寸宽度为基数，放大一倍进行设计，这样就不会总为那 1px 对齐纠结了[逼死处女座系列]。同时也更方便 grids 宽度的设计，偶数的公约数比较多哈。Magin 尽量选择 grids 的一倍或多倍，便于对齐。
+3. 辅助颜色板[灰度类的]最好有自己的模板，以免每次都到重新设置，节约时间。能用透明黑色就不用灰色，更清晰。不同明度的同色相颜色可以直接加透明黑色遮罩层就行模拟。
+4. 善于重复使用相似元素，改变布局即可，可以极大的节省实际操作时间。必要时可以创建 Symbol 或 Styled Text 方便日后重复使用。孰能生巧，实践中每个人都能总结很多适合自己的经验。
 
-![Twitter](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-15.jpg)
+### 如何将 Design Ideas 运用到 CSS 中
 
-Twitter, 对, 微博就是抄它的，虽然微博有很多地方改进的比 Twitter 还好。作为微博届的元老，Twitter 已经是一个全球化的企业，公司员工来自世界各地，有着良好的公司发展体系，给人一种『大公司』的感觉。在和员工的聊天之中，发现 Twitter 虽然大，但是整体工作氛围还是很轻松活泼的，适合年轻人来锻炼发展自己。我问了一个 UGC 网站的通病问题，除了广告，你们怎么能保持盈利持续上涨。总监说，把你雇来解决这个问题吧...
+User Interface Design 绝对不是仅仅画界面，界面做的再漂亮，没有考虑实际运用场景，开发不出来，或者不具有实际应用价值，只能称之为"花瓶"了。因此自己设计的时候，尽量多站在产品和开发的角度去思考问题，怎么设计更能突出功能，怎么设计更能便于开发，实际交互时的效果是怎样的, 这才是一名合格的 User Experience Designer 应有的品质。因此，国外招聘中都要求 User Experience Designer 了解 Web 前端语言 [Html, CSS, Javascript], 作为技术层面的考核。
 
-**评分**：4.4
-公司规模大，氛围轻松，国际化，是媒体或新闻类工作者的天堂。
+随着 CSS 预编译处理器的流行 [后文用 Sass 作为例子]，极大的方便了前端书写 CSS. CSS 我仅仅是新手水平, 这里我主要讨论如何使用 Design 的思想写出更方便使用的 Sass.
 
-**5. Yelp**
+```CSS
+//@MEDIA QUERIES
+//确定尺寸，自适应布局
 
-![Yelp](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-16.jpg)
+$media-l: 1200px;
+$media-m: 900px;
+$media-s: 600px
 
-Yelp 成立的很早了，2004 年就成立了，类似于国内的大众点评。但是个人的经验看，用户体验很一般，信息架构不是很清晰，也很少提供 Coupon 类的优惠，不支持线上支付。可能和美国错综复杂的银行体系有关，国外的线上支付发展很缓慢[不得不说支付宝和微信支付真是棒，应该是全球最方便的线上支付体系了]，但 Yelp 仍然是美国最大的点评平台。
+//GRID
+//统一布局，padding/margin 均可用, 高度，宽度尽量为其倍数
 
-![Yelp](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-17.jpeg)
+$grid: 10px
+$grid-double: $grid * 2;
+$grid-third: $grid * 2;
+$grid-half: $grid / 2;
 
-**评分**：4.0
-公司激情不足，产品平平，重运营，轻技术和设计，跟其他创业公司比有一定差距。
+//COLORS
+//用实物或功能命名
 
-晚上参加了校友 Party, 点一杯 Light California Beer 游走在人群中相互自我介绍，询问自己感兴趣的问题。大家都是初次相识，一开始会觉得尴尬，多适应几次就会享受这个过程了。英语口语，一定要练习，不要求母语水平，至少要求逻辑清晰，观点明确。迎着湾区的大海，迎面吹来夜晚的凉风，心想，一定要再来这个地方。
+$color-bodybg: #fafafa;
+$color-primary: #f0214f;
+$color-accent: #505eb1;
+$color-text: #555;
+$color-muted: #aaa;
+$color-border: #c3ddc8;
+$color-grey-mist: #f5f5f5;
+$color-grey-platinum: #bbb;
+$color-mask: rgba(0,0,0,0.1);
 
-### 第三天
+//FONTS
+//字体，大小，粗细
 
-驱车前往郊区，参观世界上最具盛名的科技公司。因为公司规模极其庞大，早上 6.30am 便起床了，因为还要赶 1.00pm 的飞机回学校。经过昨天的爆炸式信息植入，今天已经淡定很多了。
+//1种或2种字体
+$font-family-1: Roboto, sans-serif;
 
-**1. Google**
+//一般4种大小 [header text, body text, remark, other]
+$font-header: 150%;
+$font-body: 100%;
+$font-remark: 70%
+$font-other: 85%;
 
-![Google](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-18.jpg)
+//三种粗细即可 [light, normal, bold]
+$font-light: 300;
+$font-normal: 400;
+$font-bold: 700;
 
-我想对于 Google 不用过多的介绍了，一个已经改变世界和即将改变现在的公司，很难用语言表达我对其的敬佩。公司在硅谷有着面积极其广大的园区，很难想象 Larry Page 在车库中建立了这家公司，梦想总是要有的，万一实现了呢。
+//Z-INDEX
+//用于 Material Design 不同层级的使用
+$z-index-header: 1000;
+$z-index-sidebar: 1100;
+$z-index-notify: 1200;
+$z-index-modal: 1300;
+```
 
-![Google](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-19.jpeg)
+个人觉的 Sass 的 mixins 用处不大，太过繁琐，CSS 就是 CSS， 没必要搞得 Javascript 一样过度程序化。涉及到 vender-prefix 的部分， 推荐使用 [Autoprefixer](https://github.com/postcss/autoprefixer)。Nesting 加上伪类建议不要超过4层，否则后期修改比较麻烦，适当使用 `>` 子元素搜索符即可。
 
-**评分**：4.9
-技术改变世界，公司极具工程师氛围，如果你酷爱技术，没有比 Google 更好的公司了。
+### Conclusion
 
-**2. Instagram**
+无论是用 Skech 设计界面或是直接 CSS 设计界面，保有 Design Ideas 是最重要的，工具不是重点，思想才是王道。[CSSketch](https://github.com/JohnCoates/CSSketch) 这款插件甚至支持直接用 CSS 修改 Sketch File, 感兴趣的同学可以去试用下。各大应用商店应用数不胜数，没事干下几个玩玩，多注意观察主流应用的设计细节, 尤其是交互细节 [下拉，悬浮，空状态，初次登陆状态，引导界面]，总结为己用。
 
-![Instagram](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-20.jpg)
+> 我说的都是错的，如果不自己思考的话。 – 野子Joey
 
-虽然 Instagram 被 Facebook 收购了，但是它仍然在 Facebook 作为独立的子公司运营，不像很多公司，收购的那天就消声灭迹了[神马搜索在哪里...]。Instagram 刚搬到 Facebook 的园区，它的园区更像是 Disney Land, 漫步其间，仿佛是在游览一个主题公园，工作室，纪念馆，游戏室，艺术馆，各种餐厅，应有尽有。
+### Resources
 
-![Instagram](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-21.jpeg)
-
-![Instagram](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-22.jpeg)
-
-接待我们的是 Instagram 的技术总监，他鼓励在校学生多参加技术项目，不要被学校课程所束缚。分数并不代表能力，文凭只代表过去，而不代表将来。保持乐观包容的心态，做自己喜欢的工作，不断努力。
-
-![Instagram](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-23.jpeg)
-
-**评分**：4.9
-公司狂拽酷炫屌炸天，技术氛围极其浓厚，又颇具有年轻人文化，可能和公司还很年轻有关 [Mark Zuckerberg 充分给予了其自治权]。如果你年轻，来这里，不会后悔的。
-
-**3. Samsung**
-
-![Samsung](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-24.jpg)
-
-作为上述公司中历史最为悠久的巨无霸公司，我的第一印象是真有钱啊，极其高大上的园区，健身房，世界级的自助式食堂[抱歉，此处无图]。由于是韩国公司，硅谷的园区相当于 R&D 技术研发中心，公司中很多外籍工作者[韩国人很多很多]。
-
-![Samsung](http://7xoj81.com1.z0.glb.clouddn.com/2015-01-15-25.jpg)
-
-但是在高管的介绍环节，我能明显感到三星存在的问题。产品线过于庞大，什么都做，产品用户体验不够好。公司看似庞大，但是投入到每个产品上的人力物力也就那么多，做不好很正常了。比如他们宣传的 Samsung smart watch 和 Samsung pay 我就觉的做的很一般，没有苹果的产品注重用户体验，只是技术上实现了功能而已。其次，人员过多，很多员工处于拿工资干活的状态，每天打卡上下班，工作内容过于繁杂，缺少自我提升的干劲，当然公司也没有给他们提供充分的机会。他们做的 PPT 展示是唯一一个我发现图片没有用高清的，同时过多介绍技术细节给我们，然而作为用户，I do not give it shit at all，他们应该去学习下罗永浩的演讲，重结果，轻细节。
-
-**评分**：4.4
-公司历史悠久，体系完善，福利待遇优厚，不过公司结构臃肿，更适合工作一段时间后加入，不太适合毕业生。
-
-### 总结
-
-在返程的飞机上，我的大脑一直在搜索，这次旅行到底给我留下了怎样的思考[可能会对我的一生都会产生极大的影响]，最后我总结了以下三个方面：
-
-**1. Think big:** 志存高远，永远保存着远大的理想，理想一定要在自身能力范围之外。自信，敢于去想，想都不敢想，肯定不会去做。
-**2. Work hard：** 每一个硅谷从业者都不容易，需要和全世界最聪明人的竞争，你不努力，自然而然会被后面的人超越，很多人每天都是 5am 起床，每天只睡6个小时。其实生活过的非常辛苦，远非想象中的光鲜亮丽，大家都为了梦想努力着。
-**3. Network：**社交，如果你外向，积极参加社交活动吧。如果你内向，逼着自己参加社交活动吧。硅谷每天都有数以百计的创业会议，社交 Party 进行着，在这个活动中分享想法和经验，认识可能的老板，员工，或合伙人。无圈子，不成活。
-
-同时，相比于国内，我觉的如下几个地方是国内日后可以改进的：
-- 校友间的近距离交流和经验分享，而不是那种风光回校的讲座形式。
-- 增加大学课外活动，不仅仅局限于书本内容，读万卷书不如行万里路，这对于自信的形成有着极大的作用。
-- 解禁 GFW，作为祖国的新一代，我们有自己的评价体系，不会轻易受轮子的价值观影响。相反，开放才能更加明智。
-
-由于是会议性质的活动和公司隐私的原因，没有照太多公司内部照片，算是一个遗憾吧，希望自己以后有机会去硅谷工作的时候，再好好的记录下生活和工作的地方。
-
-Rock Chalk Jayhawk !
+- [Mobile UI Design for Beginners](https://webdesign.tutsplus.com/courses/mobile-ui-design-for-beginners)
+- [Variables: The Backbone Of CSS Architecture](https://www.smashingmagazine.com/2016/01/variables-in-css-architecture/)
