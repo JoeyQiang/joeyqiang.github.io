@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Evaluation - inspection, analytics and models
+title: Evaluation-inspection, analytics and models
 category: ux
 tags: [ux]
 ---
