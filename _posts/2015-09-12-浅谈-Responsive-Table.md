@@ -22,7 +22,7 @@ tags: [front-end, responsive design]
    <tr><th>Header</th></tr>
    <tr><td>Data</td></tr>
    ...
-  </table>
+</table>
 ```
 
 修改后的 `HTML` 结构是这样的：
