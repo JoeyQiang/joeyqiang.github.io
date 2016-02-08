@@ -5,7 +5,7 @@ category: design
 tags: [front-end, responsive design]
 ---
 
-![Table](http://upload-images.jianshu.io/upload_images/119048-174c8229e74dd0c7.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Table](http://7xoj81.com1.z0.glb.clouddn.com/2015-09-12-1.jpg)
 
 为了自己生活费，在学校 **Assessment & Achievement Institute** 兼职前端开发的工作。由于工作岗位仅面向学生，任务不重，且工作时间灵活，工资也很优厚，还是很感谢学校的。
 
