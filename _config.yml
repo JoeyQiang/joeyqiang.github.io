@@ -32,7 +32,7 @@ permalink:           pretty
 
 # Markdown
 markdown:            kramdown
-highlighter:         Rouge
+highlighter:         rouge
 
 # We specify the directory for Jekyll so we can use @imports.
 sass:
