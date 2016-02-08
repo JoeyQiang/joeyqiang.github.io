@@ -31,9 +31,9 @@ exclude:             ["README.md","LICENSE"]
 permalink:           pretty
 
 # Markdown
-markdown:            redcarpet
-highlighter:         pygments
-redcarpet:
+markdown:            kramdown
+highlighter:         Rouge
+kramdown:
   extensions:        ["footnotes","quote","highlight","superscript","space_after_headers","lax_spacing","fenced_code_blocks","no_intra_emphasis","tables", "autolink", "strikethrough", "with_toc_data"]
   
 # We specify the directory for Jekyll so we can use @imports.
