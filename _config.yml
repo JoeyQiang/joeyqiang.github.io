@@ -10,6 +10,7 @@ defaults:
       layout: "post"
       comments: true
       gamla_disqus_satte: true
+      is_post: true
   -
     scope:
       path: ""
