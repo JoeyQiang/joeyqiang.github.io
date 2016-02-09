@@ -3,7 +3,7 @@
 
   {% include head.html %}
  	
-  <body class= {% if page.type == "post" %}"post"{% else %}"home"{% endif %}>
+  <body class= "{% if page.id %} post {% else %} home {% endif %}">
 	{{content}}
   </body>
   
