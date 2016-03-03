@@ -197,6 +197,7 @@ hr.star-primary:after {
     border-color: #95a5a6;
     -webkit-transition: none;
     transition: none;
+    text-decoration: none;
 }
 
 .portfolio-modal a.btn-link:hover{
