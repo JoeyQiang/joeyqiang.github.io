@@ -71,8 +71,8 @@ hr.star-primary:after {
 }
 
 .portfolio-modal .modal-content img {
-	width: 400px;
-	height: 300px;
+	/*width: 400px;
+	height: 300px;*/
 	margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -156,14 +156,14 @@ hr.star-primary:after {
 }
 
 .portfolio-modal a{
-	color: #fff;
+	color: #0586DC;
 	border-bottom: none;
 }
 
 .portfolio-modal a:hover{
-	text-decoration: none;
+	text-decoration: underline;
 	border-bottom: none;
-	color: #fff;
+	color: #0586DC;
 }
 
 .portfolio-modal .btn{
