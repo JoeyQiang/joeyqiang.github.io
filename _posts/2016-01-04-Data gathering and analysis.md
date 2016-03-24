@@ -7,7 +7,7 @@ tags: [ux]
 
 Data is an invaluable property for interaction designer, especially the data got from user. I use [Google Analytics](http://www.google.com/analytics/?gclid=Cj0KEQiA_MK0BRDQsf_bsZS-_OIBEiQADPf--mpQ4JZn6PfejkC3Ug93BgHQvnyM0FrhpZaXIT14mEsaAt7A8P8HAQ) to gather data of my personal blog, see the pic below.
 
-![Google Analytics](http://upload-images.jianshu.io/upload_images/119048-fb5f3178237cc691.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Google Analytics](http://7xoj81.com1.z0.glb.clouddn.com/2016-01-04-01.png)
 
 Through analyzing the data, I can track the trace of user browsing my website. Then I could capture key design issues for my blog by three questions: Where am I? What’s here? Where can I go?
 
