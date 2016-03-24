@@ -5,7 +5,7 @@ category: ux
 tags: [ux]
 ---
 
-![Interaction Design](http://upload-images.jianshu.io/upload_images/119048-ccf010433f137531.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Interaction Design](http://7xoj81.com1.z0.glb.clouddn.com/2015-10-24-1.png)
 
 Here are vary kinds of definitions of `Interaction Design` I saw in different places. By reading all of them, probably we can get a clear idea about what is interaction design. 
 
