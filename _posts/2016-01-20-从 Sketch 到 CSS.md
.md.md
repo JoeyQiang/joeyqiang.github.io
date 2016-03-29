@@ -1,101 +1,182 @@
 ---
 layout: post
-title: 想让别人认可你的 Idea 吗
+title: 从 Sketch 到 CSS
 category: design
 tags: [ux]
 ---
 
-一天夜里，你突然有了一个价值1个亿软妹币的 Idea, 兴奋难耐，情难自禁，恨不得当晚冲到风投办公室，获得投资，「成立皮包公司，携款私逃，丽江开酒吧，迎娶腿玩年，走上小资情调逼格之路」...
+以前先接触的 CSS，后来又接触了 Sketch, 如今再反过来使用 CSS 的时候，发现设计的思想基本都是共通的。于是，笔者希望通过此文总结下最近所学，希望能对大家有所帮助。
 
-好了，下面问题来了，如何「忽悠」到这笔投资变成了最棘手问题。同理，无论是产品初期想法的提议，产品功能的增加，乃至生活方式上的新理念，**说服别人 is the most most most important !**
+## Article Structure
 
-说服别人其实很简单，方法如下：
+- UI Design 的基本思想
+- 如何将 Design Ideas 运用到 Sketch 中
+- 如何将 Design Ideas 运用到 CSS 中
 
-1. 去德云社学相声，练就长者的口才
-2. 飞韩国整个容，换个吴彦祖的颜
-3. 别做梦了，认认真真准备你的 Presentation
+### UI Design 的基本思想
 
-仔细思考以后，发现还是方法三最困难，那我们就从难入手，谈一谈如何让你的 Presentation 具有**说服力**。
+**Limitations**:
 
-三步走：**LOOKING, UNDERSTANDING, MAKING**
+- Layout： 确定自己页面的尺寸和布局，是 Mobile 还是 Desktop. 不同的设计尺寸有对应的排版选择。同时考虑如果是响应式设计，如果让排版在不同尺寸间无缝转化。
+- Branding：一个产品需要有自己的品牌意识，因此设计风格要统一和谐。可以从 Logo 配色开始下手，提取 Color Palette，从而统一设计稿的颜色。此外，可以设计一个比较新颖的元素 [动效或设计] 合理运用到不同尺寸的设计中，给用户深刻印象，强化品牌意识。
+- Flat Design：已经 2016 年了，扁平化设计仍然是世界的潮流。高光阴影交错，纹理齐飞的拟物化设计已经一去不复返。简单的设计如今更受到用户的喜欢。
 
-![Communicate the New](http://7xoj81.com1.z0.glb.clouddn.com/2016-02-20-1.png)
+**Opportunities**:
 
-### 1.Looking 发现问题
+- focus
+- native functionality
+- known pattern
 
-创新往往就是来自细心观察周围的人和事，好奇心观察，同理心感受，客观心思考。留意你的生活中有哪些未解决的问题，ask a question, 20年后我可以怎么解决它。
+![Focus example](http://7xoj81.com1.z0.glb.clouddn.com/2016-01-20-01.png)
 
-作为一个设计师，预见性是一个非常重要的能力[或者说画饼的能力]。一个好的 futurist idea 在被提出的时候肯定是不知道解决方案的。我们要做的就是要让美好的愿景看起来 achivable。一如阿波罗计划万分艰难，登月的梦想激励着前辈们前赴后继。
+产品的核心功能是什么？这是 UI 设计时可以说最重要的事了。看看 Facebook 和 Dropbox 的设计可知，前者希望我们注意朋友间的状态，后者希望我们注意自己的文件。视觉中心是图片和黑色加粗文字，主色调灰色，辅助一个强调的蓝色，简单的 Icon，一致的网格布局就是一个 Well-designed 的设计。
 
-当下科技的最前沿有两大领域，AI(Artificial Intelligence) 和 VR(Virtual Reality)，笔者就基于这两个领域提出一个自己生活中发现的问题。
+![Native functionality examples](http://7xoj81.com1.z0.glb.clouddn.com/2016-01-20-02.png)
 
-笔者觉得现在的衣橱太麻烦。比如，我经常不知道该穿什么，怎么穿，衣服记不得放在哪了，衣服是不是该洗了，往往是拍脑袋就出门了。你也可以说是笔者不太在乎穿着，不愿花时间。但是从概率上思考，人都是爱美的，只是不同的人愿意愿意花在外貌的时间上出入较大。
+在技术发展日新月异的时代，合理运用设备的功能可以设计出许多酷炫的功能。比如 Uber 运用手机 GPS 实时定位出租车，Instagram 运用摄像头进行照相。当某一硬件功能出现升级换代时，Design something new 的机会便出现了！
 
-一图胜千言，用 Storyboard 描述你的问题，突出强调问题给用户带来的困扰。下图用 [GoAnimate](https://goanimate.com/) 制作, 推荐。 
+![Known pattern examples](http://7xoj81.com1.z0.glb.clouddn.com/2016-01-20-03.png)
 
-![Storyboard 1](http://7xoj81.com1.z0.glb.clouddn.com/2016-02-20-2.png)
+看看 10 年的设计吧，有没有丑的感觉呢 [背景按钮，多种字体，重纹理阴影，可见网格分隔]。如今在 Material Design 和 IOS Interface Design 的指导下，网站和应用的设计已经越来越统一，用户体验也越来越好。
 
-![Storyboard 2](http://7xoj81.com1.z0.glb.clouddn.com/2016-02-20-3.png)
+**Grids and Layout**:
 
-所以，如果有一个衣橱系统可以快速，高效的为你解决穿衣问题，你会使用吗？Okay, here we go.
+- anatomy: columns, gutters, margins
+- baseline grids
+- mobile grids
 
-![Smart Closet](http://7xoj81.com1.z0.glb.clouddn.com/2016-02-20-4.png)
+> 布局布的好，基本丑不了 – 野子Joey
 
-**智能衣橱**：通过分析用户的日程，个人情况，具体环境，帮助用户正确的，有效的，省时的，美丽的穿衣。同时可以提供购买，租赁，出售，存储管理等一系列辅助服务。
+确定页面的宽度，根据需求确定列数，每列的宽度，列与列之间的间隔，以及内容两侧的间隔，使用软件制作处自己的网格布局 [Sketch 可以很容易的做到这点], 也可以在适当处添加水平辅助线帮助设计, 这样你所有元素的大小，元素间的 margin 和 padding 也都统一了，和谐自然产生美啊。
 
-### 2.Understanding 分析问题
+![Columns, gutters, margins, baseline](http://7xoj81.com1.z0.glb.clouddn.com/2016-01-20-04.png)
 
-反复问自己 who are our audiences ？
-对于不同的观众，尝试从他们的角度去角度问题，从而分析问题，呈现给他们期待看待的内容。
+如果是 Mobile Design, 为了精确布局，也可以创建全网格布局。
 
-![Focus Audiences](http://7xoj81.com1.z0.glb.clouddn.com/2016-02-20-5.png)
+![Mobile Grids](http://7xoj81.com1.z0.glb.clouddn.com/2016-01-20-05.png)
 
-作为一个设计师，99%的情况下，你不是为自己在设计产品，即使是为自己设计，你也需要获得实际开发的支持[钱，技术，人，宣传，运营等]. 
+**Typography**:
 
-对于`智能衣橱`而言，我定位为三类观众，实际开发人员，零售商和终端家庭用户。他们的诉求不尽相同，开发人员[利益相关者]和零售商更多是看中产品是否能盈利，而用户更过是关注产品是否好用。基于不同的观众定位，在展示时需要适当调整我们的展示内容。
+- typeface choice
+- font size and styles
+- white space, contrast, legibility, readability
+- forming a style guide
 
-但笔者个人有一个看法，always put yourself into the position of the end users. 假象你自己是终端用户，你会不会为自己的产品买单，尽最大努力说服你自己，连自己都感动不了的产品也没多大可能感动别人。
+字体的选择，对于 IOS，默认为 Helvetica Neue。 对于 Android, 默认 Roboto, 这两种看起来蛮像的，区别不大。对于 App 设计，一种字体已经足够，当然你可以再选择一种 Serif 字体强化标题或作为品牌特征。
 
-确定 audiences 后，我们需要总结我们的目标[言简意赅]，通过展示，我们要给他们传达怎样的一种感受或者体验。让他们能够感同深受，最直接的强制性意识植入。
+![Roboto vs Helvetica Neue](http://7xoj81.com1.z0.glb.clouddn.com/2016-01-20-06.png)
 
-**Objective**: our objective is to `provide` a `new` way to `dress` and `store` clothing item to make our users `interact` with `daily` dressing activities `naturally` and `seamlessly`
+注意 Facebook 的字体设计，人名，时间地址，和正文分别用的不同的字体大小，粗细和颜色用于区分，在该对比的地方一定要强化对比的程度，否则干脆一致。
 
-接下来便要展示我们的分析成果，运用深度分析，批判式思维，问题梳理去发现模式，确定优先级，最后将研究转成可实施的远见。
+该留白的地方要留白，人都喜欢宽敞的地方，页面也需要留白喘气，不信你看:
 
-有一个渐变分析问题的思路：
+![whitespace vs no whitespace](http://7xoj81.com1.z0.glb.clouddn.com/2016-01-20-07.png)
 
-1. 尽可能详细描述一个情境
-2. 尽可能列举这个情境中出现的问题
-3. 尽可能提出解决该情境中问题的方法
+同时注意文字长度要适中，英文每行 `7 - 9` 个单词，中文每行 `15 - 22` 的字，行高 `1.3 - 1.7` 便于阅读。字体颜色和背景颜色要有足够的对比度反差，便于阅读[不要将浅色字体放在亮背景上，或者深色字体放在暗背景上，如果图片作为背景，一般在图片上加一层透明遮罩]。最后是内容上的优化，文字的含义要通俗易懂 [考虑可能有非母语用户使用你的产品哦]。
 
-对每一个阶段都问4个问题：
+**Color**:
 
-1. 用户需要做什么
-2. 用户需要知道什么
-3. 用户如何分析获得答案
-4. 分析可行吗
+- background
+- text: main, muted, highlighted
+- assist: shadow, divider
 
-头脑风暴结束后，你会发现你对整个问题都有更深层次的认识，当然，你也有可能在分析结束之后彻底否定自己的 idea, 不过这未尝也不是一件好事。
+一个简单且实用的思路去选取颜色是，背景色采用白色或者浅色，从 Logo 中选取一种颜色作为主颜色，然后再选取主颜色的对比色作为强调色，透明黑色作为阴影，不同灰度灰色作为边框，分割线，柔和字体颜色。
 
-详情分析如下：
+![Color Palette](http://7xoj81.com1.z0.glb.clouddn.com/2016-01-20-08.png)
 
-![Analytics 1](http://7xoj81.com1.z0.glb.clouddn.com/2016-02-20-6.png)
+**Other color considerations**:
 
-![Analytics 2](http://7xoj81.com1.z0.glb.clouddn.com/2016-02-20-7.png)
+- give each color a meaning
+- contrast
+- limit the use of colors
+- consider real content
 
-![Analytics 3](http://7xoj81.com1.z0.glb.clouddn.com/2016-02-20-8.png)
+颜色有其一定的意义，使用每一种颜色前先想想为什么我要用这个颜色 [比如你不会想把团购网站设计成黑色幽默风格]。主色调和强调色之间一定要有对比。主要颜色尽量不要超过三种，避免给用户造成过高的视觉负担。考虑到 App 的实际应用场景，不同的用户会上传不同的照片，因此背景，字体颜色尽量选取 [Web Safe Colors](http://websafecolors.info/)，在实际场景不断改进完善。
 
-### 3.Making 解决问题
+更多颜色内容可参考：[Material Colors](https://www.google.com/design/spec/style/color.html#).
 
-为了理解一个 idea 的优缺点，你必须将想法付出实际，做出原型。这样用户才能有最直观的视觉体验感受，同时开发团队才能根据用户反馈进行迭代开发。
+### 如何将 Design Ideas 运用到 Sketch 中
 
-如果做原型, 对于未来愿景而言，推荐的方式是视频。因为现有技术并不能支持既有想法，我们可以利用视频软件伪造一种实际生活场景，毕竟，you don't necessarily have to know how the codes work.
+软件框架层大家可以参考我之前写的这篇文章：[如何用 Sketch 进行网页设计](http://joeyqiang.me/design/2016/01/06/%E5%A6%82%E4%BD%95%E7%94%A8%20Sketch%20%E8%BF%9B%E8%A1%8C%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1/)。
 
-这里推荐 Adobe 家族的 Premium 和 After Effect。虽然 Adobe 的产品不是那么容易上手，但是功能真的是强大，你能想到的功能它都有，满足你对视频编辑和后期软件的所有幻想。
+这里我主要以一个 [App 页面](https://www.behance.net/joey-qiang)设计作为范例，补充一些设计细节上的内容 [也算是我踩坑的一些经验吧]。
 
-由于这部分内容偏实际操作层面，篇幅较大，笔者现在也在努力学习中，等到有一定心得后，会单独撰文分享视频制作心得。
+![App Demo](http://7xoj81.com1.z0.glb.clouddn.com/2016-01-20-09.png)
 
-## 总结
-设计和忽悠的区别在于，设计是你相信的前提下，在努力让质疑自己的过程中让别人相信。而忽悠是你丫根本就不信，还使劲拉别人上贼船。好比你跟我说我们一起造个东半球最好用的手机吧，我的反应是，有梦想，真棒。但你跟我说我要做一个理想主义者，抱歉，我没有那么高尚，那凉快哪呆着去。
+1. 设计的时候打开 Material Design 或者 IOS Guidelines, 边查看边设计，大大提升操作效率，看多了很多数值自然而然就记住了 [最主要是字体大小]。
+2. 如果尺寸宽度为基数，放大一倍进行设计，这样就不会总为那 1px 对齐纠结了[逼死处女座系列]。同时也更方便 grids 宽度的设计，偶数的公约数比较多哈。Magin 尽量选择 grids 的一倍或多倍，便于对齐。
+3. 辅助颜色板[灰度类的]最好有自己的模板，以免每次都到重新设置，节约时间。能用透明黑色就不用灰色，更清晰。不同明度的同色相颜色可以直接加透明黑色遮罩层就行模拟。
+4. 善于重复使用相似元素，改变布局即可，可以极大的节省实际操作时间。必要时可以创建 Symbol 或 Styled Text 方便日后重复使用。孰能生巧，实践中每个人都能总结很多适合自己的经验。
 
-> 不会做 presentation 的大忽悠不是好的设计师。– 野子Joey
+### 如何将 Design Ideas 运用到 CSS 中
+
+User Interface Design 绝对不是仅仅画界面，界面做的再漂亮，没有考虑实际运用场景，开发不出来，或者不具有实际应用价值，只能称之为"花瓶"了。因此自己设计的时候，尽量多站在产品和开发的角度去思考问题，怎么设计更能突出功能，怎么设计更能便于开发，实际交互时的效果是怎样的, 这才是一名合格的 User Experience Designer 应有的品质。因此，国外招聘中都要求 User Experience Designer 了解 Web 前端语言 [Html, CSS, Javascript], 作为技术层面的考核。
+
+随着 CSS 预编译处理器的流行 [后文用 Sass 作为例子]，极大的方便了前端书写 CSS. CSS 我仅仅是新手水平, 这里我主要讨论如何使用 Design 的思想写出更方便使用的 Sass.
+
+```CSS
+//@MEDIA QUERIES
+//确定尺寸，自适应布局
+
+$media-l: 1200px;
+$media-m: 900px;
+$media-s: 600px
+
+//GRID
+//统一布局，padding/margin 均可用, 高度，宽度尽量为其倍数
+
+$grid: 10px
+$grid-double: $grid * 2;
+$grid-third: $grid * 2;
+$grid-half: $grid / 2;
+
+//COLORS
+//用实物或功能命名
+
+$color-bodybg: #fafafa;
+$color-primary: #f0214f;
+$color-accent: #505eb1;
+$color-text: #555;
+$color-muted: #aaa;
+$color-border: #c3ddc8;
+$color-grey-mist: #f5f5f5;
+$color-grey-platinum: #bbb;
+$color-mask: rgba(0,0,0,0.1);
+
+//FONTS
+//字体，大小，粗细
+
+//1种或2种字体
+$font-family-1: Roboto, sans-serif;
+
+//一般4种大小 [header text, body text, remark, other]
+$font-header: 150%;
+$font-body: 100%;
+$font-remark: 70%
+$font-other: 85%;
+
+//三种粗细即可 [light, normal, bold]
+$font-light: 300;
+$font-normal: 400;
+$font-bold: 700;
+
+//Z-INDEX
+//用于 Material Design 不同层级的使用
+$z-index-header: 1000;
+$z-index-sidebar: 1100;
+$z-index-notify: 1200;
+$z-index-modal: 1300;
+```
+
+个人觉的 Sass 的 mixins 用处不大，太过繁琐，CSS 就是 CSS， 没必要搞得 Javascript 一样过度程序化。涉及到 vender-prefix 的部分， 推荐使用 [Autoprefixer](https://github.com/postcss/autoprefixer)。Nesting 加上伪类建议不要超过4层，否则后期修改比较麻烦，适当使用 `>` 子元素搜索符即可。
+
+### Conclusion
+
+无论是用 Skech 设计界面或是直接 CSS 设计界面，保有 Design Ideas 是最重要的，工具不是重点，思想才是王道。[CSSketch](https://github.com/JohnCoates/CSSketch) 这款插件甚至支持直接用 CSS 修改 Sketch File, 感兴趣的同学可以去试用下。各大应用商店应用数不胜数，没事干下几个玩玩，多注意观察主流应用的设计细节, 尤其是交互细节 [下拉，悬浮，空状态，初次登陆状态，引导界面]，总结为己用。
+
+> 我说的都是错的，如果不自己思考的话。 – 野子Joey
+
+### Resources
+
+- [Mobile UI Design for Beginners](https://webdesign.tutsplus.com/courses/mobile-ui-design-for-beginners)
+- [Variables: The Backbone Of CSS Architecture](https://www.smashingmagazine.com/2016/01/variables-in-css-architecture/)
