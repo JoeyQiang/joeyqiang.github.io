@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What to Do with a Human Factor
-category: design
+category: ux
 tags: [ux]
 ---
 

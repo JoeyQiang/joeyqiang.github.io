@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Display-Control Compatibility
-category: design
+category: ux
 tags: [ux]
 ---
 
