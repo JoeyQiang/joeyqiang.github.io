@@ -553,7 +553,7 @@
     height: 622px;
     background-size: cover;
     background-position: center top;
-    background-attachment: fixed;
+    background-attachment: scroll;
     -webkit-transition: all .1s ease;
     transition: all .1s ease;
 }
