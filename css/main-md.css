@@ -1,39 +1,16 @@
 /** md (Medium devices > 992px) **/
 @media (min-width: 992px) {
 
-    .home .container-fluid {
-        padding: 0;
+    .intro-detail li {
+        margin-right: 15px;
     }
 
-    .home .works .row .col {
-        padding: 0 10px;
-        margin-bottom: 20px;
-    }
-
-    .home > .header .menu a {
-        padding: 0 30px;
-        line-height: 60px;
-        font-size: 1.4rem;
-    }
-
-    .home .works .work div.header-img {
-        height: 190px;
-    }
-
-    .md-about {
-        margin-top: 50px;
+    .social li {
+        margin-right: 0;
     }
 
     .about.container-fluid {
-        margin-top: 90px;
-    }
-
-    .work-research .research-list li {
-        margin-top: 10px;
-    }
-
-    .portrait {
-        margin-top: 25px;
+        margin-top: 50px;
     }
 
 }

@@ -1,5 +1,4 @@
 /** sm (Samll devices > 768px) **/
-
 @media (min-width: 768px) {
 
     .home > .container-fluid {
@@ -105,7 +104,7 @@
     }
 
     .intro-detail li {
-        margin-right: 45px;
+        margin-right: 35px;
     }
 
     .intro-detail li:last-child {
@@ -146,13 +145,22 @@
         margin-bottom: 20px;
     }
 
-    .sm-content-frame > .container-fluid {
-        padding: 60px 0 90px;
+
+
+    /*Content*/
+
+    .content-frame{
+        padding: 60px 60px 90px;
         margin: 0 auto;
     }
 
-    .sm-content-frame h2 {
+    .content-frame h2 {
+        font-size: 2.8rem;
         margin-bottom: 60px;
+    }
+
+    .item-wrap{
+        margin-top: 90px;
     }
 
     .work-header-img {
@@ -168,292 +176,28 @@
         padding: 90px 30px;
     }
 
-    .work-ui .container-fluid {
-        max-width: 600px;
+    .bullet-list{
+        margin-top: 50px;
     }
 
-    .work-research img {
-        max-width: 300px;
-    }
-
-    .work-research .research-list {
-        max-width: 600px;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 16px;
-    }
-
-    .work-personas > .container-fluid {
-        max-width: 600px;
-        text-align: center;
-    }
-
-    .persona-des-xs {
-        display: none;
-    }
-
-    .persona-des-sm {
-        display: block;
-    }
-
-    .health-part > h3 {
-        margin: 0;
-        padding: 0;
-    }
-
-    .health-part > div {
-        margin: 0;
-        padding: 0;
-    }
-
-    .requirement-part {
-        text-align: left;
-    }
-
-    .requirement-part > h3 {
-        margin: 0;
-        padding: 0;
-    }
-
-    .requirement-part > ul {
-        margin: 0;
-    }
-
-    .persona-hobby {
-        margin: 30px auto 0;
-        padding: 0 5%;
-        display: block;
-    }
-
-    .persona-hobby > div {
-        width: 80px;
-        height: 80px;
-        display: inline-block;
-        font-family: HelveticaNeue;
-        font-size: 16px;
-        line-height: 80px;
-        color: #ffffff;
-        text-align: center;
-        margin-right: 18px;
-        background-repeat: no-repeat;
-        background-size: auto 90px;
-        background-position-y: center;
-        position: relative;
-    }
-
-    .persona-hobby > div:before {
-        content: '';
-        display: block;
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(196, 164, 204, .5); /* For browsers that do not support gradients */
-        background: -webkit-linear-gradient(rgba(196, 164, 204, .3), rgba(196, 164, 204, .5)); /* For Safari 5.1 to 6.0 */
-        background: -o-linear-gradient(rgba(196, 164, 204, .3), rgba(196, 164, 204, .5)); /* For Opera 11.1 to 12.0 */
-        background: -moz-linear-gradient(rgba(196, 164, 204, .3), rgba(196, 164, 204, .5)); /* For Firefox 3.6 to 15 */
-        background: linear-gradient(rgba(196, 164, 204, .3), rgba(196, 164, 204, .5)); /* Standard syntax */
-    }
-
-    .mary-hobby > div:before {
-        background: rgba(77, 153, 126, .5); /* For browsers that do not support gradients */
-        background: -webkit-linear-gradient(rgba(77, 153, 126, .3), rgba(77, 153, 126, .5)); /* For Safari 5.1 to 6.0 */
-        background: -o-linear-gradient(rgba(77, 153, 126, .3), rgba(77, 153, 126, .5)); /* For Opera 11.1 to 12.0 */
-        background: -moz-linear-gradient(rgba(77, 153, 126, .3), rgba(77, 153, 126, .5)); /* For Firefox 3.6 to 15 */
-        background: linear-gradient(rgba(77, 153, 126, .3), rgba(77, 153, 126, .5)); /* Standard syntax */
-    }
-
-    .mary-hobby > div {
-        background-image: url("../img/inplace-mary-hobby.png");
-    }
-
-    .mary-hobby > div:nth-child(1) {
-        background-position-x: 0;
-    }
-
-    .mary-hobby > div:nth-child(2) {
-        background-position-x: -113px;
-    }
-
-    .mary-hobby > div:nth-child(3) {
-        background-position-x: -225px;
-    }
-
-    .mary-hobby > div:nth-child(4) {
-        background-position-x: -337px;
-    }
-
-    .mary-hobby > div:nth-child(5) {
-        background-position-x: -450px;
-    }
-
-    .kelly-hobby > div {
-        background-image: url("../img/inplace-kelly-hobby.png");
-    }
-
-    .kelly-hobby > div:nth-child(1) {
-        background-position-x: 0;
-    }
-
-    .kelly-hobby > div:nth-child(2) {
-        background-position-x: -112px;
-    }
-
-    .kelly-hobby > div:nth-child(3) {
-        background-position-x: -223px;
-    }
-
-    .kelly-hobby > div:nth-child(4) {
-        background-position-x: -334px;
-    }
-
-    .kelly-hobby > div:nth-child(5) {
-        background-position-x: -446px;
-    }
-
-    .persona-bg {
-        display: block;
-        padding: 0 5%;
-        margin: 60px auto;
-    }
-
-    .persona-bg p {
-        font-family: HelveticaNeue;
-        font-size: 1.4rem;
-        line-height: 1.2;
-        color: #f8f8f8;
-        position: relative;
-    }
-
-    .persona-bg p:before, .persona-bg p:after {
-        position: absolute;
-        color: #c4a4cc;
-        font-size: 65px;
-    }
-
-    .persona-bg p:before {
-        content: " “ ";
+    .bullet-list:before{
         left: -25px;
-        top: -40px;
     }
 
-    .persona-bg p:after {
-        content: " ” ";
-        right: -25px;
-        bottom: -50px;
+    .work3 .personas .item-wrap,
+    .work3 .user-journey .item-wrap,
+    .work2 .analytics .item-wrap,
+    .work2 .audience .item-wrap{
+        margin-top: 0;
     }
 
-    .work-flow img {
-        max-width: 900px;
-    }
-
-    .work-ia img {
-        max-width: 600px;
-    }
-
-    .work-ui img {
-        max-width: 300px;
-    }
-
-    .work-ui h3 {
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .work-storyboard > .container-fluid {
-        max-width: 600px;
-    }
-
-    .analytics-wrap-all {
-        display: flex;
-        justify-content: center;
-    }
-
-    .analytics-wrap {
-        flex: 1;
-        max-width: 300px;
-        margin-right: 45px;
-    }
-
-    .analytics-wrap:last-child {
-        margin-right: 0;
-    }
-
-    .audience-wrap {
-        display: flex;
-        justify-content: center;
-    }
-
-    .audience {
-        flex: 1;
-        max-width: 300px;
-    }
-
-    .work-build-learn-test > .container-fluid {
-        max-width: 600px;
-    }
-
-    .work-application > .container-fluid {
-        max-width: 600px;
-    }
-
-    .video-wrap {
-        height: 410px;
-    }
-
-    .video-wrap > iframe {
-        height: 410px;
-    }
-
-    .video-wrap > div {
-        height: 410px;
-    }
-
-    .work-build-learn-test h3 {
-        margin-top: 90px;
+    .work2 .application .long-arrow-down {
+        margin-top: 30px;
         margin-bottom: 30px;
-        text-align: center;
-    }
-
-    img.dartboard-goals {
-        display: block;
-    }
-
-    .understanding-list {
-        display: none;
-    }
-
-
-    .video-wrap:after {
-        margin-top: -60px;
-        color: #222;
-    }
-
-    .work-application .long-arrow-down {
-        line-height: 1;
-        margin: 45px auto 45px;
-    }
-
-    .video-wrap.play:after {
-        display: block;
     }
 
     .text-intro {
         font-size: 1.5rem;
-    }
-
-    .kelly-portrait, .mary-portrait {
-        width: 90px;
-        height: 90px;
-    }
-
-    .xm-content-frame h2 {
-        font-size: 2.8rem;
-    }
-
-    img.inplace-spec {
-        max-width: 600px;
     }
 
     .slick-prev, .slick-next {
@@ -461,25 +205,11 @@
     }
 
     .slick-prev {
-        left: -65px;
+        left: -35px;
     }
 
     .slick-next {
-        right: -65px;
-    }
-
-    .storyboard-list li img {
-        width: 100%;
-    }
-
-    .audience-wrap {
-        display: flex;
-        justify-content: center;
-    }
-
-    .audience {
-        flex: 1;
-        max-width: 300px;
+        right: -35px;
     }
 
     .column-wrap {
@@ -492,24 +222,4 @@
         max-width: 300px;
     }
 
-    .acuvue .work-flow .column {
-        padding: 0 25px;
-    }
-
-    .acuvue .work-ia .container-fluid,
-    .acuvue .work-flow .container-fluid,
-    .smart-closet .work-analytics .container-fluid {
-        max-width: 100%;
-    }
-
-    .analytics-entry h4 {
-        font-size: 1.4rem;
-    }
-
-    .analytics-entry:before {
-        top: 2px;
-        left: -42px;
-        width: 12px;
-        height: 12px;
-    }
 }
