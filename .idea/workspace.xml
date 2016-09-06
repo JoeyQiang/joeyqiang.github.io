@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871841fb-6174-40b2-aca6-4835b566f9cc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main-xs.css" afterPath="$PROJECT_DIR$/css/main-xs.css" />
     </list>
     <ignored path="joeyqiang.github.io.iws" />
@@ -106,8 +105,8 @@
           <file leaf-file-name="main-xs.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main-xs.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="519">
-                  <caret line="555" column="34" selection-start-line="555" selection-start-column="34" selection-end-line="555" selection-end-column="34" />
+                <state relative-caret-position="399">
+                  <caret line="555" column="30" selection-start-line="555" selection-start-column="30" selection-end-line="555" selection-end-column="30" />
                   <folding>
                     <element signature="e#2411#2662#2" expanded="true" />
                     <element signature="e#2679#2930#2" expanded="true" />
@@ -140,8 +139,8 @@
           <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+                <state relative-caret-position="270">
+                  <caret line="158" column="49" selection-start-line="158" selection-start-column="49" selection-end-line="158" selection-end-column="49" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -443,12 +442,12 @@
       <workItem from="1472017901700" duration="35000" />
       <workItem from="1472997640969" duration="17909000" />
       <workItem from="1473098945669" duration="38619000" />
-      <workItem from="1473199879232" duration="1226000" />
+      <workItem from="1473199879232" duration="1533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="295113000" />
+    <option name="totallyTimeSpent" value="295420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1434" height="877" extended-state="6" />
@@ -838,8 +837,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        <state relative-caret-position="270">
+          <caret line="158" column="49" selection-start-line="158" selection-start-column="49" selection-end-line="158" selection-end-column="49" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -848,8 +847,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main-xs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="555" column="34" selection-start-line="555" selection-start-column="34" selection-end-line="555" selection-end-column="34" />
+        <state relative-caret-position="399">
+          <caret line="555" column="30" selection-start-line="555" selection-start-column="30" selection-end-line="555" selection-end-column="30" />
           <folding>
             <element signature="e#2411#2662#2" expanded="true" />
             <element signature="e#2679#2930#2" expanded="true" />
