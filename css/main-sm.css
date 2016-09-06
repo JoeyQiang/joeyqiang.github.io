@@ -23,11 +23,11 @@
         padding: 0 15px;
         line-height: 60px;
         display: inline-block;
-        font-family: ProximaNova-Light;
+        font-family: AkzidenzGroteskBQ-Light;
         font-size: 1.4rem;
         letter-spacing: -0.3px;
         text-align: center;
-        color: #222;
+        color: #888;
         text-transform: uppercase;
         -webkit-transition: all 0.2s ease-in;
         transition: all 0.2s ease-in;
@@ -35,7 +35,7 @@
 
     .home > .header .menu a.selected,
     .home > .header .menu a:hover {
-        background-color: #f0f0f0;
+        color: #222;
     }
 
     .home > .header .logo-name {
