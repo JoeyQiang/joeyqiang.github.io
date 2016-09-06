@@ -20,15 +20,15 @@ $.fn.extend({
         $close = $('.close-button'),
         $paraBg = $('.work-header-img'),
         $videoWrap = $('.video-wrap'),
-        $storyList = $('.storyboard-list'),
+        $flowList = $('.flow-list'),
         $gridBorder = $('.grid-border'),
         $bgImg = $('.bg-img'),
         animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
         animationS = true,
         animationE = false,
         position = $window.scrollTop(),
-        headerH = $('.header').height() + $('.work-header').height();
-
+        headerH = $('.header').height() + $('.work-header-img').height();
+    
 
     /*-- Define Functions --*/
     var Events = {
@@ -169,7 +169,6 @@ $.fn.extend({
             if (top > headerH) {
 
                 $('.exchange-nav').css('opacity', 1);
-                // Events.ButtonOpacity();
 
             }
             else {
@@ -384,8 +383,8 @@ $.fn.extend({
         Events.AutoPlayVideo($(this));
     });
 
-    Events.GridBorder();
+    // Events.GridBorder();
 
-    $storyList.slick({dots: true});
+    $flowList.slick({dots: true});
     /*-- jQuery End --*/
 })(jQuery);
