@@ -723,6 +723,10 @@
     max-width: 375px;
 }
 
+h3.item-title{
+    font-size: 1.5rem;
+}
+
 h3.item-title + * {
     margin-top: 15px;
 }
@@ -1131,6 +1135,7 @@ h3.list-title + * {
 
 .work2 .application .note {
     color: #2AA7CD;
+    font-family: AkzidenzGroteskBQ-Bold;
 }
 
 .work2 .application .note + * {
@@ -1290,6 +1295,9 @@ h3.list-title + * {
     display: none !important;
 }
 
+.work2 .audience h3.list-title{
+    margin-top: 20px;
+}
 
 
 
