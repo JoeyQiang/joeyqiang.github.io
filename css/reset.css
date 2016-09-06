@@ -21,7 +21,7 @@ ul {
 }
 
 h2, h3 {
-    font-family: 'ProximaNova-Bold';
+    font-family: 'AkzidenzGroteskBQ-Bold';
     margin: 0;
     padding: 0;
 }
@@ -63,6 +63,7 @@ img {
 
 strong {
     font-family: 'AkzidenzGroteskBQ-Bold';
+    letter-spacing: -0.3px;
 }
 
 em {
