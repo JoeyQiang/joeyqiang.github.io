@@ -551,10 +551,7 @@
 .work-header-img {
     position: relative;
     height: 622px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-size: scroll;
     background-position: center top;
     background-attachment: fixed;
     -webkit-transition: all .1s ease;
