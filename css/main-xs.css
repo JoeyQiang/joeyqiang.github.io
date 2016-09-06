@@ -524,6 +524,15 @@
     padding: 0;
 }
 
+.work-header-img {
+    position: relative;
+    height: 622px;
+    background-size: cover;
+    background-position: center top;
+    -webkit-transition: all .1s ease;
+    transition: all .1s ease;
+}
+
 .work1 .work-header-img {
     background-image: url("../img/work1-header.png");
 }
@@ -546,16 +555,6 @@
 
 .work6 .work-header-img {
     background-image: url("../img/work6-header.png");
-}
-
-.work-header-img {
-    position: relative;
-    height: 622px;
-    background-size: cover;
-    background-position: center top;
-    background-attachment: scroll;
-    -webkit-transition: all .1s ease;
-    transition: all .1s ease;
 }
 
 .work-header-img:before {

@@ -156,7 +156,7 @@ $.fn.extend({
 
         //Parallax scolling
         ParallaxScrolling: function (top) {
-            $paraBg.css('background-position', 'center ' + (-top / 4) + 'px');
+            $paraBg.css('background-position', 'center ' + (top / 4) + 'px');
 
         },
 
