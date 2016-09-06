@@ -22,7 +22,6 @@ $.fn.extend({
         $videoWrap = $('.video-wrap'),
         $flowList = $('.flow-list'),
         $gridBorder = $('.grid-border'),
-        $bgImg = $('.bg-img'),
         animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
         animationS = true,
         animationE = false,
