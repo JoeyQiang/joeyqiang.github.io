@@ -551,9 +551,9 @@
 .work-header-img {
     position: relative;
     height: 622px;
-    background-size: scroll;
+    background-size: cover;
     background-position: center top;
-    background-attachment: fixed;
+    background-attachment: scroll;
     -webkit-transition: all .1s ease;
     transition: all .1s ease;
 }
