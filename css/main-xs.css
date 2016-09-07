@@ -527,7 +527,8 @@
 .work-header-img {
     position: relative;
     height: 622px;
-    background-size: cover;
+    background-size: auto 100%;
+    background-attachment: fixed;
     background-position: center top;
     -webkit-transition: all .1s ease;
     transition: all .1s ease;
