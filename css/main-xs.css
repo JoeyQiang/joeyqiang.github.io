@@ -523,6 +523,7 @@
 }
 
 .work-header {
+    position: relative;
     height: 622px;
     width: 100%;
     padding: 0;

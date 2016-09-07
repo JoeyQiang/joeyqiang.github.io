@@ -163,8 +163,9 @@
         margin-top: 90px;
     }
 
-    .work-header-img {
-        max-height: 500px;
+    .work-header-img,
+    .work-header{
+        height: 500px;
     }
 
     .about.container-fluid {
