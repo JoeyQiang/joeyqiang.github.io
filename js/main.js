@@ -22,7 +22,6 @@ $.fn.extend({
         $videoWrap = $('.video-wrap'),
         $flowList = $('.flow-list'),
         $gridBorder = $('.grid-border'),
-        $verticalAlign = $('.verticle-align-m'),
         animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
         animationS = true,
         animationE = false,
@@ -157,7 +156,9 @@ $.fn.extend({
 
         //Parallax scolling
         ParallaxScrolling: function (top) {
-            $paraBg.css('top', 65 - (top * 0.75) + 'px');
+            // $paraBg.css('top', 65 - (top * 0.75) + 'px');
+            top = - top * 0.6;
+            $paraBg.css({'transform': 'translate3d(0px, ' + top + 'px, 0px)'});
         },
 
         //Show & Hide PrevNext buttons
@@ -173,10 +174,9 @@ $.fn.extend({
             else {
 
                 $('.exchange-nav').css('opacity', 0);
+                Events.ParallaxScrolling(top);
 
             }
-
-            Events.ParallaxScrolling(top);
 
         },
 
