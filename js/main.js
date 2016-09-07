@@ -22,6 +22,7 @@ $.fn.extend({
         $videoWrap = $('.video-wrap'),
         $flowList = $('.flow-list'),
         $gridBorder = $('.grid-border'),
+        $verticalAlign = $('.verticle-align-m'),
         animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
         animationS = true,
         animationE = false,
@@ -156,8 +157,8 @@ $.fn.extend({
 
         //Parallax scolling
         ParallaxScrolling: function (top) {
-            $paraBg.css('background-position', 'center ' + (-top / 4) + 'px');
-
+            // $paraBg.css('background-position', 'center ' + (-top / 4) + 'px');
+            $verticalAlign.css('top', 50 - (top / 20) + '%');
         },
 
         //Show & Hide PrevNext buttons
