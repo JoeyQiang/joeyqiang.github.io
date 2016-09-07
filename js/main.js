@@ -157,8 +157,7 @@ $.fn.extend({
 
         //Parallax scolling
         ParallaxScrolling: function (top) {
-            // $paraBg.css('background-position', 'center ' + (-top / 4) + 'px');
-            $verticalAlign.css('top', 50 - (top / 20) + '%');
+            $paraBg.css('top', 65 - (top * 0.75) + 'px');
         },
 
         //Show & Hide PrevNext buttons
@@ -174,9 +173,10 @@ $.fn.extend({
             else {
 
                 $('.exchange-nav').css('opacity', 0);
-                Events.ParallaxScrolling(top);
 
             }
+
+            Events.ParallaxScrolling(top);
 
         },
 

@@ -108,6 +108,8 @@
 /** xs (Extral samll devices < 768px) **/
 .content-frame {
     padding: 45px 20px 60px;
+    position: relative;
+    z-index: 2;
 }
 
 .content-frame h2 {
@@ -521,18 +523,24 @@
 }
 
 .work-header {
+    height: 622px;
+    width: 100%;
     padding: 0;
 }
 
 .work-header-img {
-    position: relative;
+    position: fixed;
     height: 622px;
+    width: 100%;
+    left: 0;
+    top: 65px;
     background-size: cover;
     background-attachment: scroll;
     background-position: center top;
     background-repeat: no-repeat;
-    -webkit-transition: all .1s ease;
-    transition: all .1s ease;
+    -webkit-transition: all .05s ease;
+    transition: all .05s ease;
+    z-index: 0;
 }
 
 .work1 .work-header-img {
@@ -609,6 +617,7 @@
     letter-spacing: -0.3px;
     color: #222;
     padding: 45px 20px;
+    background-color: #fcfcfc;
 }
 
 .leading-img-44 {
@@ -957,6 +966,7 @@ h3.list-title + * {
     -webkit-transition: all .4s ease-in;
     transition: all .4s ease-in;
     opacity: 0;
+    z-index: 3;
 }
 
 .exchange-nav .exchange, .exchange-nav .close-button, .exchange-nav .prev,
