@@ -3,7 +3,6 @@
 /* #ececec grey border */
 /* #222 black bg */
 /* #888 grey text */
-
 /** General Style **/
 .mt-0 {
     margin-top: 0px !important;
@@ -488,6 +487,7 @@
     color: #888;
     padding-top: 120px;
     padding-bottom: 45px;
+    position: relative;
 }
 
 /** work-details page **/
@@ -810,7 +810,7 @@ h3.list-title + * {
 }
 
 .table > tbody > tr > td, .table > tbody > tr > th {
-    border-top: 1px solid #ececec;
+    border-top: 1px solid #ddd;
 }
 
 .col-1 {
@@ -1331,7 +1331,6 @@ h3.list-title + * {
 .work2 .audience h3.list-title{
     margin-top: 20px;
 }
-
 
 
 

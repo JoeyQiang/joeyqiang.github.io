@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871841fb-6174-40b2-aca6-4835b566f9cc" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main-xs.css" afterPath="$PROJECT_DIR$/css/main-xs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/acuvue.html" afterPath="$PROJECT_DIR$/work/acuvue.html" />
     </list>
     <ignored path="joeyqiang.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,10 +50,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="2nd-street.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="2nd-street.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/work/2nd-street.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
+                <state relative-caret-position="-375">
                   <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="64" />
                   <folding />
                 </state>
@@ -68,11 +70,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="acuvue.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="acuvue.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/work/acuvue.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+                <state relative-caret-position="418">
+                  <caret line="587" column="47" selection-start-line="587" selection-start-column="47" selection-end-line="587" selection-end-column="47" />
                   <folding />
                 </state>
               </provider>
@@ -105,12 +107,12 @@
           <file leaf-file-name="main-xs.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main-xs.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="249">
-                  <caret line="136" column="19" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
+                <state relative-caret-position="204">
+                  <caret line="812" column="30" selection-start-line="812" selection-start-column="30" selection-end-line="812" selection-end-column="30" />
                   <folding>
-                    <element signature="e#2448#2699#2" expanded="true" />
-                    <element signature="e#2716#2967#2" expanded="true" />
-                    <element signature="e#3036#3287#2" expanded="true" />
+                    <element signature="e#2447#2698#2" expanded="true" />
+                    <element signature="e#2715#2966#2" expanded="true" />
+                    <element signature="e#3035#3286#2" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -207,13 +209,13 @@
         <option value="$PROJECT_DIR$/js/google_analytics.js" />
         <option value="$PROJECT_DIR$/work/sofy-vr.html" />
         <option value="$PROJECT_DIR$/work/wechat-now-cms.html" />
-        <option value="$PROJECT_DIR$/work/acuvue.html" />
         <option value="$PROJECT_DIR$/work/smart-closet.html" />
         <option value="$PROJECT_DIR$/work/inplace.html" />
         <option value="$PROJECT_DIR$/css/main-sm.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/work/2nd-street.html" />
         <option value="$PROJECT_DIR$/css/main-xs.css" />
+        <option value="$PROJECT_DIR$/work/acuvue.html" />
       </list>
     </option>
   </component>
@@ -466,12 +468,12 @@
       <workItem from="1472017901700" duration="35000" />
       <workItem from="1472997640969" duration="17909000" />
       <workItem from="1473098945669" duration="38619000" />
-      <workItem from="1473199879232" duration="12287000" />
+      <workItem from="1473199879232" duration="12989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306174000" />
+    <option name="totallyTimeSpent" value="306876000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1434" height="877" extended-state="6" />
@@ -573,9 +575,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2448#2699#2" expanded="true" />
-            <element signature="e#2716#2967#2" expanded="true" />
-            <element signature="e#3036#3287#2" expanded="true" />
+            <element signature="e#2447#2698#2" expanded="true" />
+            <element signature="e#2715#2966#2" expanded="true" />
+            <element signature="e#3035#3286#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -609,9 +611,9 @@
         <state relative-caret-position="4260">
           <caret line="284" column="27" selection-start-line="284" selection-start-column="27" selection-end-line="284" selection-end-column="27" />
           <folding>
-            <element signature="e#2448#2699#2" expanded="true" />
-            <element signature="e#2716#2967#2" expanded="true" />
-            <element signature="e#3036#3287#2" expanded="true" />
+            <element signature="e#2447#2698#2" expanded="true" />
+            <element signature="e#2715#2966#2" expanded="true" />
+            <element signature="e#3035#3286#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -646,9 +648,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2448#2699#2" expanded="true" />
-            <element signature="e#2716#2967#2" expanded="true" />
-            <element signature="e#3036#3287#2" expanded="true" />
+            <element signature="e#2447#2698#2" expanded="true" />
+            <element signature="e#2715#2966#2" expanded="true" />
+            <element signature="e#3035#3286#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -673,9 +675,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2448#2699#2" expanded="true" />
-            <element signature="e#2716#2967#2" expanded="true" />
-            <element signature="e#3036#3287#2" expanded="true" />
+            <element signature="e#2447#2698#2" expanded="true" />
+            <element signature="e#2715#2966#2" expanded="true" />
+            <element signature="e#3035#3286#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -693,9 +695,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2448#2699#2" expanded="true" />
-            <element signature="e#2716#2967#2" expanded="true" />
-            <element signature="e#3036#3287#2" expanded="true" />
+            <element signature="e#2447#2698#2" expanded="true" />
+            <element signature="e#2715#2966#2" expanded="true" />
+            <element signature="e#3035#3286#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -818,14 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/acuvue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/wechat-now-cms.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -870,7 +864,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/work/2nd-street.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="-375">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="64" />
           <folding />
         </state>
@@ -878,13 +872,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main-xs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="136" column="19" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
+        <state relative-caret-position="204">
+          <caret line="812" column="30" selection-start-line="812" selection-start-column="30" selection-end-line="812" selection-end-column="30" />
           <folding>
-            <element signature="e#2448#2699#2" expanded="true" />
-            <element signature="e#2716#2967#2" expanded="true" />
-            <element signature="e#3036#3287#2" expanded="true" />
+            <element signature="e#2447#2698#2" expanded="true" />
+            <element signature="e#2715#2966#2" expanded="true" />
+            <element signature="e#3035#3286#2" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/acuvue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="587" column="47" selection-start-line="587" selection-start-column="47" selection-end-line="587" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
