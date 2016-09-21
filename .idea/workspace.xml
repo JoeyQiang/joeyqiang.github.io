@@ -6,8 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="871841fb-6174-40b2-aca6-4835b566f9cc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main-md.css" afterPath="$PROJECT_DIR$/css/main-md.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main-sm.css" afterPath="$PROJECT_DIR$/css/main-sm.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main-xs.css" afterPath="$PROJECT_DIR$/css/main-xs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/2nd-street.html" afterPath="$PROJECT_DIR$/work/2nd-street.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/acuvue.html" afterPath="$PROJECT_DIR$/work/acuvue.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/inplace.html" afterPath="$PROJECT_DIR$/work/inplace.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/smart-closet.html" afterPath="$PROJECT_DIR$/work/smart-closet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/sofy-vr.html" afterPath="$PROJECT_DIR$/work/sofy-vr.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/wechat-now-cms.html" afterPath="$PROJECT_DIR$/work/wechat-now-cms.html" />
     </list>
     <ignored path="joeyqiang.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,51 +37,21 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
+          <file leaf-file-name="sofy-vr.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/work/sofy-vr.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-75">
-                  <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+                <state relative-caret-position="150">
+                  <caret line="11" column="30" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="inplace.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="inplace.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/work/inplace.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="2nd-street.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/work/2nd-street.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-375">
-                  <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="64" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="smart-closet.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/work/smart-closet.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="acuvue.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/work/acuvue.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="418">
-                  <caret line="587" column="47" selection-start-line="587" selection-start-column="47" selection-end-line="587" selection-end-column="47" />
+                <state relative-caret-position="105">
+                  <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -83,18 +60,38 @@
           <file leaf-file-name="wechat-now-cms.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/work/wechat-now-cms.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+                <state relative-caret-position="354">
+                  <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sofy-vr.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/work/sofy-vr.html">
+          <file leaf-file-name="2nd-street.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/work/2nd-street.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="46" column="39" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="39" />
+                <state relative-caret-position="504">
+                  <caret line="202" column="133" selection-start-line="202" selection-start-column="133" selection-end-line="202" selection-end-column="133" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="smart-closet.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/work/smart-closet.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="219">
+                  <caret line="56" column="54" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="54" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="acuvue.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/work/acuvue.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -107,8 +104,8 @@
           <file leaf-file-name="main-xs.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main-xs.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="812" column="30" selection-start-line="812" selection-start-column="30" selection-end-line="812" selection-end-column="30" />
+                <state relative-caret-position="498">
+                  <caret line="562" column="14" selection-start-line="562" selection-start-column="14" selection-end-line="562" selection-end-column="14" />
                   <folding>
                     <element signature="e#2447#2698#2" expanded="true" />
                     <element signature="e#2715#2966#2" expanded="true" />
@@ -121,8 +118,8 @@
           <file leaf-file-name="main-sm.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/main-sm.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="372">
-                  <caret line="167" column="8" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="8" />
+                <state relative-caret-position="150">
+                  <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -131,8 +128,8 @@
           <file leaf-file-name="main-md.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/main-md.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+                <state relative-caret-position="240">
+                  <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -204,18 +201,18 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/slick/slick-theme.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/main-md.css" />
         <option value="$PROJECT_DIR$/css/reset.css" />
         <option value="$PROJECT_DIR$/js/google_analytics.js" />
-        <option value="$PROJECT_DIR$/work/sofy-vr.html" />
-        <option value="$PROJECT_DIR$/work/wechat-now-cms.html" />
-        <option value="$PROJECT_DIR$/work/smart-closet.html" />
-        <option value="$PROJECT_DIR$/work/inplace.html" />
-        <option value="$PROJECT_DIR$/css/main-sm.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/main-md.css" />
+        <option value="$PROJECT_DIR$/work/sofy-vr.html" />
+        <option value="$PROJECT_DIR$/work/smart-closet.html" />
+        <option value="$PROJECT_DIR$/work/wechat-now-cms.html" />
+        <option value="$PROJECT_DIR$/css/main-sm.css" />
         <option value="$PROJECT_DIR$/work/2nd-street.html" />
-        <option value="$PROJECT_DIR$/css/main-xs.css" />
         <option value="$PROJECT_DIR$/work/acuvue.html" />
+        <option value="$PROJECT_DIR$/work/inplace.html" />
+        <option value="$PROJECT_DIR$/css/main-xs.css" />
       </list>
     </option>
   </component>
@@ -256,10 +253,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Tests" />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -302,25 +295,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joeyqiang.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="joeyqiang.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Tests" />
       </pane>
     </panes>
   </component>
@@ -350,7 +333,7 @@
       <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.2nd-street.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/joeyqiang.github.io/index.html">
       <method />
     </configuration>
@@ -424,9 +407,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.2nd-street.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.sofy-vr.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.2nd-street.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.sofy-vr.html" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.wechat-now-cms.html" />
       </list>
     </recent_temporary>
@@ -468,12 +451,15 @@
       <workItem from="1472017901700" duration="35000" />
       <workItem from="1472997640969" duration="17909000" />
       <workItem from="1473098945669" duration="38619000" />
-      <workItem from="1473199879232" duration="12989000" />
+      <workItem from="1473199879232" duration="13121000" />
+      <workItem from="1473694456992" duration="62000" />
+      <workItem from="1474392713496" duration="598000" />
+      <workItem from="1474498043827" duration="2401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306876000" />
+    <option name="totallyTimeSpent" value="310069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1434" height="877" extended-state="6" />
@@ -735,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="332" column="27" selection-start-line="332" selection-start-column="27" selection-end-line="332" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,7 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,7 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -760,14 +743,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/reset.css">
+    <entry file="file://$PROJECT_DIR$/js/parallax.min.js" />
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="330">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/google_analytics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -780,113 +773,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/google_analytics.js">
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/parallax.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/sofy-vr.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="46" column="39" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/smart-closet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
+        <state relative-caret-position="315">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/sofy-vr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work/wechat-now-cms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+        <state relative-caret-position="354">
+          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/inplace.html">
+    <entry file="file://$PROJECT_DIR$/work/acuvue.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+        <state relative-caret-position="135">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main-md.css">
+    <entry file="file://$PROJECT_DIR$/work/smart-closet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="219">
+          <caret line="56" column="54" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/2nd-street.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="202" column="133" selection-start-line="202" selection-start-column="133" selection-end-line="202" selection-end-column="133" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main-sm.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="167" column="8" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="8" />
+        <state relative-caret-position="150">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/work/inplace.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/2nd-street.html">
+    <entry file="file://$PROJECT_DIR$/css/main-md.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="64" />
+        <state relative-caret-position="240">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main-xs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="812" column="30" selection-start-line="812" selection-start-column="30" selection-end-line="812" selection-end-column="30" />
+        <state relative-caret-position="498">
+          <caret line="562" column="14" selection-start-line="562" selection-start-column="14" selection-end-line="562" selection-end-column="14" />
           <folding>
             <element signature="e#2447#2698#2" expanded="true" />
             <element signature="e#2715#2966#2" expanded="true" />
             <element signature="e#3035#3286#2" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/acuvue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="587" column="47" selection-start-line="587" selection-start-column="47" selection-end-line="587" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>

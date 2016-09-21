@@ -13,4 +13,9 @@
         margin-top: 50px;
     }
 
+    .home .portrait {
+        width: 100px;
+        height: 100px;
+    }
+
 }
