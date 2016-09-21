@@ -560,6 +560,7 @@
     background-attachment: scroll;
     background-position: center top;
     background-repeat: no-repeat;
+    z-index: 0;
     /*-webkit-transition: all .05s ease;*/
     /*transition: all .05s ease;*/
     /*z-index: 0;*/
@@ -868,7 +869,7 @@ h3.list-title + * {
     margin-top: 5px;
 }
 
-.work3 .user-journey h3 {
+.work3 .users-journey h3 {
     margin-top: 15px;
     color: #01579b;
     letter-spacing: -0.4px;
