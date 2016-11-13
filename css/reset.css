@@ -101,6 +101,36 @@ em {
     src: url("../assets/fonts/AkzidenzGrotesk-BoldItalic.otf");
 }
 
+/** Georgia **/
+@font-face {
+    font-family: 'Georgia-Reg';
+    src: url("../assets/fonts/Georgia-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Georgia-Italic';
+    src: url("../assets/fonts/Georgia-Italic.ttf");
+}
+
+@font-face {
+    font-family: 'Georgia-Bold';
+    src: url("../assets/fonts/Georgia-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Georgia-BoldItalic';
+    src: url("../assets/fonts/Georgia-BoldItalic.ttf");
+}
+
+/** Lucida Grande **/
+@font-face {
+    font-family: 'LucidaGrande-Reg';
+    src: url("../assets/fonts/LucidaGrande.ttc");
+}
+@font-face {
+    font-family: 'LucidaGrande-Bold';
+    src: url("../assets/fonts/LucidaGrande#2.ttc");
+}
 /*animation*/
 
 .animated {

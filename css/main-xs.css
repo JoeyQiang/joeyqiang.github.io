@@ -172,6 +172,10 @@
     -webkit-transition: all .2s ease-in;
 }
 
+.header.container-fluid{
+    padding: 0 20px;
+}
+
 .home .header:before {
     content: ' ';
     display: block;
@@ -184,7 +188,6 @@
     opacity: .6;
     background: #fff url("../img/site-bg.png") repeat;
 }
-
 
 .header .menu {
     display: none;
@@ -226,7 +229,6 @@
     width: 100%;
     height: 100%;
     z-index: -1;
-    opacity: .6;
     background: #fff url("../img/site-bg.png") repeat;
 }
 
@@ -253,6 +255,10 @@
     min-width: 250px;
 }
 
+.wrap.container-fluid{
+    padding: 0 20px;
+}
+
 .content {
     margin-top: 75px;
 }
@@ -263,8 +269,8 @@
 
 .portrait {
     display: inline-block;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     /*box-shadow: 0 1px 4px 0 #ececec;*/
     background: url("../img/portrait.png") center center;
@@ -325,9 +331,23 @@
     top: -1px;
 }
 
-.row .col {
-    margin-bottom: 15px;
+.row{
+    margin: 0 auto;
 }
+
+.row .col {
+    width: 335px;
+    height: 250px;
+    margin: 0 auto 30px;
+    position: relative;
+    float: none;
+}
+
+/*.col:after {*/
+    /*padding-top: 75%;*/
+    /*display: block;*/
+    /*content: '';*/
+/*}*/
 
 .row .col:last-child {
     margin-bottom: 0;
@@ -340,6 +360,11 @@
 .works .work {
     background-color: #fcfcfc;
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*bottom: 0;*/
+    /*right: 0;*/
+    /*left: 0;*/
 }
 
 .works .work a {
@@ -401,27 +426,27 @@
 }
 
 .work1 div.header-img:hover:before {
-    background-color: rgba(77, 153, 126, .45);
+    background-color: rgba(77, 153, 126, .75);
 }
 
 .work2 div.header-img:hover:before {
-    background-color: rgba(42, 167, 205, .45);
+    background-color: rgba(42, 167, 205, .75);
 }
 
 .work3 div.header-img:hover:before {
-    background-color: rgba(248, 181, 69, .45);
+    background-color: rgba(248, 181, 69, .75);
 }
 
 .work4 div.header-img:hover:before {
-    background-color: rgba(251, 42, 53, .45);
+    background-color: rgba(251, 42, 53, .75);
 }
 
 .work5 div.header-img:hover:before {
-    background-color: rgba(200, 98, 208, .45);
+    background-color: rgba(200, 98, 208, .75);
 }
 
 .work6 div.header-img:hover:before {
-    background-color: rgba(99, 89, 158, .45);
+    background-color: rgba(99, 89, 158, .75);
 }
 
 .works .work-preview {
@@ -429,20 +454,21 @@
 }
 
 .works > div h2 {
-    font-family: AkzidenzGroteskBQ-Bold;
+    font-family: LucidaGrande-Bold;
+    font-weight: 700;
     font-size: 1.8rem;
-    letter-spacing: -0.4px;
+    letter-spacing: -0.3px;
     color: #222;
 }
 
 .works > div span {
     display: block;
-    font-family: AkzidenzGroteskBQ-Light;
+    font-family: Goergia-Reg;
     font-size: 1.4rem;
     line-height: 1;
-    letter-spacing: -0.3px;
-    color: #222;
-    margin-top: 5px;
+    letter-spacing: 0;
+    color: rgba(0,0,0,.45);
+    margin-top: 6px;
 }
 
 .works > div span.tag {
@@ -450,8 +476,8 @@
     font-size: 1.2rem;
     line-height: 1.7;
     letter-spacing: -0.2px;
-    color: #888;
-    margin-top: 5px;
+    color: rgba(0,0,0,.4);
+    margin-top: 20px;
 }
 
 .about.container-fluid {
@@ -459,35 +485,43 @@
     padding: 0;
 }
 
-.about > div {
-    padding-left: 15px;
+.about{
+    width: 320px;
 }
 
 .about h3 {
-    font-family: AkzidenzGroteskBQ-Bold;
+    font-family: LucidaGrande-Bold;
+    font-weight: 700;
     font-size: 1.2rem;
     letter-spacing: -0.4px;
-    color: #888;
+    color: rgba(0,0,0,.6);
 }
 
 .about p {
-    margin-top: 10px;
-    font-family: AkzidenzGroteskBQ-Light;
-    font-size: 1.2rem;
-    line-height: 1.2;
-    letter-spacing: -0.3px;
-    color: #888;
+     margin-top: 10px;
+     font-family: Goergia-Reg;
+     font-size: 1.2rem;
+     line-height: 1.2;
+     letter-spacing: -0.3px;
+     color: rgba(0,0,0,.6);
+ }
+
+.about p strong{
+    font-family: Goergia-Bold;
+}
+
+.about p em{
+    font-family: Goergia-Italic;
 }
 
 .footer {
-    text-align: right;
-    font-family: AkzidenzGroteskBQ-Light, sans-serif;
+    text-align: center;
+    font-family: AkzidenzGroteskBQ-Light;
     font-size: 1rem;
     letter-spacing: -0.2px;
-    color: #888;
+    color: rgba(0,0,0,.6);
     padding-top: 120px;
     padding-bottom: 45px;
-    position: relative;
 }
 
 /** work-details page **/

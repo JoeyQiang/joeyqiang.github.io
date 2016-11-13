@@ -1,6 +1,14 @@
 /** md (Medium devices > 992px) **/
 @media (min-width: 992px) {
 
+    .home > .header.container-fluid {
+        padding: 0 60px;
+    }
+
+    .home > .container-fluid {
+        padding: 0 60px;
+    }
+
     .intro-detail li {
         margin-right: 15px;
     }
@@ -13,9 +21,27 @@
         margin-top: 50px;
     }
 
-    .home .portrait {
-        width: 100px;
-        height: 100px;
+    .home .works .row{
+        width: 1065px;
+        margin: 0 auto;
     }
+
+    .home .about{
+        width: 1065px;
+    }
+
+    .home .row .col{
+        margin-right: 30px;
+    }
+
+    .home .row .col:nth-child(3),
+    .home .row .col:nth-child(6){
+        margin-right: 0;
+    }
+
+    .footer{
+        padding-left:50px;
+    }
+
 
 }

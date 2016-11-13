@@ -2,7 +2,7 @@
 @media (min-width: 768px) {
 
     .home > .container-fluid {
-        padding: 0 10px;
+        padding: 0 30px;
     }
 
     .home > .header {
@@ -11,8 +11,7 @@
     }
 
     .home > .header.container-fluid {
-        padding-right: 0;
-        padding-left: 20px;
+        padding: 0 30px;
     }
 
     .home > .header .menu {
@@ -45,7 +44,7 @@
 
     .home .intro {
         position: relative;
-        margin-top: -140px;
+        margin-top: -90px;
     }
 
     .home .home-divider {
@@ -62,7 +61,7 @@
     .home .works .work div.header-img {
         display: block;
         padding: 10px;
-        height: 215px;
+        height: 150px;
     }
 
     .works > div div.header-img {
@@ -85,6 +84,7 @@
         width: 80px;
         height: 80px;
         z-index: 4;
+        display: block;
         position: relative;
     }
 
@@ -128,24 +128,45 @@
         margin-right: 0;
     }
 
+    .home .works .row{
+        width: 700px;
+        margin: 0 auto;
+    }
+
+
     .home .works .row .col {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     .home .works .work {
         margin: 0;
     }
 
-    .home .works .row .col-sm-6 {
-        padding: 0 5px;
+    .home .row .col{
+        float: left;
     }
 
-    .home .works .row .col:nth-child(5)
-    .home .works .row .col:nth-child(6) {
-        margin-bottom: 20px;
+    .home .row .col:nth-child(odd){
+        margin-right: 30px;
     }
 
+    /*.work4 .work-preview span.preview,*/
+    /*.work6 .work-preview span.preview{*/
+        /*letter-spacing: -0.1px;*/
+    /*}*/
 
+    .home .about{
+        width: 690px;
+    }
+
+    .home .about > div{
+        padding-left: 20px;
+    }
+
+    .footer{
+        text-align: left;
+        padding-left: 25px;
+    }
 
     /*Content*/
 
