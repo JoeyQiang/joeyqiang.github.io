@@ -1,2 +1,2 @@
 # joeyqiang.github.io
-This is my Github personal blog.
+This is my Github live portfolio.
