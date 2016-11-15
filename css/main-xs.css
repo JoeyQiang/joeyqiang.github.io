@@ -52,7 +52,7 @@
 
 .bg-black {
     background-color: #222 !important;
-    color: #fafafa !important;
+    color: rgba(255,255,255,.95) !important;
 }
 
 .bg-grey {
@@ -106,17 +106,18 @@
 
 /** xs (Extral samll devices < 768px) **/
 .content-frame {
-    padding: 45px 20px 60px;
+    padding: 60px 15px 60px;
     position: relative;
     z-index: 2;
 }
 
 .content-frame h2 {
-    font-family: AkzidenzGroteskBQ-Bold;
+    font-family: LucidaGrande-Bold;
     font-size: 2.4rem;
     letter-spacing: -0.4px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
+    text-transform: uppercase;
 }
 
 .content-frame img {
@@ -515,6 +516,8 @@
 }
 
 .footer {
+    position: relative;
+    z-index: 1;
     text-align: center;
     font-family: AkzidenzGroteskBQ-Light;
     font-size: 1rem;
@@ -648,7 +651,7 @@
 
 .work-name {
     margin: 0 auto;
-    font-family: AkzidenzGroteskBQ-Bold;
+    font-family: LucidaGrande-Bold;
     font-size: 6.5rem;
     text-transform: uppercase;
     letter-spacing: -0.4px;
@@ -669,11 +672,11 @@
 }
 
 .text-intro {
-    font-family: AkzidenzGroteskBQ-Bold;
-    font-size: 1.6rem;
-    letter-spacing: -0.3px;
+    font-family: Georgia-Bold;
+    font-size: 1.5rem;
+    line-height: 1.58;
     color: #222;
-    padding: 45px 20px;
+    padding: 45px 15px;
     background-color: #fcfcfc;
 }
 
@@ -713,7 +716,7 @@
 }
 
 .leading-img-100 + * {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .rabbit {
@@ -721,8 +724,8 @@
 }
 
 .bullet-list {
-    margin-top: 20px;
-    font-size: 1.4rem;
+    margin-top: 30px;
+    font-size: 1.5rem;
 }
 
 .bullet-list li {
@@ -768,13 +771,11 @@
 }
 
 .text-list {
-    font-size: 1.4rem;
-    letter-spacing: -0.2px;
-    margin-top: 20px;
-    line-height: 1.2;
-    color: #fafafa;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-left: 15px;
+    color: rgba(255,255,255,.95);
     list-style: square;
-    list-style-position: inside;
 }
 
 .item-wrap {
@@ -791,15 +792,15 @@
 }
 
 h3.item-title{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 h3.item-title + * {
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 h3.item-title + img + p {
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 .item-wrap img + * {
@@ -811,21 +812,21 @@ h3.item-title + img + p {
 }
 
 .work4 .project-background strong {
-    color: #FB2A35;
+    color: rgba(251,42,53,.95);
 }
 
 .work5 .ux strong {
-    color: #C862D0;
+    color: rgba(200,98,208,.95);
 }
 
 .work6 .features strong {
-    color: #63599E;
+    color: rgba(99,89,158,.95);
 }
 
 h3.list-title {
-    font-family: AkzidenzGroteskBQ-Bold;
-    margin-top: 15px;
-    font-size: 1.4rem;
+    font-family: Georgia-Bold;
+    margin-top: 30px;
+    font-size: 1.5rem;
 }
 
 h3.list-title + * {
@@ -841,7 +842,7 @@ h3.list-title + * {
 }
 
 .table th {
-    font-family: AkzidenzGroteskBQ-Bold;
+    font-family: Georgia-Bold;
 }
 
 .table > tbody > tr > td, .table > tbody > tr > th {
@@ -887,16 +888,15 @@ h3.list-title + * {
 }
 
 .work3 .personas h3 {
-    margin-top: 15px;
+    margin-top: 20px;
     color: #f8b545;
     letter-spacing: -0.4px;
 }
 
 .note {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-align: center;
     display: block;
-    line-height: 1.1;
 }
 
 * + .note {
@@ -947,7 +947,7 @@ h3.list-title + * {
 
 .event h4 {
     font-size: 1.4rem;
-    font-family: AkzidenzGroteskBQ-Bold;
+    font-family: Georgia-Bold;
     margin-top: 30px;
     margin-bottom: 15px;
 }
@@ -1001,7 +1001,7 @@ h3.list-title + * {
     background-color: #01579b;
 }
 
-.work2 h3.list-title {
+.work2  .audience h3.item-title {
     color: #2AA7CD;
 }
 
@@ -1097,7 +1097,7 @@ h3.list-title + * {
     font-family: AkzidenzGroteskBQ-Reg;
     font-size: 1.6rem;
     letter-spacing: -0.3px;
-    color: #f8f8f8;
+    color: rgba(255,255,255,.95);
 }
 
 .work2 .explaination-para strong {
@@ -1364,7 +1364,7 @@ h3.list-title + * {
 }
 
 .work2 .audience h3.list-title{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 

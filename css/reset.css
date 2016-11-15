@@ -3,8 +3,9 @@ html {
 }
 
 body {
-    font-size: 1.4rem;
-    font-family: "AkzidenzGroteskBQ-Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.58;
+    font-family: "Georgia-Reg", "AkzidenzGroteskBQ-Reg", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 *:focus {
@@ -21,7 +22,7 @@ ul {
 }
 
 h2, h3 {
-    font-family: 'AkzidenzGroteskBQ-Bold';
+    font-family: 'LucidaGrande-Bold';
     margin: 0;
     padding: 0;
 }
@@ -35,7 +36,7 @@ h3{
 }
 
 p {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin: 0;
     padding: 0;
 }
@@ -62,12 +63,12 @@ img {
 }
 
 strong {
-    font-family: 'AkzidenzGroteskBQ-Bold';
+    font-family: 'Georgia-Bold';
     letter-spacing: -0.3px;
 }
 
 em {
-    font-family: 'AkzidenzGroteskBQ-LightIt';
+    font-family: 'Georgia-Italic';
 }
 
 /** Akzidenz Grotesk **/
