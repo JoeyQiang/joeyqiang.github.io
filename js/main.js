@@ -105,10 +105,12 @@ $.fn.extend({
 
         //Pop up image
         ImagePopUp: function () {
-            $('.popup-link').magnificPopup({
-                type: 'image',
-                closeOnContentClick: true
-            });
+
+                $('.popup-link').magnificPopup({
+                    type: 'image',
+                    closeOnContentClick: true
+                });
+
         },
 
         //Header show & hide
@@ -358,7 +360,6 @@ $.fn.extend({
 
     $window.on('resize', function () {
         Events.ReplaceImg();
-        Events.GridBorder();
     });
 
     $document.on('mousedown', '[data-ripple]', function (e) {
@@ -383,8 +384,9 @@ $.fn.extend({
         Events.AutoPlayVideo($(this));
     });
 
-    // Events.GridBorder();
 
     $flowList.slick({dots: true});
     /*-- jQuery End --*/
 })(jQuery);
+
+
