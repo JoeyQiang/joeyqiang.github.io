@@ -1,5 +1,8 @@
 /** sm (Samll devices > 768px) **/
 @media (min-width: 768px) {
+    .mw-700{
+        max-width: 700px !important;
+    }
 
     .home > .container-fluid {
         padding: 0 30px;
@@ -163,7 +166,7 @@
         padding-left: 20px;
     }
 
-    .footer{
+    .home .footer{
         text-align: left;
         padding-left: 25px;
     }
@@ -171,13 +174,17 @@
     /*Content*/
 
     .content-frame{
-        padding: 60px 60px 90px;
+        padding: 90px 90px;
         margin: 0 auto;
+    }
+
+    .content-frame img {
+        max-width: 700px;
     }
 
     .content-frame h2 {
         font-size: 2.8rem;
-        margin-bottom: 60px;
+        margin-bottom: 90px;
     }
 
     .item-wrap{
@@ -186,7 +193,7 @@
 
     .work-header-img,
     .work-header{
-        height: 500px;
+        height: 550px;
     }
 
     .about.container-fluid {
@@ -194,8 +201,7 @@
     }
 
     .text-intro > .container-fluid {
-        max-width: 600px;
-        padding: 90px 30px;
+        max-width: 700px;
     }
 
     .bullet-list{
@@ -236,12 +242,57 @@
 
     .column-wrap {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .column {
         flex: 1;
-        max-width: 300px;
+        max-width: 200px;
+        margin-right: 5px;
+        margin-top: 0;
+    }
+    .column:last-child{
+        margin-right: 0;
+    }
+
+    .center-block{
+        max-width: 700px;
+    }
+    .work1 .work-personas .item-wrap,
+    .work2 .work-build .item-wrap,
+    .work2 .work-application .item-wrap,
+    .work4 .user-analysis .item-wrap,
+    .work4 .operation .item-wrap,
+    .work4 .conclusion .item-wrap,
+    .work5 .item-wrap,
+    .work6 .features .item-wrap,
+    .work3 .summary .item-wrap{
+        max-width: 700px;
+    }
+    .video-wrap{
+        height:438px;
+    }
+    .video-wrap > iframe{
+        height:438px;
+    }
+    .video-wrap > div{
+        height:438px;
+    }
+    .video-cover{
+        line-height: 438px;
+    }
+    h3.item-title + *{
+        margin-top: 60px;
+    }
+    .inside-header{
+        margin-top:90px;
+    }
+    .work-name, .work-width{
+        max-width: 700px;
+    }
+    .column-wrap{
+        max-width: 1200px;
+        margin: 0 auto;
     }
 
 }

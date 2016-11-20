@@ -8,46 +8,12 @@
     margin-top: 0px !important;
 }
 
-.mt-60 {
-    margin-top: 60px !important;
-}
-
 .mb-0 {
     margin-bottom: 0px !important;
 }
 
 .mr-0 {
     margin-right: 0px !important;
-}
-
-.mw-200 {
-    max-width: 200px !important;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.mw-300 {
-    max-width: 300px !important;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.mw-400 {
-    max-width: 400px !important;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.mw-500 {
-    max-width: 500px !important;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.mw-600 {
-    max-width: 600px !important;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .bg-black {
@@ -664,16 +630,17 @@
     color: #fff;
     display: block;
     text-align: center;
+    max-width: 270px;
 }
 
 .work-des {
-    max-width: 270px;
     font-family: AkzidenzGroteskBQ-Reg;
     font-size: 1.4rem;
     color: #fff;
     margin: 0 auto;
     display: block;
     text-align: center;
+    max-width: 270px;
 }
 
 .text-intro {
@@ -793,7 +760,7 @@
 }
 
 .center-block {
-    max-width: 375px;
+    max-width: 345px;
 }
 
 h3.item-title{
@@ -899,7 +866,7 @@ h3.list-title + * {
 }
 
 .note {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: center;
     display: block;
 }
@@ -1216,21 +1183,20 @@ h3.list-title + * {
     /*border-left-color: rgb(30, 166, 207);*/
 /*}*/
 
-.work2 .application .note {
+.work2 .work-application .note {
     color: #2AA7CD;
     font-family: AkzidenzGroteskBQ-Bold;
 }
 
-.work2 .application .note + * {
-    margin-top: 10px;
+.work2 .work-application .note + * {
+    margin-top: 30px;
 }
 
-.work2 .application .long-arrow-down {
-    margin-top: 45px;
-    margin-bottom: 45px;
+.work2 .work-application .long-arrow-down {
+    margin-top: 60px;
 }
 
-.work2 .application .fa-angle-down {
+.work2 .work-application .fa-angle-down {
     font-size: 2.5rem;
     color: #2AA7CD;
 }
@@ -1380,6 +1346,13 @@ h3.list-title + * {
 
 .work2 .audience h3.list-title{
     margin-top: 30px;
+}
+
+.column {
+    margin-top: 60px;
+}
+.column:first-child{
+    margin-top: 0;
 }
 
 
