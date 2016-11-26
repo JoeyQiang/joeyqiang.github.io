@@ -400,7 +400,7 @@
 }
 
 .works > div div.header-img:hover:before {
-    background-color: rgba(0, 0, 0, .15);
+    background-color: rgba(0, 0, 0, .2);
 }
 
 .works .work-preview {

@@ -27,7 +27,7 @@
       <file leaf-file-name="inplace.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work/inplace.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
+            <state relative-caret-position="4215">
               <caret line="281" column="119" selection-start-line="281" selection-start-column="119" selection-end-line="281" selection-end-column="119" />
               <folding />
             </state>
@@ -47,7 +47,7 @@
       <file leaf-file-name="smart-closet.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work/smart-closet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
+            <state relative-caret-position="2355">
               <caret line="157" column="80" selection-start-line="157" selection-start-column="80" selection-end-line="157" selection-end-column="80" />
               <folding />
             </state>
@@ -57,7 +57,7 @@
       <file leaf-file-name="wechat-now-cms.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work/wechat-now-cms.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
+            <state relative-caret-position="2040">
               <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
               <folding />
             </state>
@@ -87,8 +87,8 @@
       <file leaf-file-name="main-xs.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main-xs.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="188" column="19" selection-start-line="188" selection-start-column="19" selection-end-line="188" selection-end-column="19" />
+            <state relative-caret-position="447">
+              <caret line="402" column="38" selection-start-line="402" selection-start-column="38" selection-end-line="402" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -97,7 +97,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
+            <state relative-caret-position="1125">
               <caret line="75" column="48" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="48" />
               <folding />
             </state>
@@ -201,6 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -312,7 +313,6 @@
       <pane id="Scope">
         <subPane subId="Tests" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -472,15 +472,16 @@
       <workItem from="1479514579426" duration="30000" />
       <workItem from="1479526150429" duration="16759000" />
       <workItem from="1479784660114" duration="25230000" />
+      <workItem from="1480171070216" duration="161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="395451000" />
+    <option name="totallyTimeSpent" value="395612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1434" height="877" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15829846" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -779,7 +780,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/work/inplace.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="4215">
           <caret line="281" column="119" selection-start-line="281" selection-start-column="119" selection-end-line="281" selection-end-column="119" />
           <folding />
         </state>
@@ -787,7 +788,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/work/smart-closet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
+        <state relative-caret-position="2355">
           <caret line="157" column="80" selection-start-line="157" selection-start-column="80" selection-end-line="157" selection-end-column="80" />
           <folding />
         </state>
@@ -795,7 +796,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/work/wechat-now-cms.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
+        <state relative-caret-position="2040">
           <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
           <folding />
         </state>
@@ -803,7 +804,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
+        <state relative-caret-position="1125">
           <caret line="75" column="48" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="48" />
           <folding />
         </state>
@@ -811,8 +812,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main-xs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="188" column="19" selection-start-line="188" selection-start-column="19" selection-end-line="188" selection-end-column="19" />
+        <state relative-caret-position="447">
+          <caret line="402" column="38" selection-start-line="402" selection-start-column="38" selection-end-line="402" selection-end-column="38" />
           <folding />
         </state>
       </provider>
