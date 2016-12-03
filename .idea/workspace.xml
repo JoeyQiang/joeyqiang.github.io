@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871841fb-6174-40b2-aca6-4835b566f9cc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/inplace-ui.png" afterPath="$PROJECT_DIR$/img/inplace-ui.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/smartcloset-viewer-understanding-objectives.png" afterPath="$PROJECT_DIR$/img/smartcloset-viewer-understanding-objectives.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main-xs.css" afterPath="$PROJECT_DIR$/css/main-xs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/inplace.html" afterPath="$PROJECT_DIR$/work/inplace.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/smart-closet.html" afterPath="$PROJECT_DIR$/work/smart-closet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="joeyqiang.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +30,7 @@
       <file leaf-file-name="inplace.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work/inplace.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1146">
+            <state relative-caret-position="3660">
               <caret line="244" column="42" selection-start-line="244" selection-start-column="42" selection-end-line="244" selection-end-column="42" />
               <folding />
             </state>
@@ -44,7 +40,7 @@
       <file leaf-file-name="smart-closet.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work/smart-closet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
+            <state relative-caret-position="4320">
               <caret line="288" column="48" selection-start-line="288" selection-start-column="48" selection-end-line="288" selection-end-column="48" />
               <folding />
             </state>
@@ -71,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-xs.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main-xs.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main-xs.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="267">
@@ -91,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2805">
-              <caret line="187" column="26" selection-start-line="187" selection-start-column="26" selection-end-line="187" selection-end-column="26" />
+            <state relative-caret-position="255">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,7 +110,7 @@
       <file leaf-file-name="main-md.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main-md.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
+            <state relative-caret-position="930">
               <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
               <folding />
             </state>
@@ -153,11 +149,11 @@
         <option value="$PROJECT_DIR$/work/wechat-now-cms.html" />
         <option value="$PROJECT_DIR$/work/2nd-street.html" />
         <option value="$PROJECT_DIR$/css/main-sm.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main-md.css" />
         <option value="$PROJECT_DIR$/work/inplace.html" />
         <option value="$PROJECT_DIR$/work/smart-closet.html" />
         <option value="$PROJECT_DIR$/css/main-xs.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -472,12 +468,13 @@
       <workItem from="1480171070216" duration="759000" />
       <workItem from="1480706029156" duration="5324000" />
       <workItem from="1480722131822" duration="1233000" />
-      <workItem from="1480801002325" duration="1017000" />
+      <workItem from="1480801002325" duration="1080000" />
+      <workItem from="1480809236681" duration="162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="403784000" />
+    <option name="totallyTimeSpent" value="404009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1434" height="877" extended-state="6" />
@@ -777,17 +774,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2805">
-          <caret line="187" column="26" selection-start-line="187" selection-start-column="26" selection-end-line="187" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main-md.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
+        <state relative-caret-position="930">
           <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
           <folding />
         </state>
@@ -795,7 +784,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/work/inplace.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1146">
+        <state relative-caret-position="3660">
           <caret line="244" column="42" selection-start-line="244" selection-start-column="42" selection-end-line="244" selection-end-column="42" />
           <folding />
         </state>
@@ -803,7 +792,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/work/smart-closet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
+        <state relative-caret-position="4320">
           <caret line="288" column="48" selection-start-line="288" selection-start-column="48" selection-end-line="288" selection-end-column="48" />
           <folding />
         </state>
@@ -813,6 +802,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="522" column="32" selection-start-line="522" selection-start-column="32" selection-end-line="522" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
