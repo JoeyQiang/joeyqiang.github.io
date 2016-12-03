@@ -520,7 +520,7 @@
 }
 
 .header.down {
-    transform: translate3d(0, -65px, 0);
+    transform: translate3d(0, -75px, 0);
 }
 
 .work-logo {
