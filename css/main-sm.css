@@ -166,9 +166,9 @@
         padding-left: 20px;
     }
 
-    .home .footer{
+    .home .footer > div{
         text-align: left;
-        padding-left: 25px;
+        padding-left: 20px;
     }
 
     /*Content*/
