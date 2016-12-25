@@ -8,596 +8,288 @@
     <meta name="author" content="Joey">
     <meta name="keywords" content="user experience design, ux, ui">
     <meta name="description" content="Joey's portfolio">
-
-    <title>Joey Qiang - ACUVVE</title>
-
-    <!-- CSS -->
-    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">-->
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">-->
-    <!--<link href="http://cdn.bootcss.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" rel="stylesheet">-->
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7">-->
+    <title>Joey Qiang - Acuvue</title>
     <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="../js/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="../js/slick/slick-theme.css"/>
-    <link rel="stylesheet" type="text/css" href="../js/magnific/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-
-    <!-- Icons -->
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="../favicon.ico" type="image/x-icon">
-
 </head>
 
+<body>
 
-<body class="work3">
+<div class="site-wrapper work-page">
 
-<img class="loading-gif" src="../img/loading.gif" alt="loading">
+    <header class="desktop">
+        <a class="main-menu hexagon" href="#">
+            <span class="slice"></span>
+            <span class="slice"></span>
+            <span class="slice"></span>
+            <span class="slice"></span>
+            <span class="slice"></span>
+            <span class="slice"></span>
+            <!--<i class="icon"></i>-->
+        </a>
+        <a href="../index.html" class="logo-name">Joey Qiang</a>
+    </header>
 
 
-<div class="header container-fluid collapsed hidden">
-    <a href="../index.html">
-        <span class="logo work-logo">logo</span>
-        <span class="logo-name work-logo-name">JOEY QIANG</span>
-    </a>
+    <div class="section container intro">
+        <div class="section-content">
+            <h3 class="large-title section-title">Acuvue</h3>
+            <div class="media-image-wrap">
+                <img class="media-image" src="../images/ac-hero.png" alt="">
+            </div>
+            <ul class="text-list row">
+                <li class="col-xs-4">UX Design</li>
+                <li class="col-xs-4">June, 2016</li>
+                <li class="col-xs-4">ACUVUE</li>
+            </ul>
+            <p>
+                ACUVUE was a WeChat-based Web APP that helps users get online support efficiently, such as Q&A, online
+                shopping, and online redemption, which assist users to care for their eyes anytime anywhere, while
+                enhancing Acuvue’s brand awareness and promoting its product sales.
+            </p>
+            <p>
+                Because ACUVUE wasn’t satisfied with their current APP, it asked MNG to give some improving suggestion.
+                And as an intern UX designer at MNG, I was assigned the task of analyzing the current version and
+                proposing a redesign solution so that the project manager could sell the solution to ACUVUE. It's my
+                first project at MNG and I took it seriously because I felt excited to show my design abilities.
+            </p>
+        </div>
+    </div>
 
+
+    <div class="section container context">
+        <div class="section-content">
+            <h5 class="work-section-title">Problem</h5>
+            <h4 class="medium-title">Defining existed problems took me forever</h4>
+            <p>Since there were so many problems for the APP, after I went through all pages, I
+                summarized its information architecture to help me better comb its logic.
+            </p>
+            <div class="media-image-wrap">
+                <img class="media-image" src="../images/ac-ia.png" alt="Previous IA">
+            </div>
+            <p>
+                Then, for each part of the APP, I tried to define its problems based on my knowledge about user
+                experience
+                design. If I had some questions, I would reach out for help from my director but I finished almost all
+                of them. Here we went:
+            </p>
+            <div class="media-image-wrap">
+                <img class="media-image" src="../images/ac-instruction.png" alt="Instruction page">
+            </div>
+            <p>
+                For the Instruction page, I thought instructions should be question-centered instead of answer-centered.
+                And after I clicked one answer, the detail page would open up in a new web page, which forced me have to
+                go back every time, but I preferred a smooth one-page reading experience. </p>
+            <div class="media-image-wrap">
+                <img class="media-image" src="../images/ac-product.png" alt="Product page">
+            </div>
+            <p>For the Product page, the big images caused slow loading speed. Also, the huge annotation of “Clicking
+                image to see details" wasn’t necessary since the card section should self-explain that it's clickable.
+                Also, the top menu bar wasn’t conspicuous to be found by users.</p>
+            <div class="media-image-wrap">
+                <img class="media-image" src="../images/ac-store.png" alt="Store finder page">
+            </div>
+            <p>For the Store finder page, the advertisement image not only didn’t increase user experience, but also
+                hampered it, because it took up the hero area which made the core function, store location, hard to be
+                found by users. Besides, when users searched a shop location, the useful map view feature was hidden in
+                default. Instead, a text-based address showed up, which totally disrupted the order.
+            </p>
+            <div class="media-image-wrap">
+                <img class="media-image" src="../images/ac-free.png" alt="Free sample page">
+            </div>
+            <p>For the Free sample page, there were too many form fields to fill, which was crazy. And there was a minor
+                technical bug that when you went into the page, the scroll bar always jumped down some distance, which
+                distracted users’ browsing experience.
+            </p>
+            <div class="media-image-wrap">
+                <img class="media-image" src="../images/ac-coupon.png" alt="Coupon page">
+            </div>
+            <p>For the Coupon page, the heavy image introduction should be replaced with html and css, which could save
+                network resource. Also, similar to free-sample page, users directly jumped down to the form area,
+                completely skipping the coupon instruction area, which meant many users had to scroll back if they
+                wanted to see instruction.</p>
+            <div class="media-image-wrap">
+                <img class="media-image" src="../images/ac-points.png" alt="Points store page">
+            </div>
+            <p>For the Points store page, there was no clue telling users how many points they already had. Also, if an
+                unlogged user clicked a product to check details, there would be alert popping up telling the user to
+                log in firstly. It would be better to directly jump to log in page when the website detected the
+                unlogged status.</p>
+            <div class="media-image-wrap">
+                <img class="media-image" src="../images/ac-gift.png" alt="Gift redemption page">
+            </div>
+            <p>For the Gift redemption page, the redemption history button was only a text one, which didn’t look
+                clickable. Also, the redemption process was redundant that asked users to do many unnecessary steps. Why
+                wouldn’t it be more convenient for users? For example, a one-click redemption.</p>
+            <div class="media-image-wrap">
+                <img class="media-image" src="../images/ac-redemption.png" alt="Redemption rule page">
+            </div>
+            <p>For the Redemption rule page, the title of “member card number” was meaningless for unauthenticated users
+                but the title was always there. Also, the redemption rules should be simplified. Now it’s hard to for a
+                ordinary person to figure them out.</p>
+            <div class="media-image-wrap">
+                <img class="media-image" src="../images/ac-registration.png"
+                     alt="Admin registration and User registration page">
+            </div>
+            <p>For the Admin registration page, the page should not be here which could be viewed by users. It’s not a
+                function for customers. And for the User registration page, firstly the registration form was also
+                redundant. Secondly, the page title should be replaced with my account because the title of “user
+                registration” wouldn’t make sense any more after users finished registration.</p>
+        </div>
+    </div>
+
+    <div class="section container">
+        <div class="section-content">
+            <h5 class="work-section-title">Process</h5>
+            <h4 class="medium-title">User journey map helped me think of better solutions</h4>
+            <p>Based on clients' information, I summarized three personas to help me understand different people’s
+                requirements, each of them representing a certain type of people. Later, I put my self into each
+                person’s position, imaging what would be a good user experience for
+                myself. Here were the user journeys of three people:</p>
+            <ul class="column-list row">
+                <li class="col-xs-12 col-sm-4">
+                    <img src="../images/ac-persona1.png" alt="Amber">
+                    <h5>First time user</h5>
+                    <span>Amber is a first time user. She knows little about the contacts and needs to wear contacts for special occasions. She never use ACUVUE lenses or any other brand lenses.</span>
+                    <ul class="timeline-list first">
+                        <li>Amber has no experience about purchasing ACCUVE products.</li>
+                        <li>A clerk directs Amber to an optometrist to choose the contacts that fit her requirements and
+                            recommends the WeChat official account to Amber
+                        </li>
+                        <li>Amber follows the official account then registers to get points and coupons. Now, she can
+                            use the points to redeem gifts, browse products and discover surrounding stores.
+                        </li>
+                    </ul>
+                </li>
+                <li class="col-xs-12 col-sm-4">
+                    <img src="../images/ac-persona2.png" alt="John">
+                    <h5>Experienced user</h5>
+                    <span>John is an experienced user. He has been using ACUVUE contacts for a while but he never use ACUVUE WeChat account. He also needs to purchase contacts regularly.</span>
+                    <ul class="timeline-list second">
+                        <li>John finds out he will get coupons if he registers as a member of ACUVUE on the WeChat
+                            account.
+                            He follows it and registers.
+                        </li>
+                        <li>John buys the contacts with a coupon at the store. The clerk tells him that he accumulates
+                            the points that can be redeemed online.
+                        </li>
+                        <li>John begins to accumulates points on purpose. Because he learns that he can order free
+                            samples online, he starts to pay attentions to promotion activities.
+                        </li>
+                    </ul>
+                </li>
+                <li class="col-xs-12 col-sm-4">
+                    <img src="../images/ac-persona3.png" alt="Linda">
+                    <h5>Loyal user</h5>
+                    <span>Linda is loyal user. She wears ACUVUE contacUE conryday. She has been using ACUVUE WeChat account and is used to purchasing ACUVUE contacts online.</span>
+                    <ul class="timeline-list third">
+                        <li>Linda runs out of her contacts and needs to buy more. She uses the Find stores function from
+                            the WeChat account to locate the nearest one.
+                        </li>
+                        <li>Linda buys the contacts then aska a clerk how many points she can get. She asks a clerk if
+                            there are any new free samples she can try.
+                        </li>
+                        <li>Linda uses points to redeem a gift. She pays attention to all new products and always be
+                            glad to order free samples, and uses coupons to buy products she likes.
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section container">
+        <div class="section-content">
+            <h5 class="work-section-title">Solution</h5>
+            <h4 class="medium-title">Every design should have reason behind it</h4>
+            <div class="media-image-wrap">
+            <img class="media-image" src="../images/ac-new-ia.png" alt="New IA">
+            </div>
+                <p>To start with, I simplified the information architecture based on the journey map.</p>
+            <div class="media-image-wrap">
+            <img class="media-image" src="../images/ac-new-product.png" alt="New product page">
+            </div>
+            <p>For Product page, firstly I kept all three products within one page, saving users’ time to
+                browse. Next, I changed the link of free sample to a more attractive CTA button which was put at the
+                bottom of the page, motivating users to click it. Also, I classified coupons to limited and unlimited
+                ones, motivating users to use coupon as soon as possible. In another words, motivating users to buy
+                products as soon as possible.</p>
+            <div class="media-image-wrap">
+            <img class="media-image" src="../images/ac-guidance.png" alt="New guidance page">
+            </div>
+            <p>
+                For Guidance page, firstly I changed the layout to question-centered style. Then I added product
+                recommendation banner to its related question, increasing the product’s selling conversion rate. Also, I
+                changed the interaction method of viewing all answer from jumping to another page to expanding under the
+                question.</p>
+            <div class="media-image-wrap">
+            <img class="media-image" src="../images/ac-new-store.png" alt="New store finder page">
+            </div>
+                <p>For Store finder page, I directly used map view to give users a clear and straightforward searching
+                experience. Specifically, I showed several surrounding stores in default based on user’s location.
+                Besides, I put the nearest store's detailed information on the bottom of the page. Search function also
+                be supported to satisfy users who wanted to search certain stores. After users selected the store, they
+                could navigate to the location by using WeChat Map API.
+            </p>
+            <div class="media-image-wrap">
+            <img class="media-image" src="../images/ac-new-coupon.png" alt="New coupon page">
+            </div>
+                <p>For Coupon page, in default, users had two different types of coupons after they logged in,
+                motivating them to purchase products. Also, the Back-end should send coupons to users from time to time,
+                prompting users when they landed on the page. Another detail was that I provided a coupon link at the
+                bottom of the page. Clients could use it to collect personal information from users if they wanted.</p>
+            <div class="media-image-wrap">
+            <img class="media-image" src="../images/ac-new-redemption.png"
+                 alt="New point and redemption page">
+            </div>
+            <p>For Points & Redemption page, I redesigned the layout, giving a bottom link which could jump to
+                redemption-rule page, which built the connection between two pages. Also, I added a progress bar to each
+                product, informing users of remaining actions to exchange the product, which encouraged users to collect
+                more points. After redeeming a product, users could view redemption history on My account page.</p>
+            <div class="media-image-wrap">
+            <img class="media-image" src="../images/ac-myaccount.png" alt="My account page">
+            </div>
+            <p>For My account page, besides changing the page title, I added coupons and redemption history to the
+                page so users could know more information on the account page. Another minor detail was that the first
+                time when users landed on the page, I asked them to sign up so they could directly use 100 points to
+                redeem products, encouraging users to sign up.</p>
+        </div>
+    </div>
+
+    <div class="section container">
+        <div class="section-content">
+            <h5 class="work-section-title">Reflection</h5>
+            <h4 class="medium-title">Focusing on details paid off in the end</h4>
+            <p>
+                This was a project relating much about improving user experience. It’s not a project which required you
+                to draw a big vision and defined functions. However, in my opinion, I really enjoyed the experience,
+                which you tried best to focus on each minor details and explored ways to improve them.
+            </p>
+            <p>
+                Though improving one or two details may not change much about a product, quantity will finally turn into
+                quality. If you could make sure every detail in its best case, you could turn a good product into a
+                perfect one. I believed that focusing on details, all your hard works would pay off in the end.
+            </p>
+            <img class="media-image" src="../images/ac-wireframe.png" alt="">
+
+            <nav class="clearfix work-nav row">
+                <a href="sofy-vr.html" class="prev pull-left col-md-6">SOFY—A VR shooting game to strengthen the brand identity</a>
+                <a href="wechat-now-cms.html" class="next pull-right col-md-6">WEHCAT NOW CMS—Customizing WeChat Account to unleash its potential</a>
+            </nav>
+        </div>
+    </div>
+
+    <footer class="container section">
+        Design & code by Joey &copy; 2016
+    </footer>
 </div>
-
-<div class="wrap work-detail hidden">
-    <div class="work-header-img"></div>
-    <div class="work-header">
-            <div class="verticle-align-m">
-                <span class="work-name">acuvue</span>
-                <span class="work-des">Caring for your eyes efficiently and effectively</span>
-            </div>
-        </div>
-    </div>
-
-    <div class="text-intro content-frame">
-        <div class="container-fluid">
-            Acuvue is a WeChat-based Web APP that helps users get online support efficiently, such as Q&A, online
-            shopping, and online redemption, which assist users to care for their eyes anytime anywhere, while enhancing Acuvue’s brand
-            awareness and promoting its product sales.
-        </div>
-    </div>
-
-    <div class="content-frame bg-black analysis">
-        <div class="container-fluid">
-            <h2>Analysis of Last Version</h2>
-
-            <div class="item-wrap mw-700">
-                <h3 class="item-title text-center">IA</h3>
-                <!--<a class="popup-link" href="../img/acuvue-previous-ia.png"><img src="../img/img-placeholder.gif"-->
-                                                                                <!--data="../img/acuvue-previous-ia.png"-->
-                                                                                <!--alt="acuvue-previous-ia"></a>-->
-                <img src="../img/img-placeholder.gif"
-                     data="../img/acuvue-previous-ia.png"
-                     alt="acuvue-previous-ia">
-            </div>
-
-            <div class="item-wrap text-center mw-700">
-                <h3 class="item-title">Visual IA</h3>
-                <!--<a class="popup-link" href="../img/acuvue-previous-ia-cover.png"><img src="../img/img-placeholder.gif"-->
-                                                                                      <!--data="../img/acuvue-previous-ia-cover.png"-->
-                                                                                      <!--alt="acuvue-previous-ia-cover"></a>-->
-                <img src="../img/img-placeholder.gif"
-                     data="../img/acuvue-previous-ia-cover.png"
-                     alt="acuvue-previous-ia-cover">
-            </div>
-
-            <div class="item-wrap">
-                <ul class="flow-list mw-300">
-                    <li>
-                        <h3 class="item-title text-center">A1 & A2 Instructions</h3>
-                        <img src="../img/img-placeholder.gif" data="../img/acuvue-a1-a2.png" alt="acuvue-a1-a2">
-                        <h3 class="list-title">Cons:</h3>
-                        <ul class="text-list">
-                            <li>Instructions should be question-centered instead of answer-centered
-                            </li>
-                            <li>An answer opens up in a new web page after clicking the button
-                            </li>
-                            <li>This page lacks connections with other pages
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3 class="item-title text-center">A3 Products</h3>
-                        <img src="../img/img-placeholder.gif" data="../img/acuvue-a3.png" alt="acuvue-a3">
-                        <h3 class="list-title">Cons:</h3>
-                        <ul class="text-list">
-                            <li>Big images cause slow loading
-                            </li>
-                            <li>Annotations are too outstanding and cause confusion
-                            </li>
-                            <li>It is not clear whether the top menu is clickable
-                            </li>
-                            <li>The Registration part requires too much information
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="item-wrap">
-                <ul class="flow-list mw-300">
-                    <li>
-                        <h3 class="item-title text-center">B1 Store Finder</h3>
-                        <img src="../img/img-placeholder.gif" data="../img/acuvue-store-finder.png" alt="acuvue-store">
-                        <h3 class="list-title">Cons:</h3>
-                        <ul class="text-list">
-                            <li>Advertisements do not add value to the user experience
-                            </li>
-                            <li>Store Location function is not at the hero area
-                            </li>
-                            <li>Map View feature is hidden in default state
-                            </li>
-                        </ul>
-
-                    </li>
-                    <li>
-                        <h3 class="item-title text-center">B2 Free Sample</h3>
-                        <img src="../img/img-placeholder.gif" data="../img/acuvue-free-sample.png"
-                             alt="acuvue-free-sample">
-                        <h3 class="list-title">Cons:</h3>
-                        <ul class="text-list">
-                            <li>A hero image doesn’t necessarily add value, as the page directly jumps to below form
-                            </li>
-                            <li>Too many form fields for user to fill
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3 class="item-title text-center">B3 Coupon</h3>
-                        <img src="../img/img-placeholder.gif" data="../img/acuvue-coupon.png" alt="acuvue-coupon">
-
-                        <h3 class="list-title">Cons:</h3>
-                        <ul class="text-list">
-                            <li>The page directly jumps to the form, completely skipping the
-                                coupons. Users have to scroll back
-                            </li>
-                            <li>The heavy image is annoying and redundant
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="item-wrap">
-                <ul class="flow-list mw-300">
-                    <li>
-                        <h3 class="item-title text-center">C1 Points Store</h3>
-                        <img src="../img/img-placeholder.gif" data="../img/acuvue-points-store.png"
-                             alt="acuvue-points-store">
-                        <h3 class="list-title">Cons:</h3>
-                        <ul class="text-list">
-                            <li>Categories of products format are not clear for users
-                            </li>
-                            <li>The registration notification does not directly lead user to the registration page
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3 class="item-title text-center">C2 Gift Redemption</h3>
-                        <img src="../img/img-placeholder.gif" data="../img/acuvue-gift-redemption.png"
-                             alt="acuvue-gift-redemption">
-                        <h3 class="list-title">Cons:</h3>
-                        <ul class="text-list">
-                            <li>The Banner image does not add value
-                            </li>
-                            <li>The exchange process needs to be streamlined
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3 class="item-title text-center">C3 Points Rule</h3>
-                        <img src="../img/img-placeholder.gif" data="../img/acuvue-points-rule.png"
-                             alt="acuvue-points-rule">
-                        <h3 class="list-title">Cons:</h3>
-                        <ul class="text-list">
-                            <li>The title of a member card is unnecessary for unauthenticated users
-                            </li>
-                            <li>Points information is hard to understand
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3 class="item-title text-center">C4 Admin Register</h3>
-                        <img src="../img/img-placeholder.gif" data="../img/acuvue-admin-register.png"
-                             alt="acuvue-admin-register">
-                        <h3 class="list-title">Cons:</h3>
-                        <ul class="text-list">
-                            <li>The function of admin registration should not be viewed by users
-                            </li>
-                            <li>The error prompt does not instruct users what to do next
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3 class="item-title text-center">C5 User Register</h3>
-                        <img src="../img/img-placeholder.gif" data="../img/acuvue-user-register.png"
-                             alt="acuvue-user-register">
-                        <h3 class="list-title">Cons:</h3>
-                        <ul class="text-list">
-                            <li>The registration form is redundant
-                            </li>
-                            <li>The title of the page does not make sense after users finish registration
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="content-frame bg-grey summary">
-        <div class="container-fluid">
-            <h2>Summary</h2>
-            <table class="table table-hover item-wrap">
-                <tr>
-                    <th class="col-1">Overall Findings</th>
-                    <th class="col-2">Recommendations</th>
-                </tr>
-                <tr>
-                    <td><i class="fa fa-caret-left" aria-hidden="true"></i>Pages load slowly due to heavy images
-                    </td>
-                    <td><i class="fa fa-caret-left" aria-hidden="true"></i>Optimize browse experience
-                    </td>
-                </tr>
-                <tr>
-                    <td><i class="fa fa-caret-up" aria-hidden="true"></i>The structure of information is not well
-                        organised
-                    </td>
-                    <td><i class="fa fa-caret-up" aria-hidden="true"></i>Refine the IA via persona and user journey
-                    </td>
-                </tr>
-                <tr>
-                    <td><i class="fa fa-caret-right" aria-hidden="true"></i>Some key functions such as registration,
-                        redeeming points, are too fussy
-                    </td>
-                    <td><i class="fa fa-caret-right" aria-hidden="true"></i>Simplify redundant procedures and push
-                        more accurate messages
-                    </td>
-                </tr>
-                <tr>
-                    <td><i class="fa fa-caret-down" aria-hidden="true"></i>Visual design needs to be improved and pages
-                        lack connection with each other
-                    </td>
-                    <td><i class="fa fa-caret-down" aria-hidden="true"></i>Make design consistent among the APP to
-                         build a sense of accountability
-                    </td>
-                </tr>
-            </table>
-        </div>
-    </div>
-
-    <div class="content-frame bg-black personas">
-        <div class="container-fluid">
-            <h2 class="text-center">Persona</h2>
-
-            <div class="column-wrap">
-
-                <div class="column">
-                    <div class="amber leading-img-100"></div>
-                    <h3 class="text-center">Amber</h3>
-                    <span class="note">First Time User</span>
-
-                    <ul class="text-list center-block">
-                        <li>Know little about the contacts</li>
-                        <li>Need to wear contacts for special occasions</li>
-                        <li>Never use ACUVUE lenses or any other brand lenses</li>
-                    </ul>
-
-                </div>
-
-                <div class="column">
-                    <div class="john leading-img-100"></div>
-                    <h3 class="text-center">John</h3>
-                    <span class="note">Experienced User</span>
-
-                    <ul class="text-list center-block">
-                        <li>Have been using ACUVUE contacts
-                        </li>
-                        <li>Never use ACUVUE WeChat account
-                        </li>
-                        <li>Need to purchase contacts regularly
-                        </li>
-                    </ul>
-
-                </div>
-
-                <div class="column">
-                    <div class="linda leading-img-100"></div>
-                    <h3 class="text-center">Linda</h3>
-                    <span class="note">Loyal User</span>
-
-                    <ul class="text-list center-block">
-                        <li>Wear ACUVUE contacts everyday
-                        </li>
-                        <li>Have been using ACUVUE WeChat account
-                        </li>
-                        <li>Am used to purchasing ACUVUE contacts regularly
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="content-frame bg-grey work-ia user-journey">
-        <div class="container-fluid">
-            <h2 class="text-center">User Journey</h2>
-
-            <div class="column-wrap">
-
-                <div class="column">
-                    <div class="amber leading-img-100"></div>
-                    <h3 class="text-center">Amber</h3>
-
-                    <div class="timeline-wrap">
-                        <div class="timeline">
-                            <div class="event">
-                                <h4>First Experience</h4>
-                                <ul>
-                                    <li>None</li>
-                                </ul>
-                            </div>
-                            <div class="event">
-                                <h4>Offline</h4>
-                                <ul>
-                                    <li>A clerk directs Amber to an optometrist to choose the contacts that fit her
-                                        requirements
-                                    </li>
-                                    <li>A clerk recommends the WeChat official account to Amber</li>
-                                </ul>
-                            </div>
-                            <div class="event">
-                                <h4>Online</h4>
-                                <ul>
-                                    <li>Amber follows the official account then registers to get points and coupons</li>
-                                    <li>She can use the points to redeem gifts</li>
-                                    <li>Also she can browse products and discover surrounding stores</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="column">
-                    <div class="john leading-img-100"></div>
-                    <h3 class="text-center">John</h3>
-
-                    <div class="timeline-wrap">
-                        <div class="timeline">
-                            <div class="event">
-                                <h4>First Experience</h4>
-                                <ul>
-                                    <li>John finds out he will get more coupons and benefits if he registers as a member
-                                        of ACUVUE
-                                    </li>
-                                    <li>He follows the account then registers</li>
-                                </ul>
-                            </div>
-                            <div class="event">
-                                <h4>Offline</h4>
-                                <ul>
-                                    <li>John comes to the store to buy the contacts with a coupon</li>
-                                    <li>He learns from the clerk that the account can also accumulate points</li>
-                                </ul>
-                            </div>
-                            <div class="event">
-                                <h4>Online</h4>
-                                <ul>
-                                    <li>John uses the points to redeem gifts</li>
-                                    <li>He tries free samples before he buys contacts</li>
-                                    <li>He starts to pay attentions to promotion activities posted online</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="column">
-                    <div class="linda leading-img-100"></div>
-                    <h3 class="text-center">Linda</h3>
-                    <div class="timeline-wrap">
-                        <div class="timeline">
-                            <div class="event">
-                                <h4>First Experience</h4>
-                                <ul>
-                                    <li>Linda runs out of her contacts and she needs to buy some more
-                                    </li>
-                                    <li>She uses the Find Stores function from the official account to locate stores
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="event">
-                                <h4>Offline</h4>
-                                <ul>
-                                    <li>Linda buys the contacts then ask a clerk how many points she can get</li>
-                                    <li>She asks a clerk if there are any new free samples she can try</li>
-                                </ul>
-                            </div>
-                            <div class="event">
-                                <h4>Online</h4>
-                                <ul>
-                                    <li>Linda uses points to redeem gifts</li>
-                                    <li>She pays attention to all new discounts</li>
-                                    <li>She also pays attention to all newly-released products and is glad to try them</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-
-    <div class="content-frame bg-black ux">
-        <div class="container-fluid">
-            <h2 class="text-center">Updated UX</h2>
-
-            <div class="item-wrap mw-700">
-                <h3 class="text-center item-title">AI</h3>
-                <!--<a class="popup-link" href="../img/acuvue-update-ia.png"><img src="../img/img-placeholder.gif"-->
-                                                                              <!--data="../img/acuvue-update-ia.png"-->
-                                                                              <!--alt="acuvue-update-ia"></a>-->
-                <img src="../img/img-placeholder.gif"
-                     data="../img/acuvue-update-ia.png"
-                     alt="acuvue-update-ia">
-            </div>
-
-            <div class="item-wrap mw-700">
-                <h3 class="text-center item-title">Visual AI</h3>
-                <!--<a class="popup-link" href="../img/acuvue-update-visual-ia.png"><img src="../img/img-placeholder.gif"-->
-                                                                                     <!--data="../img/acuvue-update-visual-ia.png"-->
-                                                                                     <!--alt="acuvue-update-visual-ia"></a>-->
-                <img src="../img/img-placeholder.gif"
-                     data="../img/acuvue-update-visual-ia.png"
-                     alt="acuvue-update-visual-ia">
-            </div>
-
-            <div class="item-wrap mw-700">
-                <h3 class="text-center item-title">A1 Products List</h3>
-                <!--<a class="popup-link" href="../img/acuvue-update-products-list.png"><img-->
-                        <!--src="../img/img-placeholder.gif" data="../img/acuvue-update-products-list.png"-->
-                        <!--alt="acuvue-update-products-list"></a>-->
-                <img src="../img/img-placeholder.gif" data="../img/acuvue-update-products-list.png"
-                        alt="acuvue-update-products-list">
-
-                <h3 class="list-title">Improvements:</h3>
-                <ul class="text-list">
-                    <li>Change the link of free sample and coupon to a more attractive button, calling to action
-                    </li>
-                    <li>Classify coupons to limited and unlimited ones, motivating users to use coupon asap
-                    </li>
-                    <li>Keep all products within one page, which is more friendly for user to browse. And put Free
-                        Sample as a banner at the bottom of the page
-                    </li>
-                </ul>
-            </div>
-
-            <div class="item-wrap mw-700">
-                <h3 class="text-center item-title">A2 Guide</h3>
-                <!--<a class="popup-link" href="../img/acuvue-update-guide.png"><img src="../img/img-placeholder.gif"-->
-                                                                                 <!--data="../img/acuvue-update-guide.png"-->
-                                                                                 <!--alt="acuvue-update-guide"></a>-->
-                <img src="../img/img-placeholder.gif" data="../img/acuvue-update-guide.png" alt="acuvue-update-guide">
-                <h3 class="list-title">Improvements:</h3>
-                <ul class="text-list">
-                    <li>Add question-related products recommendation to each question, increasing the selling
-                        conversion rate
-                    </li>
-                    <li>Keep details of the answer on the same page with the question, which can be collapsed and expanded
-                    </li>
-                </ul>
-            </div>
-
-            <div class="item-wrap mw-700">
-                <h3 class="text-center item-title">B1 Find Stores</h3>
-                <!--<a class="popup-link" href="../img/acuvue-update-find-stores.png"><img src="../img/img-placeholder.gif"-->
-                                                                                       <!--data="../img/acuvue-update-find-stores.png"-->
-                                                                                       <!--alt="acuvue-update-find-stores"></a>-->
-                <img src="../img/img-placeholder.gif" data="../img/acuvue-update-find-stores.png" alt="acuvue-update-find-stores">
-
-                <h3 class="list-title">Improvements:</h3>
-                <ul class="text-list">
-                    <li>Use Map View to give users a clear and straightforward searching experience
-                    </li>
-                    <li>Show surrounding stores in default based on user’s location, and also provide search
-                        function. Put the nearest store's detailed information on the Find Store page
-                    </li>
-                    <li>After users select the store, they can view its information and use WeChat Route API to navigate
-                    </li>
-                </ul>
-            </div>
-
-            <div class="item-wrap mw-700">
-                <h3 class="text-center item-title">B2 Coupons</h3>
-                <!--<a class="popup-link" href="../img/acuvue-update-coupons.png"><img src="../img/img-placeholder.gif"-->
-                                                                                   <!--data="../img/acuvue-update-coupons.png"-->
-                                                                                   <!--alt="acuvue-update-coupons"></a>-->
-                <img src="../img/img-placeholder.gif" data="../img/acuvue-update-coupons.png" alt="acuvue-update-coupons">
-                <h3 class="list-title">Improvements:</h3>
-                <ul class="text-list">
-                    <li>Show coupons that users already have
-                    </li>
-                    <li>Send users coupons from time to time, and prompt them messages when they land on the page
-                    </li>
-                    <li>Give users a coupon link at the bottom of the page if clients want to collect some
-                        information from users
-                    </li>
-                </ul>
-            </div>
-
-            <div class="item-wrap mw-700">
-                <h3 class="text-center item-title">C1 Points & Redemption</h3>
-                <!--<a class="popup-link" href="../img/acuvue-update-points-redemption.png"><img-->
-                        <!--src="../img/img-placeholder.gif" data="../img/acuvue-update-points-redemption.png"-->
-                        <!--alt="acuvue-update-points-redemption"></a>-->
-                <img src="../img/img-placeholder.gif" data="../img/acuvue-update-points-redemption.png" alt="acuvue-update-points-redemption">
-
-                <h3 class="list-title">Improvements:</h3>
-                <ul class="text-list">
-                    <li>Reorganize the content, give a bottom link jumping to Getting Points Page
-                    </li>
-                    <li>Add progress bar to each product, informing users of remaining actions to exchange the product, encouraging users to get points
-                    </li>
-                    <li>After exchanging a product successfully, users can view redemption history on the account page
-                    </li>
-                </ul>
-            </div>
-
-            <div class="item-wrap mw-700">
-                <h3 class="text-center item-title">C2 My Account</h3>
-                <!--<a class="popup-link" href="../img/acuvue-update-myaccount.png"><img src="../img/img-placeholder.gif"-->
-                                                                                     <!--data="../img/acuvue-update-myaccount.png"-->
-                                                                                     <!--alt="acuvue-update-myaccount"></a>-->
-                <img src="../img/img-placeholder.gif" data="../img/acuvue-update-myaccount.png" alt="acuvue-update-myaccount">
-                <h3 class="list-title">Improvements:</h3>
-                <ul class="text-list">
-                    <li>Change the page name to an easily-understood one
-                    </li>
-                    <li>The first time when users land on the page, ask users to sign up so they can use 100 free points
-                    </li>
-                    <li>Add Coupon Information & Redemption History to the account page after users sign up
-                    </li>
-                </ul>
-            </div>
-
-            <span class="comment font-white">
-                My Roles: Products Analysis, User research, UX<br>
-                Client: ACUVUE<br>
-                Teammates: Tobias, Floveet<br>
-                Date: May - June 2016<br>
-            </span>
-        </div>
-    </div>
-
-    <div class="footer container-fluid bg-white">
-        Design & Code by Joey © 2016
-    </div>
-
-    <div class="exchange-nav">
-        <span class="exchange"><i class="fa fa-exchange" aria-hidden="true"></i></span>
-        <span class="close-button hidden"><i class="fa fa-times" aria-hidden="true"></i></span>
-        <a class="prev hidden" href="wechat-now-cms.html"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
-        <a class="next hidden" href="2nd-street.html"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-    </div>
-
-</div>
-
 
 </body>
 
-<!--<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="></script>-->
-<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"></script>-->
-<script src="../js/google_analytics.js"></script>
-<script src="../js/jquery.min.js"></script>
-<script src="../js/slick/slick.min.js"></script>
-<script src="../js/magnific/jquery.magnific-popup.min.js"></script>
-<script src="../js/main.js"></script>
+<script type="text/javascript" src="../js/google_analytics.js"></script>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/main.js"></script>
 </html>
