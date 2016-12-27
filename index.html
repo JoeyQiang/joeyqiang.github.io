@@ -8,16 +8,30 @@
     <meta name="keywords" content="user experience design, ux, ui">
     <meta name="description" content="Joey's portfolio">
     <title>Joey Qiang - a user experience designer</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
+
+<div class="load-panel">
+<a href="#" class="hexagon load-icon loading">
+        <span class="slice"></span>
+        <span class="slice"></span>
+        <span class="slice"></span>
+        <span class="slice"></span>
+        <span class="slice"></span>
+        <span class="slice"></span>
+</a>
+</div>
+
 <div class="site-wrapper index">
 
-    <a class="main-menu hexagon mobile" href="#">
+    <a class="mobile-menu hexagon" href="#">
         <span class="slice"></span>
         <span class="slice"></span>
         <span class="slice"></span>
@@ -27,13 +41,15 @@
         <i class="icon"></i>
     </a>
 
-    <ul class="main-nav mobile">
-        <li><a href="">works</a></li>
-        <li><a href="">about</a></li>
-        <li><a href="">contact</a></li>
+    <div class="mobile-nav">
+    <ul>
+        <li><a href="">Work</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
     </ul>
+    </div>
 
-    <header class="desktop">
+    <header class="desktop-header">
         <a class="main-menu hexagon" href="#">
             <span class="slice"></span>
             <span class="slice"></span>
@@ -46,9 +62,10 @@
     </header>
 
     <div class="one-screen container section intro">
-        <div class="section-content">
-            <img class="media-image author-portrait" src="images/in-author-portrait.png" alt="">
-
+        <div class="section-content pt-0">
+            <div class="media-image-wrap mt-0 mb-0">
+                <img class="media-image author-portrait" src="images/in-author-portrait.png" alt="">
+            </div>
             <?xml version="1.0" encoding="UTF-8"?>
             <svg class="author-name" width="234px" height="49px" viewBox="0 0 234 49" version="1.1"
                  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -80,7 +97,7 @@
                 </g>
             </svg>
 
-            <h3 class="large-title">I design rigorous and innovative digital experiences</h3>
+            <h1>I design rigorous and innovative digital experiences</h1>
             <p>In 2015, I finished my bachelor degree at HuaZhong University of Science & Technology. And I will
                 received my
                 IxD master degree from <strong>the University of Kansas</strong> in Spring 2017. </p>
@@ -94,98 +111,97 @@
 
     <div class="section container works">
         <div class="section-content">
-            <h4 class="section-title medium-title">works</h4>
+            <h2 class="section-title">works</h2>
 
-            <div class="sub-section">
-
-                <div class="row">
-                    <div class="img-wrap col-md-4 col-lg-4">
-                        <a href="work/sofy-vr.html">
-                            <img class="media-image" src="images/sv-cover.png" alt="">
-                            <h5 class="small-title work-title text-uppercase">sofy vr</h5>
-                            <p>A VR shooting game to strengthen the brand identity</p>
-                        </a>
-                        <a class="read-more" href="work/sofy-vr.html">Read more...</a>
-                    </div>
-
-                    <div class="img-wrap col-md-4 col-lg-4">
-                        <a href="work/acuvue.html">
-                            <img class="media-image" src="images/ac-cover.png" alt="">
-                            <h5 class="small-title work-title text-uppercase">acuvue</h5>
-                            <p>Caring for your eyes efficiently and effectively</p>
-                        </a>
-                        <a class="read-more" href="work/acuvue.html">Read more...</a>
-                    </div>
-
-                    <div class="img-wrap col-md-4 col-lg-4">
-                        <a href="work/wechat-now-cms.html">
-                            <img class="media-image" src="images/wn-cover.png" alt="">
-                            <h5 class="small-title work-title text-uppercase">wechat now cms</h5>
-                            <p>Customizing WeChat Account to unleash its potential</p>
-                        </a>
-                        <a class="read-more" href="work/wechat-now-cms.html">Read more...</a>
-                    </div>
+            <div class="row">
+                <div class="img-wrap col-md-4 col-lg-4">
+                    <a href="work/sofy-vr.html">
+                        <img class="media-image" src="images/sv-cover.png" alt="">
+                        <h3 class="work-title">sofy vr</h3>
+                        <p>A VR shooting game to strengthen the brand identity</p>
+                    </a>
+                    <a class="read-more" href="work/sofy-vr.html">Read more...</a>
                 </div>
 
-                <div class="row">
-                    <div class="img-wrap col-md-4 col-lg-4">
-                        <a href="work/2nd-street.html">
-                            <img class="media-image" src="images/2n-cover.png" alt="">
-                            <h5 class="small-title work-title text-uppercase">2nd street</h5>
-                            <p>Facilitating a reciprocal group among Chinese students</p>
-                        </a>
-                        <a class="read-more" href="work/2nd-street.html">Read more...</a>
-                    </div>
-
-                    <div class="img-wrap col-md-4 col-lg-4">
-                        <a href="work/inplace.html">
-                            <img class="media-image" src="images/ip-cover.png" alt="">
-                            <h5 class="small-title work-title text-uppercase">Inplace</h5>
-                            <p>Connecting older adults with loving community</p>
-                        </a>
-                        <a class="read-more" href="inplace.html">Read more...</a>
-                    </div>
-
-                    <div class="img-wrap col-md-4 col-lg-4">
-                        <a href="work/smart-closet.html">
-                            <img class="media-image" src="images/sc-cover.png" alt="">
-                            <h5 class="small-title work-title text-uppercase">Smart Closet</h5>
-                            <p>Making dressing and storage seamlessly interactive</p>
-                        </a>
-                        <a class="read-more" href="work/smart-closet.html">Read more...</a>
-                    </div>
+                <div class="img-wrap col-md-4 col-lg-4">
+                    <a href="work/acuvue.html">
+                        <img class="media-image" src="images/ac-cover.png" alt="">
+                        <h3 class="work-title">acuvue</h3>
+                        <p>Caring for your eyes efficiently and effectively</p>
+                    </a>
+                    <a class="read-more" href="work/acuvue.html">Read more...</a>
                 </div>
 
-                <div class="button-wrap">
-                    <button class="view-all hexagon">
-                        <span class="slice"></span>
-                        <span class="slice"></span>
-                        <span class="slice"></span>
-                        <span class="slice"></span>
-                        <span class="slice"></span>
-                        <span class="slice"></span>
-                        <i class="icon"></i>
-                    </button>
-                    <span>View all</span>
+                <div class="img-wrap col-md-4 col-lg-4">
+                    <a href="work/wechat-now-cms.html">
+                        <img class="media-image" src="images/wn-cover.png" alt="">
+                        <h3 class="work-title">wechat now cms</h3>
+                        <p>Customizing WeChat Account to unleash its potential</p>
+                    </a>
+                    <a class="read-more" href="work/wechat-now-cms.html">Read more...</a>
                 </div>
-
             </div>
+
+            <div class="row">
+                <div class="img-wrap col-md-4 col-lg-4">
+                    <a href="work/2nd-street.html">
+                        <img class="media-image" src="images/2n-cover.png" alt="">
+                        <h3 class="work-title">2nd street</h3>
+                        <p>Facilitating a reciprocal group among Chinese students</p>
+                    </a>
+                    <a class="read-more" href="work/2nd-street.html">Read more...</a>
+                </div>
+
+                <div class="img-wrap col-md-4 col-lg-4">
+                    <a href="work/inplace.html">
+                        <img class="media-image" src="images/ip-cover.png" alt="">
+                        <h3 class="work-title">Inplace</h3>
+                        <p>Connecting older adults with loving community</p>
+                    </a>
+                    <a class="read-more" href="work/inplace.html">Read more...</a>
+                </div>
+
+                <div class="img-wrap col-md-4 col-lg-4 mb-0">
+                    <a href="work/smart-closet.html">
+                        <img class="media-image" src="images/sc-cover.png" alt="">
+                        <h3 class="work-title">Smart Closet</h3>
+                        <p>Making dressing and storage seamlessly interactive</p>
+                    </a>
+                    <a class="read-more" href="work/smart-closet.html">Read more...</a>
+                </div>
+            </div>
+
+            <div class="button-wrap">
+                <button class="view-all hexagon">
+                    <span class="slice"></span>
+                    <span class="slice"></span>
+                    <span class="slice"></span>
+                    <span class="slice"></span>
+                    <span class="slice"></span>
+                    <span class="slice"></span>
+                    <i class="icon"></i>
+                </button>
+                <span>View all</span>
+            </div>
+
         </div>
     </div>
 
     <div class="section container">
         <div class="section-content">
-            <h4 class="section-title medium-title">about</h4>
+            <h2 class="section-title">about</h2>
 
             <div class="sub-section">
-                <h5 class="small-title sub-section-title">What my peers say</h5>
+                <h3 class="sub-section-title">What my peers say</h3>
                 <div class="row">
                     <figure class="col-md-4 col-lg-4">
                         <blockquote>"Joey has proven that he has a very capable skill-set that will benefit any
                             marketing or advertising organization. Joey also fits in very easily and has an energy that
                             is contagious, my team simply enjoys working with him."
                         </blockquote>
-                        <figcaption>— Conrad Roberts, Interim Director & Business Manager, University Press of Kansas less</figcaption>
+                        <figcaption>— Conrad Roberts, Interim Director & Business Manager, University Press of Kansas
+                            less
+                        </figcaption>
                     </figure>
                     <figure class="col-md-4 col-lg-4">
                         <blockquote>"Joey is a bold and outspoken person that shows a lot of initiatives in all of his
@@ -197,56 +213,70 @@
                     </figure>
                     <figure class="col-md-4 col-lg-4">
                         <blockquote>"Joey adapted quickly to our work environment and is always ready to jump right in
-                            to projects. If he doesn’t know how to do something, he is willing to research and learn on his own and also great at collaborating and sharing ideas with the team."
+                            to projects. If he doesn’t know how to do something, he is willing to research and learn on
+                            his own and also great at collaborating and sharing ideas with the team."
                         </blockquote>
-                        <figcaption>— Melissa Meyer, Creative Director at the University of Kansas, Center for Educational Testing and Evaluation
+                        <figcaption>— Melissa Meyer, Creative Director at the University of Kansas, Center for
+                            Educational Testing and Evaluation
                         </figcaption>
                     </figure>
                 </div>
             </div>
 
-            <div class="sub-section">
-                <h5 class="small-title sub-section-title">What I've been up to</h5>
+            <div class="sub-section vebeen">
+                <h3 class="sub-section-title">What I've been up to</h3>
                 <div class="row">
                     <div class="img-wrap col-md-4 col-lg-4">
+                        <a target="_blank" href="http://joeyqiang.lofter.com/tag/icon90">
                         <img class="media-image" src="images/in-icon90.png" alt="">
-                        <h5 class="small-title work-title">ICON 90 DAYS</h5>
+                        <h3 class="work-title">ICON 90 DAYS</h3>
                         <p>A 90 days icon training program</p>
-                        <a class="read-more" target="_blank" href="http://joeyqiang.lofter.com/tag/icon90">Read
+                        </a>
+                            <a class="read-more" target="_blank" href="http://joeyqiang.lofter.com/tag/icon90">Read
                             more...</a>
                     </div>
                     <div class="img-wrap col-md-4 col-lg-4">
+                        <a target="_blank" href="http://joeyqiang.lofter.com/tag/web">
                         <img class="media-image" src="images/in-web.gif" alt="">
-                        <h5 class="small-title work-title">WEB ANIMATION</h5>
+                        <h3 class="work-title">WEB ANIMATION</h3>
                         <p>Explore fancy and friendly web animation effects</p>
-                        <a class="read-more" target="_blank" href="http://joeyqiang.lofter.com/tag/web">Read more...</a>
+                        </a>
+                            <a class="read-more" target="_blank" href="http://joeyqiang.lofter.com/tag/web">Read more...</a>
                     </div>
-                    <div class="img-wrap col-md-4 col-lg-4">
+                    <div class="img-wrap col-md-4 col-lg-4 mb-0">
+                        <a target="_blank" href="http://joeyqiang.lofter.com/tag/ui100">
                         <img class="media-image" src="images/in-dailyui.png" alt="">
-                        <h5 class="small-title work-title">DAILY UI</h5>
+                        <h3 class="work-title">DAILY UI</h3>
                         <p>Become a better designer in 100 days</p>
-                        <a class="read-more" target="_blank" href="http://joeyqiang.lofter.com/tag/ui100">Read
+                        </a>
+                            <a class="read-more" target="_blank" href="http://joeyqiang.lofter.com/tag/ui100">Read
                             more...</a>
                     </div>
                 </div>
             </div>
 
             <div class="sub-section">
-                <h5 class="small-title sub-section-title">What my 5k+ views articles</h5>
+                <h3 class="sub-section-title">What my 5k+ views articles</h3>
 
                 <ul class="text-list row">
                     <li class="col-md-4 col-lg-4">
-                        <h5 class="small-title article-title">How did I build my GitHub page blog</h5>
+                        <a target="_blank" href="http://www.jianshu.com/p/4fd3cb0a11da">
+                        <h3 class="article-title">How did I build my GitHub page blog</h3>
+                        </a>
                         <a class="read-more" target="_blank" href="http://www.jianshu.com/p/4fd3cb0a11da">Read
                             more...</a>
                     </li>
                     <li class="col-md-4 col-lg-4">
-                        <h5 class="small-title article-title">User interfaces analysis of Meituan Groupon APP</h5>
-                        <a class="read-more" target="_blank" href="http://www.jianshu.com/p/bdd7358445ce">Read
+                        <a target="_blank" href="http://www.jianshu.com/p/bdd7358445ce">
+                        <h3 class="article-title">User interfaces analysis of Meituan groupon APP</h3>
+                        </a>
+                            <a class="read-more" target="_blank" href="http://www.jianshu.com/p/bdd7358445ce">Read
                             more...</a>
                     </li>
-                    <li class="col-md-4 col-lg-4">
-                        <h5 class="small-title article-title">Silicon, which refresh how I view the world</h5>
+                    <li class="col-md-4 col-lg-4 mb-0">
+                        <a target="_blank" href="http://www.jianshu.com/p/827239148df8">
+                        <h3 class="article-title">Silicon, which refresh how I view the world</h3>
+                        </a>
                         <a class="read-more" target="_blank" href="http://www.jianshu.com/p/827239148df8">Read
                             more...</a>
                     </li>
@@ -259,9 +289,9 @@
 
     <div class="section container contact">
         <div class="section-content">
-            <h4 class="section-title medium-title">contact</h4>
-            <p class="normal-text">
-                If you want to collaborate on crafting amazing experience for people — you're very welcome to contact
+            <h2 class="section-title">contact</h2>
+            <p>
+                If you want to collaborate on crafting amazing experience for people<br>— you're very welcome to contact
                 me.
             </p>
             <h5><strong>Joey Qiang</strong></h5>
