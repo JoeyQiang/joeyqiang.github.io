@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871841fb-6174-40b2-aca6-4835b566f9cc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.less" afterPath="$PROJECT_DIR$/css/style.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/2nd-street.html" afterPath="$PROJECT_DIR$/work/2nd-street.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/acuvue.html" afterPath="$PROJECT_DIR$/work/acuvue.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/inplace.html" afterPath="$PROJECT_DIR$/work/inplace.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/sofy-vr.html" afterPath="$PROJECT_DIR$/work/sofy-vr.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/wechat-now-cms.html" afterPath="$PROJECT_DIR$/work/wechat-now-cms.html" />
     </list>
     <ignored path="joeyqiang.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +32,8 @@
           <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="421">
-                  <caret line="589" column="1" lean-forward="true" selection-start-line="589" selection-start-column="1" selection-end-line="589" selection-end-column="1" />
+                <state relative-caret-position="455">
+                  <caret line="399" column="14" lean-forward="false" selection-start-line="399" selection-start-column="14" selection-end-line="399" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -64,8 +58,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="68" column="47" lean-forward="true" selection-start-line="67" selection-start-column="39" selection-end-line="68" selection-end-column="47" />
+                <state relative-caret-position="285">
+                  <caret line="157" column="25" lean-forward="true" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -161,7 +155,6 @@
       <find>por</find>
       <find>h3</find>
       <find>mobile</find>
-      <find>button</find>
       <find>mobile-menu</find>
       <find>menu</find>
       <find>vh</find>
@@ -174,6 +167,7 @@
       <find>hexagon.lao</find>
       <find>mobile-nav</find>
       <find>j</find>
+      <find>button</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -203,8 +197,8 @@
         <option value="$PROJECT_DIR$/work/2nd-street.html" />
         <option value="$PROJECT_DIR$/work/wechat-now-cms.html" />
         <option value="$PROJECT_DIR$/work/sofy-vr.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.less" />
       </list>
     </option>
@@ -472,12 +466,12 @@
       <workItem from="1481065444290" duration="338000" />
       <workItem from="1481066233501" duration="644000" />
       <workItem from="1482758855810" duration="10207000" />
-      <workItem from="1482791410774" duration="13817000" />
+      <workItem from="1482791410774" duration="14187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="431148000" />
+    <option name="totallyTimeSpent" value="431518000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -746,16 +740,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="68" column="47" lean-forward="true" selection-start-line="67" selection-start-column="39" selection-end-line="68" selection-end-column="47" />
+        <state relative-caret-position="285">
+          <caret line="157" column="25" lean-forward="true" selection-start-line="157" selection-start-column="25" selection-end-line="157" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="589" column="1" lean-forward="true" selection-start-line="589" selection-start-column="1" selection-end-line="589" selection-end-column="1" />
+        <state relative-caret-position="455">
+          <caret line="399" column="14" lean-forward="false" selection-start-line="399" selection-start-column="14" selection-end-line="399" selection-end-column="14" />
           <folding />
         </state>
       </provider>

@@ -302,9 +302,9 @@ h3 {
 }
 .hexagon .icon {
   width: 1.5rem;
-  line-height: 1rem;
   height: 2px;
   left: 1.2rem;
+  top: -0.1rem;
 }
 .hexagon .icon::before,
 .hexagon .icon::after {
@@ -384,19 +384,18 @@ h3 {
 }
 button.hexagon {
   position: relative;
-  width: 4.8rem;
-  height: 5.544rem;
   background: none;
   margin-right: 10px;
   border: none;
   outline: none;
   cursor: pointer;
+  background-color: #d0d4d9;
 }
-button.hexagon > .slice {
-  border-top: 1.385rem solid transparent;
-  border-right: none;
-  border-bottom: 1.385rem solid transparent;
-  border-left: 2.3rem solid #d0d4d9;
+button.hexagon::before {
+  border-bottom-color: #d0d4d9;
+}
+button.hexagon::after {
+  border-top-color: #d0d4d9;
 }
 button.hexagon .icon {
   width: 1.8rem;
