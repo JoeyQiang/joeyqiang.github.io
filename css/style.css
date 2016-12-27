@@ -213,8 +213,28 @@ h3 {
   margin: 0 auto;
   font-size: 1.1rem;
   width: 4rem;
-  height: 4rem;
+  height: 2.31rem;
+  background-color: #007ee5;
   transform-origin: center center;
+}
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 2rem solid transparent;
+  border-right: 2rem solid transparent;
+}
+.hexagon:before {
+  bottom: 100%;
+  left: 0;
+  border-bottom: 1.155rem solid #007ee5;
+}
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  left: 0;
+  border-top: 1.155rem solid #007ee5;
 }
 .load-panel {
   position: relative;
@@ -226,7 +246,8 @@ h3 {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  margin-top: -1.15rem;
+  margin-left: -2rem;
 }
 .hexagon.loading {
   animation: rotating 1.5s ease-in-out infinite;
@@ -271,34 +292,6 @@ h3 {
   top: -0.1rem;
   transform: rotateZ(135deg);
 }
-.slice {
-  border-top: 1.155rem solid transparent;
-  border-right: none;
-  border-bottom: 1.155rem solid transparent;
-  border-left: 2.01rem solid #007ee5;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform-origin: left bottom;
-}
-.slice:nth-child(1) {
-  transform: rotateZ(0deg) rotateY(0deg) rotateX(0);
-}
-.slice:nth-child(2) {
-  transform: rotateZ(60deg) rotateY(0deg) rotateX(0);
-}
-.slice:nth-child(3) {
-  transform: rotateZ(120deg) rotateY(0deg) rotateX(0);
-}
-.slice:nth-child(4) {
-  transform: rotateZ(180deg) rotateY(0deg) rotateX(0);
-}
-.slice:nth-child(5) {
-  transform: rotateZ(240deg) rotateY(0deg) rotateX(0);
-}
-.slice:nth-child(6) {
-  transform: rotateZ(300deg) rotateY(0deg) rotateX(0);
-}
 .hexagon .icon {
   position: relative;
   display: inline-block;
@@ -312,7 +305,6 @@ h3 {
   line-height: 1rem;
   height: 2px;
   left: 1.2rem;
-  top: 1rem;
 }
 .hexagon .icon::before,
 .hexagon .icon::after {
@@ -466,6 +458,46 @@ button.hexagon .icon::after {
   height: auto;
   stroke-dasharray: 0;
   stroke-dashoffset: 0;
+}
+#j {
+  stroke-dasharray: 277;
+  animation: dash 1s linear 0s backwards;
+}
+#ae {
+  stroke-dasharray: 277;
+  animation: dash 1.2s linear .5s backwards;
+}
+#y {
+  stroke-dasharray: 277;
+  animation: dash 1s linear 1.1s backwards;
+}
+#q {
+  stroke-dasharray: 277;
+  animation: dash 1s linear 0s backwards;
+}
+#ia {
+  stroke-dasharray: 277;
+  animation: dash 1s linear .5s backwards;
+}
+#n {
+  stroke-dasharray: 277;
+  animation: dash 0.75s linear 1s backwards;
+}
+#g {
+  stroke-dasharray: 277;
+  animation: dash 0.75s linear 1.3s backwards;
+}
+#d {
+  stroke-dasharray: 277;
+  animation: dash .1s linear 1.7s backwards;
+}
+@keyframes dash {
+  from {
+    stroke-dashoffset: 277;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
 }
 .img-wrap {
   margin-bottom: 55px;
