@@ -12,12 +12,12 @@
 @border-color: #eaeaea;
 /** Define Length**/
 @text-width: 700px;
-@large-mb:55px;
+@large-mb: 55px;
 @medium-mb: 45px;
-@small-mb:30px;
-@large-pt:55px;
+@small-mb: 30px;
+@large-pt: 55px;
 @medium-pt: 45px;
-@small-pt:30px;
+@small-pt: 30px;
 /** Define Path **/
 @index-images: "images/";
 
@@ -63,6 +63,7 @@ figcaption {
 figure {
   margin-bottom: 4.5rem;
 }
+
 figure:last-child {
   margin-bottom: 0;
 }
@@ -71,7 +72,7 @@ h5 > strong {
   font-size: 16px;
 }
 
-a{
+a {
   transition: all .1s;
 }
 
@@ -79,16 +80,16 @@ a:hover {
   text-decoration: none;
 }
 
-.mt-0{
-  margin-top:0 !important;
+.mt-0 {
+  margin-top: 0 !important;
 }
 
-.mb-0{
-  margin-bottom:0 !important;
+.mb-0 {
+  margin-bottom: 0 !important;
 }
 
-.pt-0{
-  padding-top:0 !important;
+.pt-0 {
+  padding-top: 0 !important;
 }
 
 .center-block {
@@ -146,17 +147,18 @@ a:hover {
 }
 
 .sub-section {
-  margin-bottom:@large-mb;
+  margin-bottom: @large-mb;
 }
 
-h1{
+h1 {
   margin-bottom: @medium-mb;
   font-size: 3.2rem;
   font-weight: 300;
   line-height: 1.7;
   text-align: center;
 }
-h2{
+
+h2 {
   margin-bottom: @large-mb;
   font-size: 2.4rem;
   font-weight: 300;
@@ -165,12 +167,14 @@ h2{
   max-width: @text-width;
   .center-block();
 }
-h3{
+
+h3 {
   font-size: 2.1rem;
   margin-bottom: 1rem;
   font-weight: 300;
   text-align: center;
 }
+
 //.large-title{
 //  margin-bottom: 2.8rem;
 //  font-size: 3.2rem;
@@ -235,12 +239,12 @@ h3{
   margin-bottom: 3rem;
 }
 
-.text-list a{
+.text-list a {
   color: @font-color;
 
 }
 
-.text-list a:hover{
+.text-list a:hover {
   color: @font-color;
 }
 
@@ -290,6 +294,7 @@ h3{
   height: auto;
   .center-block();
 }
+
 .hexagon {
   display: inline-block;
   margin: 0 auto;
@@ -322,25 +327,25 @@ h3{
   border-top: 1.155rem solid @main-color;
 }
 
-
-.load-panel{
+.load-panel {
   position: relative;
-  width:100%;
-  height:100vh;
-  background-color:@bg-color;
+  width: 100%;
+  height: 100vh;
+  background-color: @bg-color;
 }
 
-.load-icon{
+.load-icon {
   position: absolute;
-  left:50%;
-  top:50%;
+  left: 50%;
+  top: 50%;
   margin-top: -1.15rem;
   margin-left: -2rem;
 }
 
-.hexagon.loading{
+.hexagon.loading {
   animation: rotating 1.5s ease-in-out infinite;
 }
+
 @keyframes rotating {
   from {
     -ms-transform: rotate(0deg);
@@ -369,18 +374,21 @@ h3{
 .mobile-menu .icon::before,
 .mobile-menu .icon::after {
   transform-origin: center center;
-  transition:all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
 }
-.mobile-menu.triggered .icon{
+
+.mobile-menu.triggered .icon {
   height: 0;
   transform: rotateZ(90deg);
 }
-.mobile-menu.triggered .icon::before{
-  top:-0.1rem;
+
+.mobile-menu.triggered .icon::before {
+  top: -0.1rem;
   transform: rotateZ(45deg);
 }
-.mobile-menu.triggered .icon::after{
-  top:-0.1rem;
+
+.mobile-menu.triggered .icon::after {
+  top: -0.1rem;
   transform: rotateZ(135deg);
 }
 
@@ -397,7 +405,7 @@ h3{
   width: 1.5rem;
   height: 2px;
   left: 1.2rem;
-  top:-0.1rem;
+  top: -0.1rem;
 }
 
 .hexagon .icon::before, .hexagon .icon::after {
@@ -406,7 +414,7 @@ h3{
   width: 1.5rem;
   height: 2px;
   left: 0;
-  top:0;
+  top: 0;
   position: absolute;
   background: #fff;
   transition: transform .4s cubic-bezier(.77, 0, .175, 1), left .4s cubic-bezier(.77, 0, .175, 1), top .4s cubic-bezier(.77, 0, .175, 1), bottom .4s cubic-bezier(.77, 0, .175, 1);
@@ -424,33 +432,36 @@ h3{
 
 .mobile-nav {
   display: none;
-  position:absolute;
+  position: absolute;
   width: 100%;
-  height:100vh;
-  top:0;
-  left:0;
-  background-color:@bg-color;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: @bg-color;
   z-index: 1000;
 }
 
-.mobile-nav ul{
-  position:relative;
-  list-style:none;
-  color:#fff;
+.mobile-nav ul {
+  position: relative;
+  list-style: none;
+  color: #fff;
   text-align: center;
-  padding:0;
-  margin:0;
-  left:50%;
-  top:50%;
-  transform:translate(-50%,-50%);
+  padding: 0;
+  margin: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
-.mobile-nav ul li{
-  margin-bottom:20px;
+
+.mobile-nav ul li {
+  margin-bottom: 20px;
 }
-.mobile-nav ul li:last-child{
-  margin-bottom:0px;
+
+.mobile-nav ul li:last-child {
+  margin-bottom: 0px;
 }
-.mobile-nav ul li a{
+
+.mobile-nav ul li a {
   display: block;
   width: 100%;
   font-size: 1.4rem;
@@ -460,15 +471,16 @@ h3{
   transform-origin: bottom center;
 }
 
-.mobile-nav.triggered ul li a{
+.mobile-nav.triggered ul li a {
   animation: nav .15s ease-in-out;
 }
+
 @keyframes nav {
-  0%{
+  0% {
     transform: scale(1.3);
     opacity: 0;
   }
-  100%{
+  100% {
     transform: scale(1);
     opacity: 1;
   }
@@ -478,9 +490,11 @@ h3{
   margin-top: @large-pt;
   text-align: center;
 }
-.button-wrap span{
+
+.button-wrap span {
   cursor: pointer;
 }
+
 .section.works .button-wrap {
   display: none;
 }
@@ -496,11 +510,12 @@ button.hexagon {
   background-color: @divider-color;
 }
 
-button.hexagon::before{
+button.hexagon::before {
   border-bottom-color: @divider-color;
 
 }
-button.hexagon::after{
+
+button.hexagon::after {
   border-top-color: @divider-color;
 
 }
@@ -512,16 +527,18 @@ button.hexagon .icon {
   left: 0;
   top: -0.2rem;
 }
-button.hexagon .icon::before{
-  display:none;
+
+button.hexagon .icon::before {
+  display: none;
 }
+
 button.hexagon .icon::after {
   content: '';
   display: block;
   width: 1.8rem;
   height: 2px;
   left: 0;
-  top:0;
+  top: 0;
   position: absolute;
   background-color: #fff;
   transition: transform .4s cubic-bezier(.77, 0, .175, 1), left .4s cubic-bezier(.77, 0, .175, 1), top .4s cubic-bezier(.77, 0, .175, 1), bottom .4s cubic-bezier(.77, 0, .175, 1);
@@ -545,7 +562,7 @@ button.hexagon .icon::after {
   .center-block();
 }
 
-.index .media-image{
+.index .media-image {
   max-width: 480px;
   max-height: 270px;
 }
@@ -560,8 +577,8 @@ button.hexagon .icon::after {
   .center-block();
 }
 
-.vebeen .media-image{
-  border:1px solid @border-color;
+.vebeen .media-image {
+  border: 1px solid @border-color;
 }
 
 .author-name {
@@ -572,37 +589,44 @@ button.hexagon .icon::after {
   stroke-dashoffset: 0;
 }
 
-#j{
+#j {
   stroke-dasharray: 277;
-  animation:dash 1s linear 0s backwards;
+  animation: dash 1s linear 0s backwards;
 }
-#ae{
+
+#ae {
   stroke-dasharray: 277;
-  animation:dash 1.2s linear .5s backwards;
+  animation: dash 1.2s linear .5s backwards;
 }
-#y{
+
+#y {
   stroke-dasharray: 277;
-  animation:dash 1s linear 1.1s backwards;
+  animation: dash 1s linear 1.1s backwards;
 }
-#q{
+
+#q {
   stroke-dasharray: 277;
-  animation:dash 1s linear 0s backwards;
+  animation: dash 1s linear 0s backwards;
 }
-#ia{
+
+#ia {
   stroke-dasharray: 277;
-  animation:dash 1s linear .5s backwards;
+  animation: dash 1s linear .5s backwards;
 }
-#n{
+
+#n {
   stroke-dasharray: 277;
-  animation:dash 0.75s linear 1s backwards;
+  animation: dash 0.75s linear 1s backwards;
 }
-#g{
+
+#g {
   stroke-dasharray: 277;
-  animation:dash 0.75s linear 1.3s backwards;
+  animation: dash 0.75s linear 1.3s backwards;
 }
-#d{
+
+#d {
   stroke-dasharray: 277;
-  animation:dash .1s linear 1.7s backwards;
+  animation: dash .1s linear 1.7s backwards;
 }
 
 @keyframes dash {
@@ -628,7 +652,7 @@ button.hexagon .icon::after {
   color: @font-color;
 }
 
-.img-wrap a:hover{
+.img-wrap a:hover {
   color: @font-color;
 }
 
@@ -661,7 +685,7 @@ button.hexagon .icon::after {
   margin-right: 2rem;
 }
 
-.social-nav > li:last-child{
+.social-nav > li:last-child {
   margin-right: 0;
 }
 
@@ -671,7 +695,7 @@ button.hexagon .icon::after {
   color: @divider-color;
 }
 
-.social-nav > li > a:hover{
+.social-nav > li > a:hover {
   color: @grey-color;
 }
 
@@ -730,11 +754,11 @@ footer {
   top: -1.8rem;
 }
 
-.desktop-header.fadeOut .hexagon{
+.desktop-header.fadeOut .hexagon {
   transform: translate3d(80px, 0, 0);
 }
 
-.desktop-header.fadeOut .logo-name{
+.desktop-header.fadeOut .logo-name {
   opacity: 0;
   transform: translate3d(-80px, 0, 0);
 }
@@ -770,7 +794,7 @@ footer {
   content: "AGENCY";
 }
 
-.work-page .intro .media-image{
+.work-page .intro .media-image {
   width: 100%;
 }
 
@@ -945,7 +969,7 @@ p.strong {
 **
 **/
 @media (min-width: 970px) {
-  .mobile-menu{
+  .mobile-menu {
     display: none;
   }
 
@@ -953,10 +977,11 @@ p.strong {
     display: block;
   }
 
-  .intro{
+  .intro {
     margin-top: 10rem;
   }
-  .work-page .intro{
+
+  .work-page .intro {
     margin-top: 10rem;
   }
 
