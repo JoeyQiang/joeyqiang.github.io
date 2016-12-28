@@ -1,13 +1,16 @@
 ;(function ($) {
-    var $images = $('.media-image'),
+    var $body = $('body'),
+        $images = $('.media-image'),
         $menu = $('.mobile-menu'),
         $nav = $('.mobile-nav'),
         $siteWrapper = $('.site-wrapper'),
-        $loadPanel = $('.load-panel');
+        $loadPanel = $('.load-panel'),
+        $desktopHeader = $('.desktop-header');
     
     
     
     var Functions = {
+
         addingImgNote: function(){
            $images.each(function () {
                $this = $(this);
@@ -26,7 +29,7 @@
                 var top = $(window).scrollTop(),
                     left = $(window).scrollLeft();
                 if(!lock){
-                    $('body').css('overflow','hidden');
+                    $body.css('overflow','hidden');
                     $(window).scroll(function () {
                         $(this).scrollTop(top).scrollLeft(left);
                     });
@@ -38,7 +41,7 @@
                     $(this).addClass('triggered');
                 }
                 else{
-                    $('body').css('overflow','auto');
+                    $body.css('overflow','auto');
                     $(window).unbind('scroll');
                     $nav.css('display','none')
                         .removeClass('triggered');
@@ -51,15 +54,56 @@
         loadAnimation: function(){
             $loadPanel.css('display','none');
             $siteWrapper.css('display','block');
+        },
+
+        logoAnimation:function () {
+            $(window).scroll(function () {
+                var bottom = $('div.intro').offset().top + $('div.intro').height();
+                console.log(bottom);
+                if($body.scrollTop() > bottom){
+                    $desktopHeader.addClass('fadeOut');
+                }
+                else{
+                    $desktopHeader.removeClass('fadeOut');
+                }
+            });
+        },
+
+        jumpPostion: function(){
+            $nav.click(function(e){
+                var $target = $(e.target);
+                if($target.is('a')){
+                    e.preventDefault();
+                    $nav.css('display','none');
+                    $menu.trigger('click');
+                    var index = $target.parent().index();
+                    switch(index) {
+                        case 0:
+                            $body.animate({scrollTop: $('div.works').offset().top}, 500, 'easeOutQuart');
+                            break;
+                        case 1:
+                            $body.animate({scrollTop: $('div.about').offset().top}, 500, 'easeOutQuart');
+                            break;
+                        case 2:
+                            $body.animate({scrollTop: $('div.contact').offset().top}, 500, 'easeOutQuart');
+                            break;
+                        default: return;
+                    }
+                }
+            });
         }
 
     };
 
-    Functions.addingImgNote();
-    Functions.openMenu();
+
+
     $(window).on('load',function(){
         Functions.loadAnimation();
     });
+    Functions.addingImgNote();
+    Functions.openMenu();
+    Functions.jumpPostion();
+    Functions.logoAnimation();
 })(jQuery);
 
 

@@ -202,8 +202,8 @@ h3 {
   content: "Next";
 }
 .video {
-  width: 700px;
-  height: 438px;
+  width: 100%;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -382,6 +382,9 @@ h3 {
 .button-wrap span {
   cursor: pointer;
 }
+.section.works .button-wrap {
+  display: none;
+}
 button.hexagon {
   position: relative;
   background: none;
@@ -551,10 +554,14 @@ button.hexagon .icon::after {
 }
 footer {
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 10rem;
+  margin-bottom: 8rem;
   font-weight: 100;
   font-size: 1.2rem;
+}
+.index .author-portrait {
+  max-width: 600px;
+  max-height: initial;
 }
 /** Work Pages  **/
 .desktop-header {
@@ -574,17 +581,28 @@ footer {
   color: #007ee5;
   font-size: 2.5rem;
   font-weight: 500;
+  position: relative;
+  display: inline-block;
   line-height: 6rem;
   text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
 }
 .desktop-header .hexagon {
   position: relative;
   display: inline-block;
-  top: 10px;
+  top: 3px;
   left: -10px;
+  transition: all 0.3s ease-in-out;
 }
 .desktop-header .icon {
   top: -1.8rem;
+}
+.desktop-header.fadeOut .hexagon {
+  transform: translate3d(80px, 0, 0);
+}
+.desktop-header.fadeOut .logo-name {
+  opacity: 0;
+  transform: translate3d(-80px, 0, 0);
 }
 .work-page .intro {
   margin-top: 6rem;
@@ -612,6 +630,9 @@ footer {
 .work-page .intro .text-list li:nth-child(3)::before {
   content: "AGENCY";
 }
+.work-page .intro .media-image {
+  width: 100%;
+}
 p.strong {
   margin-top: 3.5rem;
   padding-left: 2rem;
@@ -635,16 +656,6 @@ p.strong {
 .column-list > li h5 {
   position: relative;
   display: inline-block;
-}
-.column-list > li h5:after {
-  transition: all 400ms ease 0s;
-  border-style: solid;
-  border-width: 4px 0 4px 5px;
-  border-color: transparent transparent transparent #CDD8E2;
-  content: "";
-  position: absolute;
-  right: -12px;
-  top: 5px;
 }
 .column-list > li span {
   display: block;
@@ -709,9 +720,6 @@ p.strong {
 .timeline-list li:nth-child(3)::after {
   content: "Online experience";
 }
-.section {
-  max-width: 600px;
-}
 .section p,
 .section figure,
 .section ol {
@@ -734,13 +742,13 @@ p.strong {
   }
   ul.column-list {
     margin-top: 6rem;
-    margin-bottom: 6rem;
-  }
-  ul.column-list > li {
-    margin-bottom: 0;
   }
   ol.number-list {
     margin-bottom: 4rem;
+  }
+  .video {
+    width: 700px;
+    height: 438px;
   }
   .section.contact {
     text-align: center;
@@ -748,6 +756,9 @@ p.strong {
   .intro .text-list {
     margin-top: 7rem;
     margin-bottom: 5rem;
+  }
+  .work-page .media-image {
+    width: auto;
   }
 }
 /**
@@ -758,9 +769,6 @@ p.strong {
 @media (min-width: 970px) {
   .mobile-menu {
     display: none;
-  }
-  .work-page .media-image {
-    width: auto;
   }
   .index .desktop-header {
     display: block;
@@ -790,15 +798,8 @@ p.strong {
   .logo-name {
     line-height: 10rem;
   }
-  .index .author-portrait {
-    max-width: 600px;
-    max-height: initial;
-  }
   .author-name {
     width: 280px;
-  }
-  .section.works .button-wrap {
-    display: none;
   }
   .work-title {
     font-size: 2.1rem;
@@ -806,11 +807,13 @@ p.strong {
   .sub-section {
     margin-bottom: 5rem;
   }
-  footer {
-    margin-top: 5rem;
-    margin-bottom: 7rem;
-  }
   .work-section-title {
     padding-left: 20rem;
+  }
+  ul.column-list {
+    margin-bottom: 6rem;
+  }
+  ul.column-list > li {
+    margin-bottom: 0;
   }
 }
