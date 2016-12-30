@@ -223,6 +223,8 @@ h3 {
 .work-section-title {
   margin-top: 3rem;
   font-size: 1.6rem;
+  max-width: 700px;
+  .center-block();
 }
 
 .text-list {
@@ -961,6 +963,10 @@ p.strong {
     width: auto;
   }
 
+  .work-page .media-image.long {
+    width: 100%;
+  }
+
 }
 
 /**
@@ -1021,10 +1027,6 @@ p.strong {
     margin-bottom: 5rem;
   }
 
-  .work-section-title {
-    padding-left: 20rem;
-  }
-
   ul.column-list {
     margin-bottom: 6rem;
   }
@@ -1033,6 +1035,17 @@ p.strong {
     margin-bottom: 0;
   }
 
+}
+
+/**
+**
+  Min-width: 1100px
+**
+**/
+@media (min-width: 1100px){
+  .work-page .media-image.long {
+    width: auto;
+  }
 }
 
 
