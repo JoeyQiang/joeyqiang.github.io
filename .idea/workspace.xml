@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871841fb-6174-40b2-aca6-4835b566f9cc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/wn-sending.png" afterPath="$PROJECT_DIR$/images/wn-sending.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/sofy-vr.html" afterPath="$PROJECT_DIR$/work/sofy-vr.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/2nd-street.html" afterPath="$PROJECT_DIR$/work/2nd-street.html" />
     </list>
     <ignored path="joeyqiang.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,11 +61,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="2nd-street.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="2nd-street.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/work/2nd-street.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2771">
-                  <caret line="163" column="44" lean-forward="false" selection-start-line="163" selection-start-column="44" selection-end-line="163" selection-end-column="44" />
+                <state relative-caret-position="264">
+                  <caret line="98" column="86" lean-forward="true" selection-start-line="98" selection-start-column="86" selection-end-line="98" selection-end-column="86" />
                   <folding />
                 </state>
               </provider>
@@ -103,11 +101,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sofy-vr.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="sofy-vr.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/work/sofy-vr.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="230">
-                  <caret line="246" column="45" lean-forward="false" selection-start-line="246" selection-start-column="45" selection-end-line="246" selection-end-column="45" />
+                <state relative-caret-position="315">
+                  <caret line="251" column="14" lean-forward="true" selection-start-line="251" selection-start-column="14" selection-end-line="251" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -195,10 +193,10 @@
         <option value="$PROJECT_DIR$/work/acuvue.html" />
         <option value="$PROJECT_DIR$/work/inplace.html" />
         <option value="$PROJECT_DIR$/work/smart-closet.html" />
-        <option value="$PROJECT_DIR$/work/2nd-street.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/work/wechat-now-cms.html" />
         <option value="$PROJECT_DIR$/work/sofy-vr.html" />
+        <option value="$PROJECT_DIR$/work/2nd-street.html" />
       </list>
     </option>
   </component>
@@ -477,12 +475,12 @@
       <workItem from="1483121531982" duration="1441000" />
       <workItem from="1483367614154" duration="696000" />
       <workItem from="1485031122709" duration="173000" />
-      <workItem from="1485379854997" duration="246000" />
+      <workItem from="1485379854997" duration="1329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="457919000" />
+    <option name="totallyTimeSpent" value="459002000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -494,7 +492,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1434" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1434" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.112526536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -715,14 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/2nd-street.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2771">
-          <caret line="163" column="44" lean-forward="false" selection-start-line="163" selection-start-column="44" selection-end-line="163" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1853">
@@ -757,8 +747,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/work/sofy-vr.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="246" column="45" lean-forward="false" selection-start-line="246" selection-start-column="45" selection-end-line="246" selection-end-column="45" />
+        <state relative-caret-position="315">
+          <caret line="251" column="14" lean-forward="true" selection-start-line="251" selection-start-column="14" selection-end-line="251" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/2nd-street.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="98" column="86" lean-forward="true" selection-start-line="98" selection-start-column="86" selection-end-line="98" selection-end-column="86" />
           <folding />
         </state>
       </provider>
