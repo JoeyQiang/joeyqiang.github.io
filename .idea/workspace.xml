@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="871841fb-6174-40b2-aca6-4835b566f9cc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="joeyqiang.github.io.iws" />
@@ -55,8 +54,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="273">
-                  <caret line="216" column="58" lean-forward="true" selection-start-line="216" selection-start-column="58" selection-end-line="216" selection-end-column="58" />
+                <state relative-caret-position="523">
+                  <caret line="228" column="0" lean-forward="true" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -231,6 +230,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -287,7 +287,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -479,11 +478,12 @@
       <workItem from="1485379854997" duration="1617000" />
       <workItem from="1486335434879" duration="79000" />
       <workItem from="1487785779092" duration="190000" />
+      <workItem from="1487815415478" duration="50000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="459559000" />
+    <option name="totallyTimeSpent" value="459609000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -710,8 +710,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="216" column="58" lean-forward="true" selection-start-line="216" selection-start-column="58" selection-end-line="216" selection-end-column="58" />
+        <state relative-caret-position="523">
+          <caret line="228" column="0" lean-forward="true" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
           <folding />
         </state>
       </provider>
